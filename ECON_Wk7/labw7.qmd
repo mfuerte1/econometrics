@@ -1,0 +1,175 @@
+---
+title: "labw7"
+format: html
+execute:
+  message: false
+  warning: false   
+
+---
+
+## Part 1: CPS data (12 pt)
+### 1. Import the dataset
+```{r}
+library(readr)
+library(modelsummary) 
+library(dplyr)
+library(epiDisplay)
+library(sandwich)
+library(lmtest)
+library(ggplot2)
+
+gss <- read_csv("/Users/marcosfuerte/ECON42/ECON42_Week7/gss_wages.csv")
+```
+
+### 2. Use datasummary to create a table of descriptive statistics that includes at least the mean and the SD of each numerical variable
+```{r}
+datasummary_all <- datasummary(
+  All(gss) ~ Mean*Arguments(na.rm=TRUE) + SD*Arguments(na.rm=TRUE),
+  data = gss)
+datasummary_all
+```
+
+### 3. Notice that some variables do not appear in your descriptive tables. This is because these are text variables (we can’t average “male” and “female”). To describe these variables you will have to create numerical variables
+```{r}
+gss2 <- gss %>%
+  mutate(
+    gender_b  = if_else(gender == "Female", 1, 0),
+    full_time = if_else(wrkstat == "Full-Time", 1, 0),
+    Married   = if_else(maritalcat == "Married", 1, 0),
+    college   = if_else(educcat %in% c("Junior College", "Bachelor", "Graduate"), 1, 0)
+  )
+
+tab1(gss2$full_time, main="Full-time (1) vs Other (0)")
+tab1(gss2$Married, main="Married (1) vs Others (0)")
+tab1(gss2$college, main="College‐educated (1) vs Less (0)")
+
+datasummary( gender_b + full_time + Married + college + realrinc + age + prestg10 + childs ~ 
+    Mean*Arguments(na.rm=TRUE) + SD*Arguments(na.rm=TRUE), data = gss2)
+
+```
+
+
+### 5. Using ggplot, create a graph of income and age.
+```{r}
+ggplot(gss2, aes(x = age, y = realrinc)) +
+  geom_point(alpha = 0.3) +
+  labs(
+    x = "Age (years)",
+    y = "Real Income (1986 USD)",
+    title = "GSS: Real Income vs. Age"
+  )
+
+```
+
+
+### 6. What does the relationship between age and income suggest? Is it a linear relationship?
+```{r}
+# The income and age are not linearly related, they are in a way appear as a bell curvem whereby the peak of income around 50 and then beggins to decline. From age 20 to 50 income has a tendancy to increase.
+```
+
+
+### 7. Regress income and gender. Correct for heteroskedasticity and present your result in a modelsummary table.
+```{r}
+m1 <- lm(realrinc ~ gender_b, data = gss2)
+modelsummary(m1, vcov = "robust")
+
+## vcovHC()
+```
+
+
+### 8. Give the interpretation of the constant and its significance level 
+```{r}
+# t = 28504.111 / 247.380 = 115.224
+
+# The intercept (β₀ = 28 504.111, SE = 247.380) is the model’s prediction of real income for the reference group, which here is men (gender_b = 0). Numerically, it means that men earn on average $28 504.11 (in 1986 USD). 
+
+#  p-value ≪ 0.001, so the intercept is highly statistically significant.
+```
+
+
+### 9. Give the interpretation of the coeﬀicient and its significance level
+```{r}
+# t = -12474.364 / 285.233 = -43.73394
+
+# The coefficient on gender_b (β₁ = –12 474.364, SE = 285.233) measures the difference in mean income between women (gender_b = 1) and men (gender_b = 0). Concretely, it says that women earn $12 474.36 less on average than men. 
+
+# p-value ≪ 0.001, so this gap is also highly statistically significant.
+```
+
+
+### 10. Does this mean that women are discriminated on the labor market? Why or why not?
+```{r}
+# This is a raw gender pay gap — it doesn’t control for differences in hours worked, occupation, education, experience, or other productivity‐related factors.
+```
+
+### 11. Add the variable full_time into the regression and present your regression in a modelsummary table together with the result from question 7
+```{r}
+m2 <- lm(realrinc ~ gender_b + full_time, data = gss2)
+modelsummary(
+  list(m1, m2),
+  vcov = "HC1",
+  statistic = "conf.int")
+```
+
+
+### 12. What do you notice about the size of the pay gap when controlling for full_time?
+```{r}
+# B^_gender = -12474.364
+# B^_gender OR Full-Time = -10714.618
+# Raw gap falls by 22% when we hold constant whether someone works full‐time.
+```
+
+### 13. Why do you think controlling for the variable full time affect the pay gap coeﬀicient ?
+```{r}
+# Because full_time is a strong predictor of earnings (its coefficient is +$12,614) and—importantly—is unequally distributed by gender. 
+
+```
+
+### 14. What do these results suggest about the correlation between gender and full_time?
+```{r}
+# adding full_time both raises R² and reduces the gender gap implies that gender and full-time status are positively correlated for men
+
+# full_time has a large positive effect on income
+
+# Women are less likely than men to be in the full-time category
+
+# gender_b and full_time are correlated, and that controlling for work‐status is essential before attributing the remaining gap to other factors
+```
+
+### 14. Verify your intuition about the covariance between gender_l and full_time using R?
+```{r}
+cov(gss2$gender_b, gss2$full_time, use = "complete.obs")
+cor(gss2$gender_b, gss2$full_time, use = "complete.obs")
+# Negative Covariance
+```
+
+## Part 2: Fertility 
+
+### 1. Import the fertility dataset in R
+### 2. Morekids in the dataset is a text variable. If you want to use morekids as an outcome variable in a regression you will have to transform it into a binary variable. Generate a new variable morekids_b that takes value 1 when morekids is “yes”and 0 otherwise 
+```{r}
+fert <- read_csv("/Users/marcosfuerte/ECON42/ECON42_Week7/Fertility.csv")
+
+fert$morekids_b <- ifelse(fert$morekids == "yes", 1, 0)
+fert$boy1 <- ifelse(fert$gender1 == "male", 1, 0)
+```
+
+
+### 3. Use morekids_b to show that the probability of having more than 2 kids declines when the first kid is a boy.
+```{r}
+aggregate(morekids_b ~ boy1, data = fert, FUN = mean)
+```
+
+### 4. Interpret your regression 3 
+```{r}
+lm(morekids_b ~ boy1, data = fert)
+
+#  38.51 percent of families whose first child is a daughter say they’d like another.
+
+# when boy1 = 1 there, there is a probability that families with a first‐born son are, on average, 0.8831 percentage points less likely to want an additional child than families
+
+# in other words...
+#P(want more kids | 1st child = girl) ≈ 0.3851
+# P(want more kids | 1st child = boy) 
+# ≈ 0.3851 – 0.008831 = 0.3763  
+```

@@ -1,0 +1,42 @@
+---
+title: "in-labQuizWk8"
+format: html
+---
+
+### 1 Import
+```{r}
+
+fert <- read.csv(
+  "https://vincentarelbundock.github.io/Rdatasets/csv/AER/Fertility.csv"
+)
+```
+
+```{r}
+
+```
+
+
+###2 Create a dummy variable for variable morekids. Call it morekids_b
+```{r}
+fert$morekids_b <- ifelse(fert$morekids == "yes", 1, 0)
+```
+
+###3 Create a variable that takes value 1 when the 2 first kids are of the same gender. Call it samegender
+```{r}
+fert$samegender <- ifelse(fert$gender1 == fert$gender2, 1, 0)
+```
+
+###4 regress morekids_b on samegender and interpret your coefficient.
+```{r}
+model <- lm(morekids_b ~ samegender, data = fert)
+summary(model)
+modelsummary(model)
+```
+
+###5 Does this result surprising? What does it say about couple gender preference?
+```{r}
+# β̂  (Intercept ≈ 0.346)
+# β̂₁ (samegender ≈ 0.068)
+# parents who “miss” a mixed‑sex pair are noticeably more likely to try for another child. 
+```
+

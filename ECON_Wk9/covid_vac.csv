@@ -1,0 +1,3223 @@
+"","census2019","covid.19.deaths","urban.rural.description","series_complete_pop_pct"
+"1",180786,641,"Small central metro",56.2
+"2",558753,1714,"Large central metro",69.1
+"3",234225,971,"Medium central metro",68.5
+"4",55869,192,"Medium central metro",44.3
+"5",223234,643,"Small central metro",51
+"6",24686,NA,"Micropolitan",45.5
+"7",22394,NA,"Large central metro",34.8
+"8",57826,102,"Large central metro",31.8
+"9",10101,NA,"Micropolitan",53.5
+"10",19448,NA,"Micropolitan",39.6
+"11",113605,658,"Small central metro",47
+"12",33254,NA,"Micropolitan",31.5
+"13",26196,NA,"Micropolitan",30.8
+"14",44428,NA,"Large central metro",36.4
+"15",12589,NA,"Rural",66.4
+"16",23622,NA,"Micropolitan",51.2
+"17",13235,NA,"Rural",41.8
+"18",14910,NA,"Rural",28.9
+"19",52342,199,"Micropolitan",47.4
+"20",55241,338,"Small central metro",48.1
+"21",12067,NA,"Micropolitan",43.7
+"22",10663,NA,"Rural",40.7
+"23",37049,259,"Micropolitan",38.2
+"24",13772,NA,"Rural",34.5
+"25",83768,410,"Micropolitan",38.3
+"26",49172,141,"Micropolitan",48.1
+"27",37196,208,"Micropolitan",45.6
+"28",71513,207,"Micropolitan",34
+"29",81209,NA,"Medium central metro",46.6
+"30",36633,159,"Micropolitan",36.6
+"31",102268,757,"Small central metro",41.1
+"32",16302,NA,"Micropolitan",35.1
+"33",31362,NA,"Micropolitan",43.8
+"34",26271,NA,"Small central metro",40.4
+"35",8111,NA,"Rural",50.9
+"36",14651,NA,"Small central metro",61.5
+"37",17205,NA,"Small central metro",45.6
+"38",105882,1058,"Small central metro",43.3
+"39",51626,162,"Micropolitan",49.5
+"40",658573,3916,"Large central metro",58.4
+"41",13805,NA,"Rural",44.1
+"42",92729,511,"Small central metro",46.7
+"43",32924,NA,"Small central metro",47.2
+"44",164542,581,"Small central metro",40.3
+"45",98915,251,"Medium central metro",39.1
+"46",9726,NA,"Medium central metro",51.2
+"47",18068,NA,"Micropolitan",48.2
+"48",372909,1498,"Medium central metro",62.4
+"49",18863,125,"Micropolitan",54.5
+"50",29709,126,"Micropolitan",36.6
+"51",96774,395,"Micropolitan",45.8
+"52",413210,1997,"Medium central metro",50.1
+"53",20733,NA,"Micropolitan",43.7
+"54",705749,2186,"Large central metro",73.8
+"55",226486,1547,"Medium central metro",52.4
+"56",119679,467,"Small central metro",43.7
+"57",8923,NA,"Rural",48.8
+"58",19930,NA,"Small central metro",49.8
+"59",33114,111,"Micropolitan",42.3
+"60",22722,NA,"Micropolitan",33
+"61",57961,113,"Medium central metro",41.5
+"62",89512,185,"Large central metro",39.2
+"63",217702,328,"Large central metro",36.3
+"64",12427,NA,"Rural",51.6
+"65",79978,295,"Micropolitan",36.7
+"66",40367,178,"Micropolitan",38.7
+"67",209355,1092,"Small central metro",43.8
+"68",63521,365,"Large central metro",47.3
+"69",16326,NA,"Rural",46
+"70",10373,NA,"Rural",53.9
+"71",23629,NA,"Micropolitan",22
+"72",269043,1642,"Medium central metro",66.4
+"73",29210,NA,"Large central metro",36.5
+"74",174705,924,"Small central metro",53.4
+"75",28201,NA,"Micropolitan",44.6
+"76",601942,2310,"Medium central metro",64.9
+"77",1952778,6232,"Large central metro",71.5
+"78",14105,NA,"Micropolitan",34.9
+"79",188910,819,"Small central metro",65.6
+"80",149657,909,"Small central metro",56.5
+"81",219252,992,"Large central metro",54.3
+"82",384902,1318,"Medium central metro",70.2
+"83",71686,492,"Micropolitan",42.1
+"84",38001,NA,"Micropolitan",46.6
+"85",16826,NA,"Micropolitan",34.5
+"86",957755,4196,"Large central metro",61.2
+"87",318316,1809,"Medium central metro",56.1
+"88",115081,405,"Medium central metro",63.7
+"89",12125,NA,"Micropolitan",48.3
+"90",45660,NA,"Medium central metro",58.1
+"91",18582,NA,"Medium central metro",36.7
+"92",13811,NA,"Micropolitan",34
+"93",13639,NA,"Small central metro",52.1
+"94",14428,NA,"Micropolitan",35
+"95",26937,NA,"Micropolitan",43
+"96",42022,NA,"Micropolitan",49.9
+"97",193920,1146,"Large central metro",55
+"98",106221,771,"Small central metro",52.5
+"99",1471968,4250,"Large central metro",62.9
+"100",19617,NA,"Micropolitan",29.6
+"101",159923,614,"Small central metro",67.4
+"102",46414,182,"Micropolitan",43.5
+"103",14246,NA,"Medium central metro",59.8
+"104",8422,NA,"Rural",39.5
+"105",367118,1554,"Large central metro",66
+"106",770577,2298,"Medium central metro",62.1
+"107",293582,1368,"Medium central metro",56.8
+"108",41503,NA,"Micropolitan",47.3
+"109",8354,NA,"Rural",34.3
+"110",18493,NA,"Micropolitan",46.2
+"111",403253,1544,"Medium central metro",61.9
+"112",365579,2252,"Medium central metro",57
+"113",161000,797,"Medium central metro",63.8
+"114",2716940,10692,"Large central metro",85.2
+"115",74228,NA,"Micropolitan",78.6
+"116",88625,142,"Large central metro",57.8
+"117",210738,705,"Small central metro",64.3
+"118",42168,147,"Micropolitan",46.6
+"119",1393452,3690,"Large central metro",69.5
+"120",375751,1298,"Large central metro",73.1
+"121",1496770,5954,"Large central metro",66.4
+"122",553947,2044,"Large central metro",59.1
+"123",974996,3587,"Large central metro",64.8
+"124",724777,2845,"Medium central metro",57.4
+"125",74521,324,"Micropolitan",42.1
+"126",264672,379,"Large central metro",70.4
+"127",328297,1018,"Medium central metro",58.6
+"128",184313,347,"Medium central metro",54.3
+"129",433742,2184,"Medium central metro",70
+"130",471826,1020,"Large central metro",62.2
+"131",132420,701,"Small central metro",80.3
+"132",44417,NA,"Micropolitan",38.3
+"133",21569,NA,"Micropolitan",40.3
+"134",15237,NA,"Micropolitan",35.9
+"135",553284,2146,"Medium central metro",59.8
+"136",33739,NA,"Medium central metro",45
+"137",74071,219,"Small central metro",49.3
+"138",25473,NA,"Micropolitan",32.6
+"139",18386,NA,"Micropolitan",35.9
+"140",8165,NA,"Rural",39.7
+"141",11164,NA,"Micropolitan",30.6
+"142",3038,NA,"Small central metro",52
+"143",44890,223,"Micropolitan",44.3
+"144",19234,NA,"Rural",30.5
+"145",83240,NA,"Large central metro",40.2
+"146",107738,365,"Large central metro",37.4
+"147",16700,NA,"Micropolitan",38.6
+"148",19397,NA,"Micropolitan",33.9
+"149",153159,1217,"Small central metro",46.1
+"150",12873,NA,"Micropolitan",36.5
+"151",19109,NA,"Small central metro",26.1
+"152",15457,NA,"Small central metro",48.2
+"153",39627,NA,"Medium central metro",54.1
+"154",79608,288,"Micropolitan",34.4
+"155",22383,NA,"Medium central metro",57.2
+"156",24936,NA,"Large central metro",34
+"157",6189,NA,"Rural",48.5
+"158",54666,NA,"Micropolitan",56.8
+"159",10803,NA,"Micropolitan",42.3
+"160",119992,673,"Large central metro",37.9
+"161",67580,124,"Medium central metro",44.3
+"162",13392,NA,"Micropolitan",25.4
+"163",289430,1496,"Medium central metro",56.4
+"164",10907,NA,"Medium central metro",95
+"165",24789,NA,"Micropolitan",38.2
+"166",258773,481,"Large central metro",49.8
+"167",128331,806,"Small central metro",46.7
+"168",2834,NA,"Rural",64.7
+"169",292256,413,"Large central metro",43.7
+"170",6618,NA,"Micropolitan",40.1
+"171",760141,2012,"Large central metro",58.5
+"172",43273,275,"Micropolitan",37.3
+"173",45600,247,"Micropolitan",40.2
+"174",156714,NA,"Medium central metro",50.8
+"175",17270,NA,"Micropolitan",41.2
+"176",148509,489,"Large central metro",44.7
+"177",12404,NA,"Small central metro",41
+"178",22372,159,"Micropolitan",43.8
+"179",16116,NA,"Medium central metro",46.1
+"180",26108,NA,"Large central metro",39.9
+"181",26404,NA,"Micropolitan",49.2
+"182",759297,1325,"Large central metro",56.5
+"183",20605,143,"Micropolitan",35.5
+"184",13390,NA,"Micropolitan",37.5
+"185",87956,771,"Small central metro",49.3
+"186",146343,245,"Large central metro",46.5
+"187",10190,NA,"Micropolitan",49
+"188",4006,NA,"Small central metro",31.1
+"189",64296,NA,"Medium central metro",38.7
+"190",19194,NA,"Micropolitan",42.1
+"191",22646,118,"Micropolitan",40.3
+"192",10654,NA,"Micropolitan",40.7
+"193",26188,109,"Rural",42.1
+"194",114421,557,"Large central metro",62.4
+"195",98498,939,"Small central metro",42.5
+"196",244252,571,"Large central metro",53.1
+"197",23349,NA,"Rural",36
+"198",1063937,3124,"Large central metro",56.5
+"199",31369,NA,"Micropolitan",41
+"200",2971,NA,"Rural",33.3
+"201",85292,542,"Small central metro",51.6
+"202",57963,289,"Micropolitan",37.7
+"203",24633,NA,"Micropolitan",44.1
+"204",18324,NA,"Micropolitan",54.7
+"205",936250,1510,"Large central metro",55.3
+"206",45328,139,"Micropolitan",40.3
+"207",204441,1702,"Small central metro",45.3
+"208",8457,NA,"Micropolitan",48.4
+"209",29792,NA,"Large central metro",33.5
+"210",35236,NA,"Medium central metro",48.5
+"211",26205,NA,"Micropolitan",38.3
+"212",11923,NA,"Large central metro",28.4
+"213",234561,804,"Large central metro",44.4
+"214",157863,498,"Small central metro",50.8
+"215",9416,NA,"Micropolitan",36.7
+"216",72977,NA,"Micropolitan",42.4
+"217",14219,NA,"Large central metro",34.9
+"218",15115,NA,"Micropolitan",31.1
+"219",15362,NA,"Micropolitan",54.3
+"220",8676,NA,"Micropolitan",38
+"221",9643,NA,"Micropolitan",35.5
+"222",28735,NA,"Small central metro",43.9
+"223",19077,NA,"Large central metro",34.9
+"224",10423,NA,"Small central metro",27.1
+"225",47546,382,"Micropolitan",46.6
+"226",29992,NA,"Small central metro",46.3
+"227",61435,NA,"Small central metro",62
+"228",7921,NA,"Medium central metro",46.2
+"229",19559,NA,"Small central metro",21.4
+"230",117406,598,"Small central metro",40.1
+"231",33610,NA,"Micropolitan",34.5
+"232",21312,NA,"Medium central metro",45.1
+"233",14378,NA,"Small central metro",41.4
+"234",12947,NA,"Micropolitan",43.4
+"235",29880,NA,"Small central metro",43.4
+"236",8359,NA,"Medium central metro",41.5
+"237",21167,NA,"Large central metro",41.7
+"238",5718,NA,"Rural",54.4
+"239",21863,NA,"Micropolitan",47.7
+"240",27578,NA,"Small central metro",42.2
+"241",9172,NA,"Rural",35.9
+"242",19276,NA,"Large central metro",45.5
+"243",40096,NA,"Small central metro",37.3
+"244",195769,1355,"Medium central metro",44.9
+"245",111744,325,"Large central metro",42.3
+"246",40280,NA,"Small central metro",57.2
+"247",15259,NA,"Small central metro",42.4
+"248",168667,278,"Large central metro",37.4
+"249",27546,NA,"Small central metro",45.6
+"250",32591,225,"Large central metro",41.7
+"251",19465,NA,"Micropolitan",33.4
+"252",18962,NA,"Large central metro",32.7
+"253",42613,NA,"Micropolitan",39
+"254",11137,NA,"Small central metro",37.2
+"255",22119,NA,"Micropolitan",43.4
+"256",2299,NA,"Rural",33.1
+"257",17137,NA,"Micropolitan",46.3
+"258",6778,NA,"Micropolitan",46.6
+"259",202518,2039,"Medium central metro",49.7
+"260",90896,322,"Large central metro",50.8
+"261",5257,NA,"Rural",34.9
+"262",13966,NA,"Micropolitan",48.3
+"263",8090,NA,"Micropolitan",45.7
+"264",66703,516,"Large central metro",40.6
+"265",25925,NA,"Micropolitan",41.4
+"266",6621,NA,"Rural",32.6
+"267",29524,163,"Micropolitan",52
+"268",6195,NA,"Rural",48.5
+"269",1537,NA,"Rural",50.8
+"270",25286,NA,"Micropolitan",33.1
+"271",8020,NA,"Rural",45.8
+"272",15860,NA,"Micropolitan",29.2
+"273",8531,NA,"Small central metro",58.3
+"274",44451,327,"Micropolitan",49.1
+"275",40644,387,"Micropolitan",40.5
+"276",26830,286,"Micropolitan",42.1
+"277",12037,NA,"Rural",48.9
+"278",6901,NA,"Micropolitan",35.2
+"279",69922,467,"Micropolitan",37
+"280",7985,NA,"Micropolitan",50
+"281",8120,NA,"Small central metro",54.2
+"282",24511,167,"Rural",45.6
+"283",26320,336,"Micropolitan",45.7
+"284",69761,112,"Medium central metro",41.6
+"285",94593,366,"Large central metro",41.4
+"286",35734,355,"Micropolitan",38.5
+"287",5254,NA,"Rural",48.2
+"288",20374,NA,"Micropolitan",44.2
+"289",29927,180,"Micropolitan",42.2
+"290",2607,NA,"Rural",44.1
+"291",7855,NA,"Rural",26.6
+"292",30798,NA,"Micropolitan",35.8
+"293",104628,464,"Small central metro",43.5
+"294",8635,NA,"Rural",36.6
+"295",9777,NA,"Micropolitan",48.2
+"296",8954,NA,"Rural",51
+"297",20247,NA,"Small central metro",41.7
+"298",201513,225,"Micropolitan",NA
+"299",974563,1329,"Medium central metro",NA
+"300",86,NA,"Small central metro",NA
+"301",72293,NA,"Micropolitan",NA
+"302",167417,187,"Small central metro",NA
+"303",481587,1681,"Medium central metro",64.4
+"304",4294,NA,"Rural",44
+"305",87808,324,"Small central metro",52.8
+"306",6125,NA,"Rural",47.2
+"307",9298,NA,"Micropolitan",52.8
+"308",46811,NA,"Micropolitan",49
+"309",23021,NA,"Micropolitan",83.2
+"310",7831,NA,"Medium central metro",33.8
+"311",45739,146,"Micropolitan",44
+"312",119062,487,"Small central metro",54.9
+"313",12245,NA,"Micropolitan",35.9
+"314",2597,NA,"Small central metro",50.3
+"315",1106,NA,"Rural",43.3
+"316",229849,657,"Medium central metro",46.7
+"317",7155,NA,"Micropolitan",42.1
+"318",24030,NA,"Micropolitan",41.2
+"319",845,NA,"Rural",46
+"320",8756,NA,"Micropolitan",42.8
+"321",4315,NA,"Rural",49
+"322",27511,NA,"Micropolitan",56.3
+"323",13876,NA,"Small central metro",46.1
+"324",13099,NA,"Micropolitan",46.5
+"325",18112,NA,"Medium central metro",40.2
+"326",15179,NA,"Micropolitan",44.7
+"327",16667,NA,"Micropolitan",30.8
+"328",29871,NA,"Small central metro",45
+"329",24412,NA,"Micropolitan",46.5
+"330",165697,757,"Small central metro",46.9
+"331",40108,NA,"Micropolitan",59.1
+"332",8027,NA,"Micropolitan",49.4
+"333",3838,NA,"Rural",52.7
+"334",5366,NA,"Rural",41.8
+"335",39907,NA,"Micropolitan",56.1
+"336",21039,NA,"Micropolitan",41.8
+"337",40408,162,"Small central metro",56.8
+"338",4531,NA,"Rural",49.9
+"339",11823,NA,"Medium central metro",35.7
+"340",23951,NA,"Micropolitan",32
+"341",7681,NA,"Micropolitan",51.8
+"342",12882,NA,"Micropolitan",43.9
+"343",12142,NA,"Rural",63
+"344",86878,445,"Micropolitan",50.6
+"345",11392,NA,"Rural",62.5
+"346",10194,NA,"Micropolitan",40.6
+"347",65435,436,"Micropolitan",52.4
+"348",5761,NA,"Small central metro",33.3
+"349",16426,NA,"Large central metro",55.4
+"350",53544,NA,"Medium central metro",61.6
+"351",6578,NA,"Micropolitan",53.9
+"352",32628,144,"Micropolitan",57.4
+"353",4739,NA,"Large central metro",52
+"354",14305,NA,"Micropolitan",65.5
+"355",12147,NA,"Micropolitan",62.1
+"356",209689,679,"Small central metro",65.3
+"357",32304,NA,"Micropolitan",49.2
+"358",15441,NA,"Micropolitan",49.5
+"359",13184,NA,"Micropolitan",38.5
+"360",37562,NA,"Large central metro",59.8
+"361",50621,251,"Micropolitan",46.3
+"362",5150233,15996,"Large central metro",72.9
+"363",18667,NA,"Micropolitan",51.6
+"364",10766,NA,"Rural",39.2
+"365",104897,246,"Large central metro",56.9
+"366",15638,NA,"Small central metro",53.1
+"367",19465,NA,"Micropolitan",49
+"368",922921,1952,"Large central metro",77.4
+"369",17161,NA,"Micropolitan",48.8
+"370",6395,NA,"Rural",40.3
+"371",34008,154,"Micropolitan",49.1
+"372",21336,NA,"Micropolitan",36.4
+"373",12961,NA,"Small central metro",58
+"374",38469,105,"Micropolitan",45
+"375",34340,111,"Micropolitan",57.7
+"376",4828,NA,"Rural",55.1
+"377",12969,NA,"Micropolitan",44.2
+"378",51054,179,"Large central metro",58
+"379",8116,NA,"Micropolitan",39.3
+"380",17708,NA,"Micropolitan",48.7
+"381",3821,NA,"Rural",42
+"382",6646,NA,"Rural",49.5
+"383",48913,113,"Medium central metro",59.4
+"384",27114,NA,"Micropolitan",51.3
+"385",56750,282,"Small central metro",52.5
+"386",9610,NA,"Micropolitan",42.2
+"387",37684,283,"Micropolitan",47.3
+"388",21773,NA,"Large central metro",56
+"389",21235,NA,"Micropolitan",78.4
+"390",12417,NA,"Rural",52.2
+"391",532403,1301,"Large central metro",67.6
+"392",109862,397,"Small central metro",52.5
+"393",128990,NA,"Large central metro",69
+"394",49699,284,"Micropolitan",59.4
+"395",696535,1486,"Large central metro",78.7
+"396",108669,328,"Micropolitan",58.4
+"397",15678,NA,"Micropolitan",41
+"398",34096,125,"Micropolitan",60
+"399",35648,120,"Micropolitan",50.9
+"400",28618,NA,"Micropolitan",54.2
+"401",29682,NA,"Micropolitan",48.1
+"402",307774,404,"Large central metro",67.3
+"403",171517,487,"Small central metro",64
+"404",104009,460,"Small central metro",53.5
+"405",44926,111,"Large central metro",55
+"406",262966,912,"Large central metro",62.4
+"407",37205,174,"Micropolitan",45.9
+"408",11438,NA,"Medium central metro",57.6
+"409",13359,NA,"Micropolitan",53.9
+"410",13772,NA,"Micropolitan",41.2
+"411",12196,NA,"Small central metro",57.4
+"412",15437,NA,"Medium central metro",60.7
+"413",34637,NA,"Large central metro",62.5
+"414",28414,101,"Micropolitan",51.8
+"415",33658,172,"Micropolitan",55
+"416",14501,NA,"Micropolitan",44.2
+"417",50643,NA,"Micropolitan",58.2
+"418",179179,1350,"Medium central metro",61.6
+"419",20916,NA,"Micropolitan",51.1
+"420",16344,NA,"Small central metro",62.4
+"421",15561,NA,"Micropolitan",41.3
+"422",4177,NA,"Rural",35.9
+"423",5335,NA,"Rural",42.8
+"424",5739,NA,"Rural",57.9
+"425",31782,118,"Micropolitan",52.5
+"426",15513,NA,"Micropolitan",48.1
+"427",141879,564,"Medium central metro",58.7
+"428",259686,828,"Large central metro",63.5
+"429",23491,108,"Micropolitan",48.7
+"430",194672,814,"Small central metro",65.1
+"431",6768,NA,"Micropolitan",56
+"432",4951,NA,"Rural",42.2
+"433",21634,NA,"Micropolitan",42.1
+"434",5342,NA,"Medium central metro",53.5
+"435",44498,233,"Micropolitan",61.2
+"436",131803,242,"Medium central metro",59.3
+"437",16653,NA,"Micropolitan",57
+"438",75758,239,"Small central metro",45.9
+"439",11520,NA,"Micropolitan",49.3
+"440",16844,NA,"Micropolitan",50
+"441",13887,NA,"Micropolitan",58.8
+"442",16215,NA,"Micropolitan",39.5
+"443",13537,NA,"Micropolitan",52.3
+"444",55175,278,"Micropolitan",58.2
+"445",690743,1471,"Large central metro",68.1
+"446",66597,374,"Small central metro",55.7
+"447",282572,1135,"Medium central metro",58.3
+"448",38459,NA,"Medium central metro",54.8
+"449",35777,NA,"Micropolitan",33.1
+"450",379299,2110,"Medium central metro",52.5
+"451",83779,342,"Small central metro",59.8
+"452",8748,NA,"Small central metro",42
+"453",11758,NA,"Micropolitan",46.8
+"454",67843,197,"Large central metro",70.8
+"455",15092,NA,"Large central metro",51
+"456",20257,NA,"Small central metro",35.6
+"457",37689,122,"Micropolitan",45.7
+"458",118302,357,"Large central metro",60.4
+"459",26225,NA,"Small central metro",56.2
+"460",32399,NA,"Micropolitan",48.3
+"461",10577,NA,"Rural",37.4
+"462",33351,110,"Micropolitan",33.1
+"463",49458,161,"Large central metro",61.9
+"464",26559,110,"Micropolitan",48.2
+"465",43475,119,"Micropolitan",42.5
+"466",114135,665,"Small central metro",48.6
+"467",42736,186,"Micropolitan",57.4
+"468",206341,790,"Small central metro",43.1
+"469",23102,NA,"Micropolitan",40.1
+"470",78522,540,"Large central metro",56.7
+"471",16346,NA,"Micropolitan",46.9
+"472",22758,NA,"Micropolitan",37.9
+"473",19974,NA,"Micropolitan",40
+"474",33659,NA,"Micropolitan",46.6
+"475",65769,313,"Micropolitan",42.1
+"476",31922,101,"Micropolitan",41.4
+"477",338011,693,"Large central metro",71.4
+"478",78168,265,"Large central metro",67.8
+"479",40515,104,"Large central metro",51
+"480",170311,737,"Large central metro",72
+"481",47972,128,"Micropolitan",52.3
+"482",82544,501,"Small central metro",47.5
+"483",36520,NA,"Micropolitan",50.5
+"484",44231,154,"Micropolitan",53.2
+"485",33562,NA,"Large central metro",47.5
+"486",20436,NA,"Micropolitan",38.9
+"487",32308,217,"Micropolitan",56.1
+"488",27735,NA,"Micropolitan",40.7
+"489",158167,348,"Large central metro",58.6
+"490",36594,245,"Micropolitan",49.4
+"491",79456,133,"Micropolitan",40.8
+"492",39614,NA,"Micropolitan",22.6
+"493",485493,2450,"Large central metro",56.7
+"494",109888,398,"Small central metro",56.2
+"495",45370,159,"Micropolitan",49.5
+"496",129569,622,"Large central metro",52.6
+"497",964582,4397,"Large central metro",56
+"498",46258,162,"Micropolitan",44.8
+"499",10255,NA,"Micropolitan",45.3
+"500",35516,103,"Micropolitan",40.3
+"501",148431,525,"Small central metro",58.9
+"502",38338,NA,"Micropolitan",45.7
+"503",70489,173,"Large central metro",54.1
+"504",13984,NA,"Large central metro",31.9
+"505",47744,NA,"Micropolitan",38.7
+"506",5875,NA,"Large central metro",75.7
+"507",19646,NA,"Micropolitan",55.7
+"508",20799,NA,"Small central metro",42.7
+"509",16937,NA,"Micropolitan",39.6
+"510",19169,NA,"Micropolitan",56.8
+"511",12389,NA,"Rural",57.7
+"512",170389,517,"Large central metro",57.1
+"513",25427,NA,"Medium central metro",47.5
+"514",12353,NA,"Micropolitan",45.5
+"515",37576,NA,"Large central metro",42.7
+"516",24665,NA,"Micropolitan",45.6
+"517",28324,113,"Micropolitan",48.2
+"518",16581,NA,"Micropolitan",47
+"519",271826,984,"Medium central metro",58.5
+"520",23873,NA,"Large central metro",44.1
+"521",44729,163,"Large central metro",58
+"522",20277,NA,"Rural",44.6
+"523",22995,NA,"Micropolitan",37.3
+"524",34594,NA,"Micropolitan",47.5
+"525",20669,NA,"Small central metro",49.5
+"526",10751,NA,"Rural",31.1
+"527",195732,764,"Small central metro",57.6
+"528",15148,NA,"Micropolitan",45.3
+"529",7054,NA,"Large central metro",49.8
+"530",181451,1083,"Medium central metro",57.5
+"531",15498,NA,"Small central metro",47
+"532",107038,646,"Small central metro",49.8
+"533",30996,114,"Micropolitan",41.3
+"534",8265,NA,"Rural",45.8
+"535",62998,538,"Medium central metro",62.5
+"536",28036,NA,"Large central metro",40.1
+"537",65884,517,"Micropolitan",49.9
+"538",28296,NA,"Medium central metro",41.8
+"539",24102,NA,"Micropolitan",54.7
+"540",33964,NA,"Medium central metro",47.1
+"541",7152,NA,"Rural",49.4
+"542",3602,NA,"Rural",56.4
+"543",13687,NA,"Micropolitan",53.6
+"544",12426,NA,"Micropolitan",47.6
+"545",5496,NA,"Rural",58.4
+"546",25645,NA,"Medium central metro",58.6
+"547",131228,630,"Small central metro",60.3
+"548",26234,NA,"Micropolitan",64.6
+"549",25062,NA,"Small central metro",60.1
+"550",21175,NA,"Micropolitan",53.8
+"551",19620,NA,"Micropolitan",68.2
+"552",14439,NA,"Rural",57.6
+"553",9668,NA,"Rural",59.8
+"554",20165,NA,"Micropolitan",61.9
+"555",12836,NA,"Micropolitan",58.2
+"556",18627,NA,"Micropolitan",60.3
+"557",42450,295,"Micropolitan",63.3
+"558",11235,NA,"Micropolitan",53.2
+"559",11933,NA,"Micropolitan",55.1
+"560",9395,NA,"Micropolitan",55
+"561",16016,NA,"Micropolitan",52
+"562",17549,NA,"Rural",48
+"563",46429,162,"Micropolitan",54.8
+"564",16820,NA,"Micropolitan",54.1
+"565",93453,108,"Medium central metro",67
+"566",9000,NA,"Rural",36.9
+"567",7870,NA,"Rural",41.2
+"568",17011,NA,"Micropolitan",54.8
+"569",38967,207,"Micropolitan",51.8
+"570",17258,NA,"Micropolitan",58.5
+"571",97311,387,"Small central metro",64.6
+"572",9208,NA,"Micropolitan",52.6
+"573",19650,NA,"Micropolitan",54.6
+"574",15642,NA,"Micropolitan",53.2
+"575",10070,NA,"Micropolitan",54.7
+"576",6960,NA,"Rural",52.9
+"577",8888,NA,"Micropolitan",58.6
+"578",12232,NA,"Small central metro",62.2
+"579",10689,NA,"Medium central metro",58.5
+"580",14773,NA,"Micropolitan",63.7
+"581",10630,NA,"Micropolitan",49.8
+"582",16846,NA,"Micropolitan",56.2
+"583",14049,NA,"Medium central metro",52.1
+"584",19954,NA,"Micropolitan",54.1
+"585",9158,NA,"Micropolitan",52
+"586",9558,NA,"Micropolitan",50
+"587",6860,NA,"Rural",49
+"588",16184,NA,"Micropolitan",62.9
+"589",19439,NA,"Micropolitan",53.2
+"590",37185,NA,"Micropolitan",58.7
+"591",18295,NA,"Micropolitan",48.2
+"592",151140,660,"Small central metro",72.8
+"593",20681,NA,"Medium central metro",58.7
+"594",10246,NA,"Rural",46.7
+"595",14813,NA,"Micropolitan",52
+"596",33657,NA,"Micropolitan",51.3
+"597",226706,804,"Medium central metro",66.8
+"598",11035,NA,"Rural",53.1
+"599",8600,NA,"Micropolitan",45.4
+"600",11755,NA,"Rural",41.5
+"601",16338,NA,"Medium central metro",54.2
+"602",22095,NA,"Micropolitan",44.5
+"603",33253,102,"Micropolitan",53.1
+"604",39369,NA,"Micropolitan",66.2
+"605",15109,NA,"Medium central metro",56.6
+"606",10586,NA,"Micropolitan",48.9
+"607",8615,NA,"Micropolitan",54
+"608",7707,NA,"Micropolitan",46.4
+"609",9917,NA,"Micropolitan",56.7
+"610",42664,NA,"Micropolitan",61
+"611",13753,NA,"Micropolitan",50.4
+"612",5958,NA,"Micropolitan",45.3
+"613",15107,NA,"Micropolitan",53.5
+"614",8886,NA,"Micropolitan",51
+"615",25177,NA,"Small central metro",52.7
+"616",6619,NA,"Rural",52.4
+"617",490161,1859,"Medium central metro",67.8
+"618",93206,359,"Medium central metro",57.7
+"619",18504,NA,"Micropolitan",58.6
+"620",4894,NA,"Rural",52.6
+"621",9721,NA,"Rural",52.9
+"622",172943,524,"Medium central metro",61.1
+"623",11454,NA,"Micropolitan",59.4
+"624",34855,NA,"Micropolitan",41.8
+"625",97117,179,"Small central metro",63.3
+"626",16854,NA,"Micropolitan",62.8
+"627",6121,NA,"Rural",47.1
+"628",12241,NA,"Micropolitan",51.4
+"629",7044,NA,"Rural",42.1
+"630",34969,143,"Micropolitan",50.2
+"631",51466,NA,"Medium central metro",60.1
+"632",21965,NA,"Small central metro",56.8
+"633",6441,NA,"Rural",42.1
+"634",35904,229,"Micropolitan",57.7
+"635",10354,NA,"Micropolitan",52.5
+"636",19991,NA,"Micropolitan",62.7
+"637",103107,563,"Small central metro",56.6
+"638",7381,NA,"Rural",52.1
+"639",12562,NA,"Micropolitan",57.7
+"640",12369,NA,"Micropolitan",46.5
+"641",7858,NA,"Micropolitan",43.4
+"642",16073,NA,"Micropolitan",46.7
+"643",4427,NA,"Rural",47.1
+"644",25779,NA,"Micropolitan",43.4
+"645",14534,NA,"Micropolitan",36.9
+"646",9564,NA,"Micropolitan",61.1
+"647",66911,126,"Medium central metro",48.8
+"648",2648,NA,"Rural",46.5
+"649",3250,NA,"Rural",41.3
+"650",19939,NA,"Micropolitan",46.1
+"651",2657,NA,"Rural",45.9
+"652",1994,NA,"Rural",46.5
+"653",8002,NA,"Micropolitan",60.6
+"654",8786,NA,"Micropolitan",48
+"655",8179,NA,"Micropolitan",53.5
+"656",1700,NA,"Rural",46.1
+"657",34908,121,"Micropolitan",48.5
+"658",38818,195,"Micropolitan",47.2
+"659",2827,NA,"Rural",40.5
+"660",18466,NA,"Micropolitan",56.6
+"661",7600,NA,"Small central metro",48.5
+"662",122259,167,"Small central metro",62.3
+"663",2798,NA,"Rural",48.8
+"664",2530,NA,"Rural",34.1
+"665",28553,188,"Micropolitan",49.8
+"666",6102,NA,"Micropolitan",56.6
+"667",36467,167,"Micropolitan",47
+"668",33619,103,"Micropolitan",45.2
+"669",25544,NA,"Micropolitan",51.4
+"670",31670,NA,"Micropolitan",90
+"671",2636,NA,"Rural",48.3
+"672",2482,NA,"Rural",49.4
+"673",7150,NA,"Micropolitan",47.6
+"674",5988,NA,"Rural",46.3
+"675",1232,NA,"Rural",51.5
+"676",5982,NA,"Micropolitan",49.6
+"677",2539,NA,"Rural",41.7
+"678",5436,NA,"Rural",48.3
+"679",34429,146,"Medium central metro",46.8
+"680",3968,NA,"Rural",39.2
+"681",1794,NA,"Rural",44.6
+"682",13171,NA,"Small central metro",64.3
+"683",19043,NA,"Small central metro",54.6
+"684",2879,NA,"Rural",46.7
+"685",602401,1558,"Large central metro",76
+"686",3838,NA,"Rural",53.8
+"687",7152,NA,"Medium central metro",47.2
+"688",2475,NA,"Rural",51.3
+"689",19618,102,"Micropolitan",49.6
+"690",1535,NA,"Rural",43.1
+"691",81758,NA,"Large central metro",59
+"692",2962,NA,"Rural",44
+"693",9703,NA,"Large central metro",35.5
+"694",2794,NA,"Rural",47
+"695",33195,108,"Micropolitan",57.7
+"696",28542,NA,"Micropolitan",55.7
+"697",11884,NA,"Micropolitan",49.2
+"698",9707,NA,"Micropolitan",64.5
+"699",4033,NA,"Rural",41.2
+"700",34237,NA,"Large central metro",47.7
+"701",5979,NA,"Micropolitan",53.5
+"702",31829,130,"Micropolitan",45.9
+"703",5620,NA,"Rural",56.1
+"704",2587,NA,"Rural",42.1
+"705",3337,NA,"Rural",75.3
+"706",10231,NA,"Micropolitan",54.6
+"707",16007,NA,"Micropolitan",28.1
+"708",2750,NA,"Rural",52.6
+"709",5361,NA,"Micropolitan",53
+"710",15949,NA,"Small central metro",51.2
+"711",3421,NA,"Rural",41.9
+"712",5704,NA,"Rural",44.2
+"713",6414,NA,"Micropolitan",54
+"714",5234,NA,"Micropolitan",43.4
+"715",24383,NA,"Small central metro",41.4
+"716",9164,NA,"Micropolitan",49.2
+"717",2530,NA,"Rural",43
+"718",61998,313,"Micropolitan",49.6
+"719",4636,NA,"Rural",50.8
+"720",9537,NA,"Micropolitan",43.9
+"721",5634,NA,"Rural",62.8
+"722",74232,125,"Small central metro",39.4
+"723",4920,NA,"Rural",48.6
+"724",3036,NA,"Rural",50.8
+"725",6856,NA,"Micropolitan",43.2
+"726",54224,335,"Micropolitan",50.5
+"727",4823,NA,"Micropolitan",48.2
+"728",516042,2147,"Medium central metro",54.4
+"729",21428,NA,"Micropolitan",46.1
+"730",176875,954,"Small central metro",61.6
+"731",2521,NA,"Rural",35.5
+"732",5917,NA,"Micropolitan",44.3
+"733",3583,NA,"Rural",44.9
+"734",4156,NA,"Rural",46.7
+"735",2006,NA,"Rural",51
+"736",5485,NA,"Micropolitan",39.1
+"737",22836,NA,"Medium central metro",43.6
+"738",7777,NA,"Micropolitan",41.6
+"739",2803,NA,"Rural",39.4
+"740",6931,NA,"Small central metro",47.8
+"741",1518,NA,"Rural",37.5
+"742",288000,755,"Medium central metro",67.8
+"743",5406,NA,"Rural",54.2
+"744",2119,NA,"Rural",51.4
+"745",8525,NA,"Micropolitan",44.2
+"746",3138,NA,"Rural",42.3
+"747",165429,874,"Large central metro",57.8
+"748",18386,NA,"Micropolitan",67.4
+"749",836,NA,"Rural",95
+"750",2097,NA,"Rural",54.3
+"751",4916,NA,"Rural",52.4
+"752",96849,198,"Small central metro",60.3
+"753",2530,NA,"Rural",68.8
+"754",19202,NA,"Micropolitan",39.4
+"755",21315,NA,"Small central metro",39.7
+"756",22747,NA,"Micropolitan",55.5
+"757",7888,NA,"Rural",38.5
+"758",44249,340,"Micropolitan",46.1
+"759",12500,NA,"Rural",54.1
+"760",26032,144,"Micropolitan",45.9
+"761",133581,270,"Large central metro",62.4
+"762",19788,NA,"Medium central metro",58.2
+"763",46718,614,"Medium central metro",49.3
+"764",30060,426,"Micropolitan",57.1
+"765",8303,NA,"Large central metro",47.4
+"766",12630,NA,"Micropolitan",52.8
+"767",20477,NA,"Rural",49.3
+"768",81676,NA,"Large central metro",45.5
+"769",12879,NA,"Small central metro",45.4
+"770",12747,NA,"Micropolitan",52.4
+"771",39001,113,"Micropolitan",45.8
+"772",93584,391,"Large central metro",63.9
+"773",4760,NA,"Rural",41.1
+"774",10631,NA,"Micropolitan",46.8
+"775",26797,NA,"Micropolitan",49.3
+"776",16159,NA,"Rural",36.4
+"777",70461,193,"Medium central metro",36.6
+"778",36263,113,"Medium central metro",54.8
+"779",2148,NA,"Rural",70.6
+"780",19901,NA,"Micropolitan",44.6
+"781",10218,NA,"Rural",41
+"782",8806,NA,"Micropolitan",41.1
+"783",6614,NA,"Rural",44.9
+"784",101511,693,"Small central metro",54.3
+"785",12150,NA,"Small central metro",34.7
+"786",7517,NA,"Rural",35.7
+"787",14106,NA,"Micropolitan",52
+"788",323152,1753,"Medium central metro",66.8
+"789",14581,NA,"Micropolitan",51.9
+"790",35589,204,"Micropolitan",57.2
+"791",50991,234,"Micropolitan",61.5
+"792",5969,NA,"Rural",59
+"793",8869,NA,"Large central metro",41.3
+"794",17666,NA,"Micropolitan",48.3
+"795",25069,NA,"Large central metro",49.1
+"796",37266,178,"Micropolitan",45.7
+"797",26427,NA,"Micropolitan",51.5
+"798",10941,NA,"Rural",43.8
+"799",35098,NA,"Medium central metro",52.4
+"800",8722,NA,"Small central metro",59.4
+"801",110958,636,"Small central metro",63
+"802",26010,119,"Micropolitan",46.5
+"803",18886,NA,"Micropolitan",50.2
+"804",19035,NA,"Rural",35.7
+"805",31974,NA,"Micropolitan",77
+"806",45210,128,"Medium central metro",51.3
+"807",16126,NA,"Large central metro",54
+"808",4380,NA,"Rural",37.5
+"809",44686,310,"Micropolitan",51.9
+"810",13329,NA,"Rural",36.8
+"811",766757,4005,"Large central metro",64.1
+"812",54115,NA,"Medium central metro",54
+"813",22188,NA,"Micropolitan",50.4
+"814",166998,574,"Large central metro",60.6
+"815",14806,NA,"Rural",48
+"816",31145,NA,"Micropolitan",36.6
+"817",14398,NA,"Small central metro",43.8
+"818",60813,328,"Micropolitan",40.6
+"819",15317,NA,"Micropolitan",48.6
+"820",7403,NA,"Rural",50
+"821",9877,NA,"Rural",52.3
+"822",21553,105,"Rural",53.3
+"823",13275,NA,"Rural",39.2
+"824",24549,NA,"Micropolitan",41.1
+"825",9194,NA,"Rural",49.5
+"826",27102,NA,"Micropolitan",51
+"827",8210,NA,"Rural",58.5
+"828",65418,748,"Micropolitan",55.9
+"829",17231,NA,"Rural",39.3
+"830",9207,NA,"Small central metro",51.1
+"831",92987,271,"Micropolitan",48.1
+"832",12161,NA,"Rural",51.3
+"833",19273,NA,"Micropolitan",50.6
+"834",31100,NA,"Micropolitan",53.7
+"835",11195,NA,"Rural",54.3
+"836",17070,151,"Micropolitan",51.1
+"837",28572,NA,"Small central metro",39.4
+"838",6489,NA,"Rural",44.5
+"839",21933,NA,"Micropolitan",54.7
+"840",10071,NA,"Rural",40.7
+"841",10650,NA,"Rural",46.3
+"842",28157,NA,"Micropolitan",47
+"843",13309,NA,"Rural",48.3
+"844",30622,NA,"Micropolitan",51.1
+"845",46233,NA,"Micropolitan",52.4
+"846",7269,NA,"Rural",53.2
+"847",23994,NA,"Micropolitan",39.8
+"848",66799,104,"Large central metro",57.4
+"849",10901,NA,"Rural",37.8
+"850",4415,NA,"Rural",47.6
+"851",14590,NA,"Large central metro",44.2
+"852",25758,454,"Micropolitan",62.4
+"853",57876,732,"Micropolitan",52.9
+"854",12359,NA,"Micropolitan",53
+"855",64979,454,"Micropolitan",46.4
+"856",2108,NA,"Rural",38.7
+"857",16695,119,"Micropolitan",40.6
+"858",24460,174,"Micropolitan",52.3
+"859",17923,NA,"Rural",45.9
+"860",57004,NA,"Medium central metro",55.9
+"861",49024,NA,"Large central metro",47
+"862",18572,NA,"Micropolitan",50.7
+"863",19351,NA,"Large central metro",30.1
+"864",25769,108,"Micropolitan",48.2
+"865",12294,NA,"Rural",42.5
+"866",58708,NA,"Micropolitan",48.4
+"867",14651,NA,"Medium central metro",47.1
+"868",8471,NA,"Large central metro",43.8
+"869",14381,NA,"Micropolitan",42.3
+"870",132896,877,"Small central metro",38.7
+"871",12095,NA,"Rural",51.2
+"872",20333,NA,"Micropolitan",42.2
+"873",12942,NA,"Rural",46.2
+"874",36264,324,"Micropolitan",44.5
+"875",7157,NA,"Rural",53.9
+"876",26734,NA,"Medium central metro",66.3
+"877",13901,NA,"Micropolitan",65.8
+"878",12998,NA,"Micropolitan",65.3
+"879",1592,NA,"Rural",58
+"880",108317,240,"Medium central metro",40.7
+"881",10004,NA,"Micropolitan",70.7
+"882",9832,NA,"Micropolitan",39.1
+"883",7621,NA,"Micropolitan",61.3
+"884",3266,NA,"Rural",76.2
+"885",6203,NA,"Rural",53.6
+"886",62045,166,"Medium central metro",53
+"887",25627,NA,"Micropolitan",36.1
+"888",126604,108,"Medium central metro",51
+"889",21891,NA,"Micropolitan",43.6
+"890",40144,NA,"Micropolitan",46.8
+"891",37497,NA,"Micropolitan",35.9
+"892",13241,NA,"Micropolitan",49.2
+"893",127039,384,"Medium central metro",50.7
+"894",240204,1964,"Medium central metro",48.6
+"895",203436,725,"Small central metro",42.6
+"896",9918,NA,"Rural",38.8
+"897",6973,NA,"Small central metro",17.9
+"898",9494,NA,"Rural",40.8
+"899",15670,NA,"Micropolitan",41
+"900",19259,NA,"Micropolitan",43.7
+"901",27463,NA,"Medium central metro",43
+"902",440059,2419,"Medium central metro",56.1
+"903",6861,NA,"Micropolitan",46.6
+"904",19135,NA,"Medium central metro",40.8
+"905",33395,105,"Micropolitan",38.8
+"906",20015,NA,"Micropolitan",37.1
+"907",22389,NA,"Small central metro",42.7
+"908",69830,165,"Medium central metro",47.2
+"909",32511,NA,"Medium central metro",56.3
+"910",15744,NA,"Micropolitan",42.8
+"911",432493,1960,"Large central metro",65.5
+"912",31368,119,"Micropolitan",37
+"913",244390,944,"Medium central metro",50.3
+"914",97614,390,"Small central metro",45.3
+"915",14892,NA,"Micropolitan",45.1
+"916",46742,146,"Micropolitan",43.4
+"917",140789,NA,"Medium central metro",40
+"918",10951,NA,"Micropolitan",45.9
+"919",24874,NA,"Micropolitan",46.1
+"920",38158,148,"Micropolitan",43.4
+"921",390144,962,"Large central metro",70
+"922",153279,1240,"Small central metro",45.4
+"923",23197,NA,"Large central metro",69.2
+"924",21730,NA,"Medium central metro",55.6
+"925",129648,913,"Small central metro",49.9
+"926",8442,NA,"Rural",36.8
+"927",20122,NA,"Micropolitan",43.2
+"928",23884,NA,"Micropolitan",38.4
+"929",47244,NA,"Large central metro",49.2
+"930",53100,NA,"Large central metro",56.9
+"931",10132,NA,"Medium central metro",31.5
+"932",21096,NA,"Large central metro",51.9
+"933",42837,NA,"Large central metro",60
+"934",82124,337,"Micropolitan",41.8
+"935",53431,NA,"Medium central metro",40.4
+"936",49348,193,"Micropolitan",45.2
+"937",260419,1026,"Large central metro",56.9
+"938",134758,613,"Small central metro",46.6
+"939",4334,NA,"Rural",63
+"940",110461,316,"Small central metro",45.6
+"941",22108,NA,"Small central metro",45.5
+"942",59511,NA,"Medium central metro",38.3
+"943",47429,NA,"Micropolitan",56.7
+"944",46194,138,"Micropolitan",42.1
+"945",38340,116,"Medium central metro",43.2
+"946",26465,NA,"Medium central metro",53.8
+"947",10830,NA,"Rural",40.8
+"948",15568,NA,"Medium central metro",89.7
+"949",13904,NA,"Micropolitan",47.8
+"950",8493,NA,"Micropolitan",78.9
+"951",1183,NA,"Rural",70.4
+"952",6893,NA,"Rural",41
+"953",9202,NA,"Rural",63.1
+"954",2502,NA,"Rural",58.2
+"955",579,NA,"Rural",78.8
+"956",5230,NA,"Rural",77.5
+"957",108277,421,"Small central metro",70.4
+"958",67055,166,"Micropolitan",69.4
+"959",295003,743,"Medium central metro",88
+"960",30199,NA,"Micropolitan",64.5
+"961",54987,NA,"Micropolitan",77.2
+"962",122302,308,"Micropolitan",72.2
+"963",39772,NA,"Micropolitan",84.4
+"964",34634,NA,"Rural",81.2
+"965",57975,126,"Micropolitan",68.6
+"966",152148,513,"Small central metro",71.5
+"967",16785,NA,"Rural",62.2
+"968",35856,NA,"Medium central metro",80
+"969",50484,NA,"Micropolitan",62
+"970",39715,NA,"Micropolitan",71.8
+"971",31379,NA,"Micropolitan",72.6
+"972",207641,316,"Medium central metro",79.8
+"973",70416,506,"Small central metro",55.7
+"974",579234,1336,"Large central metro",77
+"975",827370,2577,"Large central metro",72.8
+"976",92525,156,"Large central metro",70.9
+"977",33406,NA,"Micropolitan",57.3
+"978",168447,502,"Large central metro",72.2
+"979",102855,282,"Large central metro",58.7
+"980",163257,349,"Large central metro",70.6
+"981",31929,NA,"Micropolitan",59.6
+"982",259547,573,"Large central metro",78.8
+"983",29014,139,"Micropolitan",51.2
+"984",255441,624,"Large central metro",70
+"985",325690,392,"Large central metro",86
+"986",19422,NA,"Micropolitan",65.7
+"987",1050688,3184,"Large central metro",87.3
+"988",909327,2100,"Large central metro",75.1
+"989",50381,NA,"Large central metro",67.5
+"990",113510,255,"Small central metro",66.7
+"991",25616,NA,"Medium central metro",50.4
+"992",37181,164,"Micropolitan",73.8
+"993",151049,708,"Medium central metro",59.9
+"994",103609,602,"Medium central metro",56.1
+"995",52276,193,"Medium central metro",72.1
+"996",593490,2780,"Large central metro",64.3
+"997",212990,580,"Small central metro",NA
+"998",124944,400,"Small central metro",59
+"999",565217,2005,"Large central metro",66.1
+"1000",17332,NA,"Micropolitan",NA
+"1001",789034,2553,"Large central metro",74.4
+"1002",70180,NA,"Micropolitan",68.6
+"1003",466372,1927,"Medium central metro",66.1
+"1004",160830,292,"Medium central metro",67.1
+"1005",1611699,4125,"Large central metro",79.8
+"1006",11399,NA,"Micropolitan",NA
+"1007",706775,1547,"Large central metro",79.3
+"1008",521202,1465,"Large central metro",70.3
+"1009",803907,3023,"Large central metro",73.5
+"1010",830622,2689,"Medium central metro",70.3
+"1011",10405,NA,"Rural",58.3
+"1012",9108,NA,"Micropolitan",62.6
+"1013",118081,160,"Micropolitan",52.3
+"1014",28405,196,"Micropolitan",55.8
+"1015",23324,NA,"Rural",58.2
+"1016",14883,NA,"Rural",51.3
+"1017",8209,NA,"Rural",61.2
+"1018",61550,NA,"Medium central metro",49.2
+"1019",103126,650,"Small central metro",57.4
+"1020",17766,NA,"Rural",63.1
+"1021",153401,610,"Small central metro",56.2
+"1022",43517,126,"Micropolitan",45.4
+"1023",134159,526,"Small central metro",52.3
+"1024",51787,NA,"Medium central metro",43.7
+"1025",26143,NA,"Micropolitan",64.2
+"1026",25276,NA,"Micropolitan",56.2
+"1027",37349,NA,"Micropolitan",69.9
+"1028",30950,NA,"Micropolitan",46.4
+"1029",79595,NA,"Medium central metro",57.5
+"1030",14029,105,"Micropolitan",51.2
+"1031",35784,138,"Micropolitan",61.8
+"1032",25239,128,"Micropolitan",66.6
+"1033",110268,133,"Medium central metro",57.1
+"1034",33415,203,"Micropolitan",72.5
+"1035",405813,1782,"Medium central metro",50.7
+"1036",25449,NA,"Micropolitan",48
+"1037",13975,NA,"Micropolitan",63.8
+"1038",93088,512,"Micropolitan",67.3
+"1039",40711,206,"Micropolitan",46.1
+"1040",45605,118,"Micropolitan",38.8
+"1041",35684,NA,"Micropolitan",52.4
+"1042",30981,NA,"Micropolitan",54.1
+"1043",292406,1220,"Medium central metro",57.2
+"1044",64697,NA,"Micropolitan",47.3
+"1045",25127,113,"Micropolitan",56.3
+"1046",11066,NA,"Micropolitan",55.9
+"1047",69872,155,"Micropolitan",44.8
+"1048",158510,637,"Small central metro",52.5
+"1049",265066,1214,"Medium central metro",61.6
+"1050",18038,NA,"Micropolitan",46.7
+"1051",656955,2221,"Medium central metro",61.5
+"1052",2116,NA,"Rural",58.4
+"1053",11853,NA,"Rural",64.1
+"1054",87607,359,"Large central metro",47.5
+"1055",21761,NA,"Rural",82.3
+"1056",98451,238,"Micropolitan",53.1
+"1057",191995,225,"Large central metro",60.2
+"1058",6229,NA,"Micropolitan",44.8
+"1059",10799,NA,"Micropolitan",74.9
+"1060",873972,2862,"Large central metro",56.9
+"1061",24558,NA,"Micropolitan",60.1
+"1062",66699,247,"Micropolitan",64.2
+"1063",29144,NA,"Micropolitan",60.8
+"1064",43453,105,"Micropolitan",42.1
+"1065",22780,NA,"Micropolitan",57.4
+"1066",83156,337,"Small central metro",59.1
+"1067",15118,NA,"Rural",48.5
+"1068",150500,285,"Small central metro",57.1
+"1069",63888,160,"Medium central metro",42.6
+"1070",9328,NA,"Rural",54.5
+"1071",173566,720,"Small central metro",55.1
+"1072",48980,NA,"Micropolitan",44.8
+"1073",1257584,5459,"Large central metro",66.4
+"1074",26467,NA,"Micropolitan",54.6
+"1075",20997,102,"Rural",45.4
+"1076",5720,NA,"Rural",69.3
+"1077",23460,NA,"Rural",42.2
+"1078",8241,NA,"Rural",41.9
+"1079",24668,NA,"Micropolitan",55.6
+"1080",291830,593,"Medium central metro",57.7
+"1081",12592,NA,"Micropolitan",60
+"1082",24019,NA,"Micropolitan",56.3
+"1083",190539,1243,"Small central metro",53.1
+"1084",159128,763,"Large central metro",49.7
+"1085",60964,108,"Micropolitan",45.3
+"1086",41170,NA,"Micropolitan",42.7
+"1087",8094,NA,"Micropolitan",55.9
+"1088",68122,183,"Micropolitan",51.4
+"1089",52245,NA,"Micropolitan",46.1
+"1090",75677,123,"Medium central metro",57.4
+"1091",367601,1304,"Medium central metro",71.2
+"1092",1749343,7449,"Large central metro",54.3
+"1093",33631,133,"Micropolitan",51.5
+"1094",15886,NA,"Rural",59
+"1095",356921,952,"Large central metro",59.5
+"1096",34423,NA,"Micropolitan",54.7
+"1097",47188,147,"Micropolitan",68.1
+"1098",40889,116,"Small central metro",43.8
+"1099",4991,NA,"Rural",63.3
+"1100",67653,179,"Small central metro",60.8
+"1101",25008,NA,"Micropolitan",66
+"1102",35871,NA,"Medium central metro",64.6
+"1103",105089,146,"Large central metro",67.5
+"1104",29779,NA,"Rural",57.1
+"1105",11800,NA,"Micropolitan",53.5
+"1106",56579,107,"Large central metro",57.6
+"1107",64222,NA,"Small central metro",60.1
+"1108",8818,NA,"Rural",41.9
+"1109",5463,NA,"Rural",80.4
+"1110",11196,NA,"Micropolitan",56.2
+"1111",65055,188,"Micropolitan",56.7
+"1112",429021,598,"Large central metro",69.8
+"1113",20934,NA,"Small central metro",60.6
+"1114",38141,121,"Micropolitan",57.6
+"1115",13653,NA,"Micropolitan",57.6
+"1116",21067,NA,"Small central metro",68.8
+"1117",30281,NA,"Micropolitan",57.8
+"1118",46340,125,"Micropolitan",66.7
+"1119",5972,NA,"Rural",55.3
+"1120",1265843,3880,"Large central metro",74.3
+"1121",18600,NA,"Small central metro",59.4
+"1122",21491,NA,"Micropolitan",47.5
+"1123",40596,NA,"Large central metro",43.3
+"1124",45130,120,"Micropolitan",56.7
+"1125",9846,NA,"Micropolitan",51.1
+"1126",16337,NA,"Micropolitan",43
+"1127",43199,136,"Micropolitan",54.4
+"1128",4298,NA,"Rural",59.8
+"1129",12229,NA,"Micropolitan",58.9
+"1130",6623,NA,"Rural",58.8
+"1131",10641,NA,"Micropolitan",66.7
+"1132",3740,NA,"Rural",55.3
+"1133",28887,NA,"Large central metro",49.4
+"1134",5639,NA,"Rural",53.4
+"1135",25474,NA,"Micropolitan",56.7
+"1136",35893,NA,"Micropolitan",58.2
+"1137",5527,NA,"Rural",60.3
+"1138",9336,NA,"Rural",50.1
+"1139",19683,NA,"Micropolitan",55.5
+"1140",23222,NA,"Micropolitan",48.2
+"1141",26277,NA,"Large central metro",58.1
+"1142",33386,NA,"Micropolitan",49.4
+"1143",40062,NA,"Micropolitan",62.5
+"1144",8194,NA,"Rural",54.8
+"1145",34274,NA,"Small central metro",62.8
+"1146",21629,NA,"Micropolitan",61.4
+"1147",6375,NA,"Rural",60.5
+"1148",158293,590,"Small central metro",77.1
+"1149",58746,117,"Micropolitan",51
+"1150",14119,NA,"Micropolitan",53.8
+"1151",29579,NA,"Micropolitan",49.2
+"1152",9126,NA,"Micropolitan",54.7
+"1153",31364,NA,"Small central metro",58.3
+"1154",11249,NA,"Rural",57.5
+"1155",550321,2166,"Large central metro",72
+"1156",4055,NA,"Rural",56.6
+"1157",15170,NA,"Micropolitan",54.5
+"1158",14548,NA,"Rural",55.1
+"1159",66972,133,"Micropolitan",63.2
+"1160",9315,NA,"Micropolitan",54.6
+"1161",15165,NA,"Micropolitan",51.7
+"1162",199070,882,"Medium central metro",66.8
+"1163",149013,187,"Large central metro",69.8
+"1164",97238,105,"Large central metro",46.3
+"1165",14865,NA,"Large central metro",49.3
+"1166",161075,709,"Small central metro",59.2
+"1167",36649,NA,"Micropolitan",61
+"1168",9805,NA,"Micropolitan",58.2
+"1169",9266,NA,"Micropolitan",57.9
+"1170",24664,NA,"Micropolitan",43.1
+"1171",3259,NA,"Rural",63.9
+"1172",21627,NA,"Small central metro",74
+"1173",13682,NA,"Micropolitan",49.9
+"1174",18612,NA,"Micropolitan",57.4
+"1175",262440,434,"Large central metro",70.7
+"1176",10897,NA,"Micropolitan",58.6
+"1177",6207,NA,"Micropolitan",54.8
+"1178",50484,NA,"Micropolitan",65.3
+"1179",138377,209,"Large central metro",55.1
+"1180",9709,NA,"Rural",56.9
+"1181",30693,167,"Micropolitan",55
+"1182",36953,284,"Micropolitan",39.2
+"1183",12297,NA,"Rural",40.1
+"1184",18174,NA,"Micropolitan",54.3
+"1185",8259,NA,"Large central metro",51.9
+"1186",30628,NA,"Micropolitan",59.1
+"1187",14361,NA,"Rural",44.2
+"1188",9947,NA,"Rural",41.3
+"1189",17103,NA,"Micropolitan",48.6
+"1190",8210,NA,"Rural",36.2
+"1191",8988,NA,"Rural",55.1
+"1192",15541,NA,"Rural",57.1
+"1193",19316,NA,"Micropolitan",46.8
+"1194",22124,NA,"Micropolitan",51.9
+"1195",28065,NA,"Medium central metro",54.3
+"1196",18636,NA,"Rural",51.5
+"1197",184945,959,"Large central metro",54.7
+"1198",74897,818,"Small central metro",43.7
+"1199",7713,NA,"Rural",48.2
+"1200",24500,NA,"Micropolitan",40.4
+"1201",13586,NA,"Rural",37.3
+"1202",20758,117,"Micropolitan",52.7
+"1203",47632,NA,"Medium central metro",44.5
+"1204",208080,872,"Medium central metro",55.5
+"1205",231840,2082,"Medium central metro",58.1
+"1206",17010,NA,"Micropolitan",60.4
+"1207",8064,NA,"Micropolitan",59
+"1208",1327,NA,"Rural",40.2
+"1209",23390,NA,"Micropolitan",34.7
+"1210",143617,576,"Medium central metro",47.9
+"1211",16383,NA,"Rural",50.8
+"1212",6990,NA,"Rural",71.2
+"1213",11128,NA,"Rural",45.3
+"1214",68098,309,"Micropolitan",43.6
+"1215",9742,NA,"Rural",46.3
+"1216",54019,567,"Micropolitan",55.1
+"1217",63343,293,"Small central metro",59.6
+"1218",74125,791,"Micropolitan",51.5
+"1219",12586,NA,"Rural",55.6
+"1220",22786,NA,"Micropolitan",48.8
+"1221",85436,1055,"Micropolitan",43.6
+"1222",28183,291,"Micropolitan",62.4
+"1223",34153,177,"Micropolitan",39
+"1224",58595,483,"Micropolitan",51.2
+"1225",106272,278,"Medium central metro",63.7
+"1226",24573,NA,"Micropolitan",46.3
+"1227",35294,NA,"Large central metro",54.7
+"1228",35252,210,"Micropolitan",50.6
+"1229",9775,NA,"Micropolitan",55.9
+"1230",29118,NA,"Micropolitan",41.8
+"1231",21018,NA,"Micropolitan",53.5
+"1232",10417,NA,"Micropolitan",55.4
+"1233",49587,175,"Micropolitan",51.4
+"1234",34192,105,"Micropolitan",47.9
+"1235",55535,127,"Micropolitan",48.1
+"1236",11973,NA,"Small central metro",38
+"1237",39288,213,"Micropolitan",50.7
+"1238",32174,NA,"Micropolitan",41.7
+"1239",25126,101,"Micropolitan",42.7
+"1240",6792,NA,"Micropolitan",54.1
+"1241",155271,318,"Medium central metro",51.4
+"1242",28124,NA,"Micropolitan",50.4
+"1243",4321,NA,"Rural",56.1
+"1244",26658,117,"Medium central metro",45.3
+"1245",15916,NA,"Rural",34.3
+"1246",18336,NA,"Micropolitan",46.1
+"1247",25110,103,"Micropolitan",53.4
+"1248",13809,NA,"Micropolitan",41.7
+"1249",28321,NA,"Large central metro",45.1
+"1250",22015,NA,"Micropolitan",42.1
+"1251",19383,NA,"Rural",38.7
+"1252",9632,NA,"Large central metro",52.1
+"1253",28815,153,"Micropolitan",39.3
+"1254",14286,NA,"Rural",41.6
+"1255",45381,296,"Micropolitan",57.7
+"1256",43909,302,"Micropolitan",51
+"1257",20183,NA,"Micropolitan",39.2
+"1258",9689,NA,"Rural",48.1
+"1259",8630,NA,"Rural",65.7
+"1260",17955,NA,"Micropolitan",48.1
+"1261",12108,NA,"Micropolitan",65.5
+"1262",29690,NA,"Medium central metro",49.4
+"1263",25343,NA,"Micropolitan",45.9
+"1264",17712,NA,"Small central metro",38.4
+"1265",5143,NA,"Rural",56.1
+"1266",25388,NA,"Micropolitan",38
+"1267",35789,NA,"Micropolitan",44.5
+"1268",11754,NA,"Micropolitan",33.3
+"1269",16172,NA,"Large central metro",38.9
+"1270",19443,NA,"Micropolitan",47.9
+"1271",12133,NA,"Small central metro",33.2
+"1272",180463,860,"Small central metro",62
+"1273",87364,472,"Small central metro",38.8
+"1274",42478,286,"Micropolitan",34.6
+"1275",9020,NA,"Large central metro",39.4
+"1276",44743,NA,"Small central metro",47.5
+"1277",46305,270,"Micropolitan",45.5
+"1278",78871,533,"Small central metro",49.1
+"1279",8679,NA,"Micropolitan",49.3
+"1280",5982,NA,"Rural",32.7
+"1281",105780,163,"Large central metro",52
+"1282",14349,NA,"Micropolitan",32.1
+"1283",7426,NA,"Rural",37.9
+"1284",88595,NA,"Medium central metro",46.1
+"1285",6797,NA,"Rural",31.4
+"1286",249948,1079,"Large central metro",54.3
+"1287",20387,119,"Large central metro",47.5
+"1288",76745,530,"Small central metro",52.9
+"1289",17709,NA,"Micropolitan",44.6
+"1290",23920,118,"Micropolitan",33.6
+"1291",7561,NA,"Rural",43.3
+"1292",16878,NA,"Medium central metro",35.1
+"1293",8278,NA,"Rural",33.2
+"1294",12547,NA,"Small central metro",28.1
+"1295",15573,NA,"Micropolitan",34.2
+"1296",13185,NA,"Micropolitan",24.2
+"1297",29131,NA,"Micropolitan",37.4
+"1298",103967,320,"Large central metro",54.4
+"1299",14706,NA,"Micropolitan",50.7
+"1300",6571,NA,"Rural",43.5
+"1301",293086,2227,"Medium central metro",49.4
+"1302",9850,NA,"Micropolitan",35.7
+"1303",8352,NA,"Micropolitan",34.2
+"1304",21824,NA,"Micropolitan",46.2
+"1305",9544,NA,"Rural",38.2
+"1306",4403,NA,"Rural",42.2
+"1307",10001,NA,"Micropolitan",43.4
+"1308",40117,219,"Micropolitan",33.4
+"1309",10125,NA,"Micropolitan",39
+"1310",703011,2841,"Large central metro",57.4
+"1311",121328,155,"Small central metro",47.5
+"1312",225081,498,"Large central metro",45
+"1313",54062,NA,"Micropolitan",43.5
+"1314",3959,NA,"Rural",39.9
+"1315",35723,NA,"Micropolitan",37.5
+"1316",32708,NA,"Large central metro",45.8
+"1317",38355,NA,"Micropolitan",38
+"1318",9776,NA,"Rural",34
+"1319",59013,NA,"Large central metro",39.2
+"1320",11920,NA,"Micropolitan",46.5
+"1321",15227,NA,"Micropolitan",43.1
+"1322",22837,NA,"Medium central metro",33.1
+"1323",15117,NA,"Micropolitan",40.6
+"1324",12088,NA,"Micropolitan",39.8
+"1325",8697,NA,"Rural",44
+"1326",28530,183,"Micropolitan",42.1
+"1327",3617,NA,"Rural",35.8
+"1328",25619,NA,"Micropolitan",33.5
+"1329",13180,NA,"Micropolitan",43.1
+"1330",16132,NA,"Small central metro",35.9
+"1331",8644,NA,"Rural",44.5
+"1332",11551,NA,"Micropolitan",48.8
+"1333",20627,NA,"Rural",37
+"1334",17076,NA,"Micropolitan",33.6
+"1335",58236,883,"Small central metro",25.9
+"1336",22092,NA,"Micropolitan",49.1
+"1337",10529,NA,"Rural",31.3
+"1338",13615,NA,"Small central metro",39.8
+"1339",9174,NA,"Rural",31.7
+"1340",15805,NA,"Micropolitan",31.6
+"1341",19136,NA,"Micropolitan",39.7
+"1342",42339,181,"Micropolitan",42.9
+"1343",44573,317,"Micropolitan",43.9
+"1344",18302,NA,"Micropolitan",37.6
+"1345",104418,191,"Large central metro",57.2
+"1346",32149,165,"Medium central metro",39
+"1347",52607,NA,"Micropolitan",51.4
+"1348",4696,NA,"Rural",33.9
+"1349",10309,NA,"Rural",28.6
+"1350",24748,NA,"Micropolitan",38.4
+"1351",23018,NA,"Large central metro",40
+"1352",6270,NA,"Rural",27.3
+"1353",13288,NA,"Rural",29.5
+"1354",402022,1029,"Large central metro",61.4
+"1355",9397,NA,"Rural",34.5
+"1356",17894,NA,"Micropolitan",45
+"1357",67215,193,"Micropolitan",43.7
+"1358",994205,4596,"Large central metro",64.2
+"1359",22761,NA,"Micropolitan",46.8
+"1360",4660,NA,"Rural",26.8
+"1361",4902,NA,"Rural",26.5
+"1362",38280,156,"Micropolitan",43.7
+"1363",8166,NA,"Rural",30.7
+"1364",5930,NA,"Rural",47.1
+"1365",29025,NA,"Micropolitan",39.9
+"1366",31952,NA,"Micropolitan",37.6
+"1367",6089,NA,"Rural",43.4
+"1368",55928,165,"Micropolitan",40.6
+"1369",25398,NA,"Rural",32.8
+"1370",20563,NA,"Micropolitan",35.2
+"1371",35649,NA,"Large central metro",41.9
+"1372",24730,NA,"Micropolitan",32
+"1373",12873,NA,"Rural",36.4
+"1374",39592,NA,"Medium central metro",42.5
+"1375",2013,NA,"Rural",41.1
+"1376",18289,NA,"Micropolitan",35.7
+"1377",300576,1245,"Large central metro",59
+"1378",9453,NA,"Micropolitan",54.2
+"1379",13319,NA,"Micropolitan",89.5
+"1380",6681,NA,"Rural",85.6
+"1381",6237,NA,"Rural",33.8
+"1382",10725,NA,"Small central metro",47.3
+"1383",1252,NA,"Rural",31.2
+"1384",81366,527,"Small central metro",54.8
+"1385",5635,NA,"Rural",33.2
+"1386",11402,NA,"Micropolitan",44.2
+"1387",1690,NA,"Rural",42.2
+"1388",8613,NA,"Micropolitan",37.8
+"1389",9140,NA,"Micropolitan",58.2
+"1390",2846,NA,"Rural",34.6
+"1391",11050,NA,"Micropolitan",47.1
+"1392",103806,409,"Micropolitan",42.8
+"1393",114434,130,"Micropolitan",59.4
+"1394",1258,NA,"Rural",19.4
+"1395",13753,NA,"Micropolitan",85.7
+"1396",821,NA,"Small central metro",46.4
+"1397",3379,NA,"Rural",37.2
+"1398",16484,NA,"Micropolitan",70.7
+"1399",12221,NA,"Rural",50.6
+"1400",2007,NA,"Rural",39.7
+"1401",30458,NA,"Micropolitan",56.8
+"1402",69432,219,"Micropolitan",59.5
+"1403",2337,NA,"Rural",34.1
+"1404",19980,NA,"Micropolitan",35.4
+"1405",1664,NA,"Rural",18
+"1406",8600,NA,"Rural",44.6
+"1407",1862,NA,"Rural",50.5
+"1408",4397,NA,"Rural",54.6
+"1409",119600,380,"Small central metro",64.8
+"1410",4633,NA,"Rural",34.9
+"1411",16606,NA,"Micropolitan",58.9
+"1412",487,NA,"Rural",30.8
+"1413",3954,NA,"Rural",44
+"1414",5911,NA,"Micropolitan",54.7
+"1415",1682,NA,"Rural",22.9
+"1416",6890,NA,"Micropolitan",45.4
+"1417",1077,NA,"Rural",38.1
+"1418",43806,109,"Micropolitan",48.9
+"1419",10803,NA,"Micropolitan",39.9
+"1420",11004,NA,"Micropolitan",74
+"1421",8937,NA,"Rural",84.8
+"1422",12113,NA,"Rural",38.7
+"1423",3309,NA,"Rural",48.5
+"1424",34915,145,"Micropolitan",61.6
+"1425",9642,NA,"Rural",42.2
+"1426",3737,NA,"Rural",40.9
+"1427",6147,NA,"Rural",41.9
+"1428",4736,NA,"Micropolitan",46.4
+"1429",696,NA,"Rural",48.6
+"1430",7396,NA,"Micropolitan",46.5
+"1431",2126,NA,"Rural",35.9
+"1432",969,NA,"Rural",28.5
+"1433",161300,1116,"Small central metro",51.8
+"1434",31363,125,"Micropolitan",42.2
+"1435",6298,NA,"Rural",37.2
+"1436",463,NA,"Rural",19.7
+"1437",745,NA,"Rural",32.8
+"1438",465,NA,"Rural",26.2
+"1439",5192,NA,"Rural",49.2
+"1440",10783,NA,"Micropolitan",34.1
+"1441",1919,NA,"Rural",35.2
+"1442",2955,NA,"Rural",37.1
+"1443",49659,242,"Micropolitan",42
+"1444",6459,NA,"Rural",58.7
+"1445",8016,NA,"Micropolitan",51.5
+"1446",26248,NA,"Medium central metro",61.8
+"1447",8402,NA,"Rural",41
+"1448",3924,NA,"Rural",33.6
+"1449",5689,NA,"Micropolitan",35
+"1450",8910,NA,"Micropolitan",43.1
+"1451",6203,NA,"Rural",41.8
+"1452",10709,NA,"Micropolitan",47.8
+"1453",8846,NA,"Micropolitan",53.4
+"1454",10777,NA,"Micropolitan",38.2
+"1455",20026,NA,"Small central metro",64.7
+"1456",8589,NA,"Micropolitan",38.8
+"1457",23595,NA,"Micropolitan",49.1
+"1458",1794,NA,"Rural",35
+"1459",5636,NA,"Small central metro",43.9
+"1460",36565,144,"Micropolitan",54.2
+"1461",571327,2012,"Medium central metro",66.9
+"1462",1693,NA,"Rural",39.3
+"1463",5462,NA,"Rural",52.2
+"1464",2979,NA,"Rural",38.7
+"1465",2627,NA,"Rural",27.7
+"1466",4676,NA,"Rural",44.8
+"1467",21513,NA,"Micropolitan",45.3
+"1468",1837,NA,"Rural",45.5
+"1469",1969,NA,"Rural",30.2
+"1470",1990,NA,"Rural",40.2
+"1471",623,NA,"Rural",20.7
+"1472",2356,NA,"Rural",40.7
+"1473",61353,242,"Small central metro",49.6
+"1474",9324,NA,"Small central metro",46.4
+"1475",3380,NA,"Rural",40.3
+"1476",922,NA,"Rural",25.8
+"1477",2762,NA,"Rural",34.1
+"1478",10067,NA,"Micropolitan",43
+"1479",682,NA,"Rural",42.5
+"1480",6445,NA,"Small central metro",42.4
+"1481",7046,NA,"Micropolitan",55.6
+"1482",5071,NA,"Rural",54.8
+"1483",6495,NA,"Micropolitan",47.1
+"1484",8034,NA,"Micropolitan",37.8
+"1485",806,NA,"Rural",29
+"1486",3632,NA,"Rural",35
+"1487",8332,NA,"Rural",49.7
+"1488",319090,859,"Medium central metro",66.9
+"1489",34914,197,"Micropolitan",33.3
+"1490",748,NA,"Rural",22.1
+"1491",664,NA,"Rural",29.8
+"1492",494,NA,"Rural",14.8
+"1493",35099,139,"Micropolitan",45.9
+"1494",7755,NA,"Small central metro",43.7
+"1495",4642,NA,"Rural",35.7
+"1496",3519,NA,"Rural",28.9
+"1497",6972,NA,"Micropolitan",50.3
+"1498",4148,NA,"Rural",49.9
+"1499",16012,NA,"Micropolitan",56.4
+"1500",2613,NA,"Rural",43.5
+"1501",2891,NA,"Rural",41.1
+"1502",9034,NA,"Micropolitan",40.2
+"1503",7148,NA,"Rural",37.3
+"1504",33470,NA,"Micropolitan",47.1
+"1505",5213,NA,"Rural",41.7
+"1506",10724,NA,"Micropolitan",37.2
+"1507",7865,NA,"Micropolitan",52.3
+"1508",1357,NA,"Rural",37.7
+"1509",14224,NA,"Micropolitan",53.1
+"1510",187196,212,"Medium central metro",66.3
+"1511",21578,NA,"Medium central metro",52.6
+"1512",35618,199,"Micropolitan",41.8
+"1513",17284,NA,"Medium central metro",50.3
+"1514",5246,NA,"Rural",32.4
+"1515",3001,NA,"Rural",39.5
+"1516",1166,NA,"Rural",25.2
+"1517",5920,NA,"Rural",28.6
+"1518",5003,NA,"Rural",48
+"1519",722,NA,"Rural",24.7
+"1520",7224,NA,"Rural",76
+"1521",4158,NA,"Rural",33.2
+"1522",20729,NA,"Medium central metro",56.4
+"1523",9385,NA,"Micropolitan",41.6
+"1524",3487,NA,"Rural",38.5
+"1525",783,NA,"Rural",31.8
+"1526",13679,NA,"Micropolitan",52.2
+"1527",24909,111,"Micropolitan",54
+"1528",2266715,9419,"Large central metro",57.8
+"1529",48905,NA,"Micropolitan",51.5
+"1530",52778,109,"Micropolitan",42.7
+"1531",873,NA,"Rural",41.4
+"1532",2029,NA,"Rural",27.6
+"1533",16831,NA,"Micropolitan",42.4
+"1534",5532,NA,"Micropolitan",40.6
+"1535",5183,NA,"Rural",38.7
+"1536",57510,NA,"Micropolitan",42
+"1537",4505,NA,"Micropolitan",59.8
+"1538",46523,NA,"Micropolitan",46.7
+"1539",6725,NA,"Rural",36.3
+"1540",4123,NA,"Medium central metro",22.4
+"1541",471519,1654,"Medium central metro",64.5
+"1542",9580,NA,"Micropolitan",53.6
+"1543",55916,405,"Small central metro",64.5
+"1544",61303,192,"Micropolitan",62.6
+"1545",48910,NA,"Micropolitan",73.3
+"1546",76085,142,"Micropolitan",62.5
+"1547",31563,121,"Micropolitan",67.3
+"1548",89886,201,"Micropolitan",75.6
+"1549",417025,1093,"Medium central metro",63.8
+"1550",151391,355,"Micropolitan",69.1
+"1551",309769,504,"Large central metro",67.6
+"1552",130633,261,"Large central metro",63.7
+"1553",43146,NA,"Micropolitan",62.5
+"1554",263670,1072,"Medium central metro",67.4
+"1555",932202,4189,"Large central metro",77.8
+"1556",445349,1313,"Large central metro",74.8
+"1557",506471,2072,"Large central metro",69.3
+"1558",92039,267,"Small central metro",74.3
+"1559",149527,628,"Small central metro",52.8
+"1560",798975,3994,"Large central metro",72.7
+"1561",291636,952,"Large central metro",62.5
+"1562",672391,2201,"Large central metro",78.1
+"1563",124371,294,"Large central metro",71.2
+"1564",367430,1233,"Medium central metro",71.4
+"1565",825062,3335,"Large central metro",73.9
+"1566",618795,2527,"Large central metro",68.4
+"1567",491845,2197,"Large central metro",77.8
+"1568",607186,2732,"Large central metro",54.8
+"1569",501826,2055,"Large central metro",70.4
+"1570",62385,171,"Large central metro",55.9
+"1571",328934,885,"Large central metro",76.4
+"1572",140488,377,"Large central metro",63.1
+"1573",556341,2165,"Large central metro",71.6
+"1574",105267,367,"Medium central metro",68.5
+"1575",679121,3338,"Medium central metro",70.4
+"1576",3527,NA,"Rural",46.1
+"1577",64615,335,"Micropolitan",45.1
+"1578",26675,113,"Micropolitan",70.9
+"1579",11941,NA,"Micropolitan",62.2
+"1580",48954,184,"Micropolitan",53.7
+"1581",1748,NA,"Rural",50.6
+"1582",218195,948,"Small central metro",75.8
+"1583",58460,189,"Micropolitan",47.2
+"1584",26998,NA,"Micropolitan",69.5
+"1585",4300,NA,"Micropolitan",70
+"1586",625,NA,"Rural",58.1
+"1587",4198,NA,"Rural",58.9
+"1588",71070,209,"Micropolitan",44.5
+"1589",19572,NA,"Micropolitan",58.9
+"1590",19369,NA,"Micropolitan",84.4
+"1591",23709,NA,"Micropolitan",75.1
+"1592",71367,315,"Micropolitan",88.9
+"1593",4521,NA,"Rural",64.8
+"1594",67490,155,"Micropolitan",61.2
+"1595",8253,NA,"Micropolitan",50.2
+"1596",38921,104,"Micropolitan",79.1
+"1597",18500,NA,"Micropolitan",38.7
+"1598",146748,808,"Medium central metro",72
+"1599",123958,809,"Small central metro",74.9
+"1600",27277,NA,"Micropolitan",67.8
+"1601",150358,459,"Small central metro",81.6
+"1602",10791,NA,"Micropolitan",66.7
+"1603",16637,NA,"Micropolitan",68.9
+"1604",32723,NA,"Micropolitan",82.8
+"1605",15461,NA,"Medium central metro",48.5
+"1606",4059,NA,"Rural",44.9
+"1607",76688,102,"Medium central metro",59.7
+"1608",305506,1233,"Medium central metro",74.9
+"1609",46091,121,"Micropolitan",44.5
+"1610",1418207,7160,"Large central metro",75.1
+"1611",190488,913,"Medium central metro",63.8
+"1612",76117,280,"Micropolitan",56.5
+"1613",76576,162,"Micropolitan",59.3
+"1614",126903,409,"Micropolitan",59.5
+"1615",83456,374,"Small central metro",60.6
+"1616",47207,142,"Micropolitan",61.3
+"1617",80485,165,"Micropolitan",72.7
+"1618",59461,230,"Micropolitan",74.9
+"1619",47581,131,"Micropolitan",59.5
+"1620",44135,NA,"Micropolitan",57.5
+"1621",294218,1000,"Large central metro",70.5
+"1622",918702,4092,"Large central metro",70.1
+"1623",36885,NA,"Micropolitan",71.8
+"1624",50022,NA,"Micropolitan",70.3
+"1625",53383,184,"Micropolitan",54.6
+"1626",57280,236,"Micropolitan",60.1
+"1627",47188,NA,"Micropolitan",62.8
+"1628",4416,NA,"Rural",83.3
+"1629",61319,105,"Medium central metro",59.3
+"1630",109834,192,"Small central metro",73.7
+"1631",2559903,11110,"Large central metro",72.1
+"1632",26296,NA,"Micropolitan",52.2
+"1633",62914,125,"Large central metro",59.7
+"1634",70941,181,"Medium central metro",61.2
+"1635",741770,2643,"Large central metro",72.5
+"1636",49221,244,"Micropolitan",67.2
+"1637",1356924,6701,"Large central metro",82.1
+"1638",1628706,7543,"Large central metro",85.9
+"1639",209281,620,"Large central metro",66.6
+"1640",228671,1060,"Medium central metro",63
+"1641",460528,1805,"Medium central metro",73.7
+"1642",109777,331,"Large central metro",68.5
+"1643",384940,1402,"Large central metro",65.1
+"1644",40352,NA,"Large central metro",55.2
+"1645",117124,180,"Medium central metro",59.6
+"1646",59493,249,"Micropolitan",61.9
+"1647",98320,139,"Large central metro",73.9
+"1648",2253858,9554,"Large central metro",86.6
+"1649",158714,329,"Medium central metro",70.8
+"1650",476143,2344,"Large central metro",74.3
+"1651",325789,1358,"Large central metro",64.4
+"1652",107740,280,"Micropolitan",61.1
+"1653",229863,348,"Medium central metro",79.6
+"1654",155299,421,"Medium central metro",73.2
+"1655",30999,NA,"Medium central metro",57
+"1656",17807,NA,"Micropolitan",62.4
+"1657",34016,NA,"Micropolitan",53.8
+"1658",95379,289,"Micropolitan",60.3
+"1659",1476601,6600,"Large central metro",76
+"1660",75432,154,"Micropolitan",61.1
+"1661",48203,NA,"Medium central metro",60.7
+"1662",102180,148,"Small central metro",79.7
+"1663",177573,327,"Small central metro",73.1
+"1664",63944,299,"Small central metro",77.6
+"1665",61204,NA,"Small central metro",67
+"1666",89918,168,"Large central metro",62.8
+"1667",967506,3919,"Large central metro",81.7
+"1668",39859,NA,"Micropolitan",51.6
+"1669",24913,NA,"Large central metro",53.2
+"1670",169509,445,"Small central metro",59.4
+"1671",37497,NA,"Medium central metro",46.1
+"1672",11137,NA,"Rural",60.3
+"1673",24446,NA,"Micropolitan",46.5
+"1674",27203,105,"Micropolitan",54.8
+"1675",17557,NA,"Rural",54.8
+"1676",46994,188,"Micropolitan",55.7
+"1677",18947,NA,"Micropolitan",52.3
+"1678",32722,NA,"Micropolitan",63.3
+"1679",142820,268,"Medium central metro",63.8
+"1680",261191,1201,"Medium central metro",68
+"1681",90485,427,"Medium central metro",47.6
+"1682",216453,903,"Large central metro",57.6
+"1683",82178,347,"Medium central metro",47.5
+"1684",10867,NA,"Rural",62.5
+"1685",69473,176,"Micropolitan",65.2
+"1686",22604,NA,"Rural",50.2
+"1687",159551,943,"Medium central metro",56
+"1688",74470,130,"Medium central metro",63.7
+"1689",28612,102,"Rural",57.7
+"1690",13943,NA,"Micropolitan",57.2
+"1691",11231,NA,"Rural",54.8
+"1692",97947,607,"Micropolitan",50.3
+"1693",55508,210,"Micropolitan",45
+"1694",102139,393,"Small central metro",62.8
+"1695",335509,981,"Medium central metro",61.2
+"1696",27763,NA,"Large central metro",60.1
+"1697",37009,NA,"Micropolitan",76.5
+"1698",167609,437,"Medium central metro",48.2
+"1699",42846,NA,"Medium central metro",57.7
+"1700",58741,152,"Micropolitan",45.1
+"1701",321488,926,"Medium central metro",72
+"1702",51472,191,"Small central metro",49.1
+"1703",382295,1998,"Medium central metro",63.2
+"1704",69685,NA,"Large central metro",52.5
+"1705",224529,1013,"Large central metro",51
+"1706",11562,NA,"Large central metro",53.6
+"1707",8441,NA,"Rural",50.2
+"1708",60443,113,"Micropolitan",62.5
+"1709",21069,NA,"Rural",62.6
+"1710",537174,1988,"Medium central metro",62.7
+"1711",50010,184,"Micropolitan",54.3
+"1712",135976,283,"Micropolitan",42.5
+"1713",62317,243,"Medium central metro",58.4
+"1714",117417,512,"Medium central metro",59.2
+"1715",23677,146,"Micropolitan",48.5
+"1716",55234,NA,"Medium central metro",41
+"1717",4937,NA,"Rural",66.7
+"1718",181806,684,"Large central metro",53.3
+"1719",43938,123,"Micropolitan",55.5
+"1720",209339,384,"Large central metro",53.2
+"1721",9419,NA,"Small central metro",54.9
+"1722",61779,129,"Micropolitan",57.3
+"1723",55949,256,"Micropolitan",54.8
+"1724",86111,238,"Large central metro",49.1
+"1725",45756,106,"Micropolitan",53
+"1726",35858,109,"Micropolitan",59
+"1727",21755,NA,"Medium central metro",57.2
+"1728",22440,NA,"Micropolitan",52.6
+"1729",1110356,3065,"Large central metro",63.8
+"1730",14964,NA,"Micropolitan",50.4
+"1731",27173,NA,"Micropolitan",42.8
+"1732",100880,774,"Micropolitan",60.5
+"1733",94298,387,"Small central metro",59
+"1734",234473,894,"Medium central metro",64.2
+"1735",19483,NA,"Rural",48.4
+"1736",197938,350,"Small central metro",61.4
+"1737",148476,509,"Medium central metro",79.9
+"1738",12726,NA,"Small central metro",57.4
+"1739",39824,242,"Micropolitan",54.8
+"1740",63060,NA,"Medium central metro",52.7
+"1741",13463,NA,"Rural",48.9
+"1742",39490,NA,"Medium central metro",56.9
+"1743",180742,827,"Small central metro",54.7
+"1744",20724,NA,"Rural",44.1
+"1745",143667,304,"Medium central metro",44.6
+"1746",44829,184,"Micropolitan",47.9
+"1747",130625,431,"Micropolitan",42.6
+"1748",91010,247,"Medium central metro",50.8
+"1749",142088,614,"Large central metro",45.1
+"1750",67029,319,"Micropolitan",42.1
+"1751",63531,126,"Micropolitan",51.8
+"1752",34823,291,"Micropolitan",48.1
+"1753",62806,168,"Micropolitan",43.5
+"1754",45591,NA,"Medium central metro",47.2
+"1755",71783,528,"Micropolitan",52.1
+"1756",14271,NA,"Rural",58.1
+"1757",34385,NA,"Micropolitan",57
+"1758",4016,NA,"Rural",49.1
+"1759",239859,521,"Large central metro",56
+"1760",44535,197,"Micropolitan",57.6
+"1761",1111761,2035,"Large central metro",74.2
+"1762",19731,NA,"Rural",56
+"1763",11580,NA,"Micropolitan",50.6
+"1764",56177,156,"Micropolitan",56
+"1765",123131,519,"Small central metro",49.1
+"1766",68412,240,"Micropolitan",47.3
+"1767",81801,344,"Micropolitan",54.1
+"1768",37667,NA,"Medium central metro",49.9
+"1769",18069,NA,"Rural",51.8
+"1770",2216,NA,"Rural",48.4
+"1771",10415,NA,"Micropolitan",57.9
+"1772",6832,NA,"Rural",52.1
+"1773",928,NA,"Rural",21
+"1774",6282,NA,"Rural",50.5
+"1775",3024,NA,"Rural",38.6
+"1776",2115,NA,"Rural",39.4
+"1777",95626,552,"Small central metro",51.2
+"1778",181923,1054,"Small central metro",60.9
+"1779",3762,NA,"Rural",60.6
+"1780",4872,NA,"Rural",53
+"1781",2264,NA,"Rural",41.2
+"1782",4424,NA,"Rural",25.1
+"1783",2287,NA,"Rural",51.7
+"1784",3241,NA,"Rural",34.4
+"1785",3210,NA,"Rural",54.6
+"1786",1761,NA,"Rural",30.4
+"1787",69451,242,"Small central metro",59.2
+"1788",2274,NA,"Rural",23.8
+"1789",2231,NA,"Rural",46.5
+"1790",2499,NA,"Rural",39.2
+"1791",2480,NA,"Rural",33.4
+"1792",4046,NA,"Rural",48.6
+"1793",1850,NA,"Rural",37.4
+"1794",5745,NA,"Rural",42.1
+"1795",2497,NA,"Rural",43.9
+"1796",15024,NA,"Rural",22.6
+"1797",9450,NA,"Rural",46.5
+"1798",8187,NA,"Micropolitan",38.8
+"1799",31364,NA,"Small central metro",45.8
+"1800",10545,NA,"Rural",42.7
+"1801",2879,NA,"Rural",71
+"1802",1959,NA,"Small central metro",26
+"1803",6801,NA,"Rural",55.9
+"1804",3975,NA,"Micropolitan",45.5
+"1805",11519,NA,"Micropolitan",56.9
+"1806",5218,NA,"Rural",59.8
+"1807",2327,NA,"Rural",39.1
+"1808",16177,NA,"Micropolitan",52
+"1809",14176,NA,"Rural",70.5
+"1810",3898,NA,"Rural",59.4
+"1811",1315,NA,"Rural",36.7
+"1812",4230,NA,"Small central metro",61.8
+"1813",750,NA,"Rural",11.1
+"1814",31489,NA,"Micropolitan",36.9
+"1815",1890,NA,"Rural",47.1
+"1816",20704,NA,"Micropolitan",53.4
+"1817",2189,NA,"Rural",47.4
+"1818",8036,NA,"Rural",54.4
+"1819",10641,NA,"Micropolitan",58.5
+"1820",67641,355,"Micropolitan",50.6
+"1821",3834,NA,"Rural",43.6
+"1822",37589,NA,"Micropolitan",30.4
+"1823",27698,101,"Micropolitan",35
+"1824",102351,896,"Small central metro",43.8
+"1825",53484,213,"Micropolitan",43.3
+"1826",97241,448,"Micropolitan",52.9
+"1827",65327,130,"Micropolitan",51.5
+"1828",45656,145,"Micropolitan",39.6
+"1829",67006,186,"Small central metro",48.3
+"1830",43432,NA,"Large central metro",41.1
+"1831",383134,1265,"Large central metro",57
+"1832",26914,NA,"Medium central metro",44.1
+"1833",38885,NA,"Micropolitan",45.8
+"1834",134083,637,"Small central metro",53
+"1835",206428,327,"Large central metro",56.9
+"1836",41968,155,"Micropolitan",49.1
+"1837",101883,446,"Micropolitan",49.4
+"1838",36600,NA,"Micropolitan",38.9
+"1839",41494,230,"Micropolitan",45.2
+"1840",1235072,6073,"Large central metro",65.1
+"1841",51113,161,"Micropolitan",39.5
+"1842",38087,184,"Micropolitan",49.2
+"1843",209177,208,"Large central metro",75.2
+"1844",74266,386,"Micropolitan",59.4
+"1845",157574,539,"Large central metro",57.7
+"1846",28525,NA,"Micropolitan",43.7
+"1847",1316756,5129,"Large central metro",64.5
+"1848",42126,116,"Medium central metro",52.6
+"1849",29898,255,"Micropolitan",46.8
+"1850",93649,428,"Large central metro",61.5
+"1851",168937,559,"Medium central metro",63.1
+"1852",38875,130,"Micropolitan",44.5
+"1853",817473,3632,"Large central metro",63
+"1854",75783,454,"Micropolitan",50.8
+"1855",31365,NA,"Micropolitan",38.8
+"1856",15040,NA,"Micropolitan",43.1
+"1857",27006,NA,"Micropolitan",54.1
+"1858",43161,NA,"Micropolitan",38
+"1859",28264,NA,"Large central metro",48.2
+"1860",43960,206,"Micropolitan",18.1
+"1861",58266,188,"Micropolitan",47.8
+"1862",32413,NA,"Micropolitan",47.4
+"1863",65325,347,"Small central metro",50.4
+"1864",62322,206,"Micropolitan",43.2
+"1865",230149,708,"Large central metro",65.6
+"1866",59463,NA,"Medium central metro",49.7
+"1867",176862,500,"Large central metro",54.9
+"1868",45672,117,"Micropolitan",42.9
+"1869",309833,1161,"Large central metro",63.8
+"1870",428348,2626,"Medium central metro",58.2
+"1871",44731,NA,"Large central metro",51.2
+"1872",228683,1554,"Medium central metro",57.2
+"1873",65093,447,"Micropolitan",48.3
+"1874",179746,379,"Large central metro",64.1
+"1875",22907,NA,"Micropolitan",47
+"1876",41172,116,"Micropolitan",38.3
+"1877",106987,439,"Medium central metro",47.7
+"1878",13654,NA,"Rural",46.8
+"1879",531687,3420,"Medium central metro",56.6
+"1880",14508,NA,"Micropolitan",42.4
+"1881",35328,NA,"Large central metro",41.7
+"1882",86215,480,"Micropolitan",48.6
+"1883",14424,NA,"Micropolitan",43.7
+"1884",40525,NA,"Micropolitan",61.7
+"1885",18672,NA,"Micropolitan",42.3
+"1886",36134,NA,"Large central metro",41
+"1887",58457,189,"Large central metro",50.7
+"1888",27772,NA,"Micropolitan",44.3
+"1889",162466,431,"Medium central metro",57.4
+"1890",40882,NA,"Micropolitan",43.2
+"1891",33861,NA,"Micropolitan",48.8
+"1892",121154,598,"Small central metro",44.2
+"1893",76666,483,"Micropolitan",50.6
+"1894",58518,229,"Micropolitan",52.8
+"1895",75314,411,"Micropolitan",49.7
+"1896",55178,161,"Micropolitan",49
+"1897",48590,125,"Micropolitan",36.1
+"1898",370606,2259,"Medium central metro",54.8
+"1899",541013,2268,"Medium central metro",63.5
+"1900",197974,843,"Medium central metro",55
+"1901",91987,495,"Micropolitan",44.5
+"1902",58988,120,"Large central metro",62.5
+"1903",28275,114,"Micropolitan",43.5
+"1904",13085,NA,"Rural",39.9
+"1905",234602,534,"Large central metro",64.1
+"1906",59911,430,"Micropolitan",55.5
+"1907",115710,455,"Micropolitan",45.7
+"1908",36692,130,"Micropolitan",44.9
+"1909",130817,278,"Medium central metro",62
+"1910",21772,NA,"Micropolitan",47.7
+"1911",22194,NA,"Micropolitan",36.8
+"1912",5702,NA,"Rural",45.3
+"1913",13758,NA,"Rural",36.4
+"1914",5311,NA,"Rural",31.3
+"1915",21859,118,"Micropolitan",41.4
+"1916",71887,168,"Micropolitan",95
+"1917",9429,NA,"Micropolitan",46.7
+"1918",47995,225,"Micropolitan",43.2
+"1919",28762,NA,"Micropolitan",65.9
+"1920",148306,258,"Large central metro",58.4
+"1921",48111,296,"Micropolitan",44.3
+"1922",48657,242,"Micropolitan",48.6
+"1923",14672,NA,"Micropolitan",35.6
+"1924",2137,NA,"Rural",33
+"1925",284014,898,"Large central metro",56.3
+"1926",5495,NA,"Rural",40.9
+"1927",125922,288,"Small central metro",65.2
+"1928",120749,510,"Small central metro",61
+"1929",5666,NA,"Small central metro",50.2
+"1930",14142,NA,"Micropolitan",53.7
+"1931",71522,120,"Medium central metro",43.9
+"1932",29003,118,"Micropolitan",48.7
+"1933",43009,164,"Micropolitan",42.4
+"1934",4891,NA,"Rural",25.4
+"1935",3859,NA,"Rural",35.1
+"1936",61056,382,"Micropolitan",50.5
+"1937",27711,NA,"Micropolitan",46.6
+"1938",143476,491,"Small central metro",77.1
+"1939",55834,156,"Large central metro",38.2
+"1940",4333,NA,"Rural",42.7
+"1941",5712,NA,"Micropolitan",37
+"1942",2653,NA,"Rural",49.5
+"1943",3688,NA,"Rural",45.2
+"1944",12627,NA,"Micropolitan",41.4
+"1945",13279,NA,"Micropolitan",46
+"1946",24530,130,"Micropolitan",54.1
+"1947",6002,NA,"Rural",42.1
+"1948",11085,NA,"Rural",42.6
+"1949",54018,253,"Micropolitan",59.4
+"1950",43538,203,"Micropolitan",43
+"1951",15765,NA,"Micropolitan",47.8
+"1952",8708,NA,"Micropolitan",51.4
+"1953",10073,NA,"Micropolitan",34.6
+"1954",49853,NA,"Medium central metro",39.2
+"1955",34877,NA,"Large central metro",40.5
+"1956",48011,NA,"Large central metro",35.2
+"1957",10253,NA,"Rural",42.3
+"1958",40474,NA,"Large central metro",48.3
+"1959",32832,103,"Micropolitan",36.1
+"1960",38837,120,"Micropolitan",64.1
+"1961",19596,NA,"Micropolitan",54.4
+"1962",7629,NA,"Rural",50.2
+"1963",16931,NA,"Micropolitan",45
+"1964",41100,NA,"Micropolitan",43.8
+"1965",14073,NA,"Micropolitan",45
+"1966",67997,494,"Micropolitan",52
+"1967",11131,NA,"Micropolitan",62.7
+"1968",10076,NA,"Micropolitan",44.1
+"1969",11993,NA,"Micropolitan",46.9
+"1970",797434,5118,"Large central metro",65.4
+"1971",9498,NA,"Micropolitan",44.2
+"1972",38465,NA,"Medium central metro",42.8
+"1973",46963,NA,"Medium central metro",34.9
+"1974",31127,123,"Micropolitan",39.1
+"1975",16376,NA,"Medium central metro",49.5
+"1976",81784,192,"Micropolitan",49.2
+"1977",21108,NA,"Micropolitan",48.6
+"1978",43654,262,"Micropolitan",45.5
+"1979",38284,237,"Micropolitan",51.2
+"1980",72592,382,"Micropolitan",49.7
+"1981",11096,NA,"Rural",36.2
+"1982",3583,NA,"Rural",36.8
+"1983",4485414,18691,"Large central metro",57.5
+"1984",92459,207,"Medium central metro",46.9
+"1985",24258,NA,"Micropolitan",52.9
+"1986",41569,NA,"Medium central metro",40.7
+"1987",43143,263,"Micropolitan",47.8
+"1988",19983,NA,"Micropolitan",44.7
+"1989",7250,NA,"Micropolitan",50.1
+"1990",651552,4410,"Medium central metro",62.1
+"1991",81289,NA,"Medium central metro",47.4
+"1992",51527,404,"Micropolitan",44
+"1993",10916,NA,"Micropolitan",39.3
+"1994",212181,1329,"Small central metro",41.8
+"1995",8793,NA,"Micropolitan",41.6
+"1996",20211,NA,"Micropolitan",38.2
+"1997",110924,426,"Micropolitan",77.9
+"1998",1047279,4760,"Medium central metro",69.3
+"1999",462789,744,"Large central metro",54.1
+"2000",46498,NA,"Micropolitan",95
+"2001",235099,1104,"Small central metro",46.9
+"2002",213787,1169,"Small central metro",70.5
+"2003",16124,NA,"Micropolitan",70.3
+"2004",93053,150,"Small central metro",75
+"2005",418187,717,"Large central metro",69
+"2006",40224,NA,"Micropolitan",66.8
+"2007",52354,NA,"Large central metro",61.1
+"2008",64487,146,"Micropolitan",57.4
+"2009",24404,NA,"Micropolitan",51.1
+"2010",22925,NA,"Micropolitan",55.9
+"2011",197692,567,"Small central metro",69.2
+"2012",110980,375,"Micropolitan",52.8
+"2013",1912,NA,"Rural",45.2
+"2014",7199,NA,"Rural",45.4
+"2015",7393,NA,"Micropolitan",46.1
+"2016",23382,NA,"Micropolitan",85.3
+"2017",220944,636,"Small central metro",58.3
+"2018",24658,NA,"Micropolitan",63.6
+"2019",87487,362,"Small central metro",50.2
+"2020",68238,230,"Micropolitan",50.8
+"2021",7869,NA,"Micropolitan",39.5
+"2022",382067,705,"Medium central metro",67.7
+"2023",49962,NA,"Micropolitan",71.3
+"2024",129749,208,"Small central metro",55.6
+"2025",30571,NA,"Micropolitan",48.3
+"2026",347818,820,"Medium central metro",63.2
+"2027",11603,NA,"Micropolitan",56
+"2028",812855,1888,"Large central metro",79.4
+"2029",86085,NA,"Medium central metro",63.6
+"2030",1780,NA,"Rural",57.9
+"2031",27036,NA,"Micropolitan",64.7
+"2032",77950,155,"Micropolitan",55.9
+"2033",26835,NA,"Micropolitan",49.3
+"2034",7208,NA,"Rural",59.4
+"2035",26682,NA,"Micropolitan",66
+"2036",601592,905,"Large central metro",76.4
+"2037",1332,NA,"Rural",54.4
+"2038",107100,191,"Large central metro",63.5
+"2039",103009,314,"Small central metro",55.8
+"2040",1216045,5409,"Large central metro",70
+"2041",64735,240,"Large central metro",60.2
+"2042",163929,707,"Large central metro",51.7
+"2043",47888,121,"Micropolitan",39
+"2044",421164,1625,"Medium central metro",60.8
+"2045",121829,886,"Small central metro",52.6
+"2046",60323,403,"Micropolitan",43.2
+"2047",628270,2023,"Large central metro",73.4
+"2048",187853,805,"Large central metro",64.4
+"2049",130192,775,"Small central metro",56.2
+"2050",4447,NA,"Micropolitan",54.9
+"2051",64182,235,"Medium central metro",60.8
+"2052",162385,410,"Small central metro",59.9
+"2053",524989,1478,"Large central metro",78.4
+"2054",38438,152,"Micropolitan",44
+"2055",79255,472,"Micropolitan",50
+"2056",38632,NA,"Micropolitan",45.1
+"2057",64964,134,"Small central metro",62.1
+"2058",84629,333,"Micropolitan",49.4
+"2059",253370,1204,"Medium central metro",70.2
+"2060",278299,1484,"Medium central metro",63.8
+"2061",566747,1928,"Large central metro",75.2
+"2062",29910,NA,"Micropolitan",56.1
+"2063",269728,1215,"Medium central metro",59.9
+"2064",129274,619,"Large central metro",57.4
+"2065",7247,NA,"Rural",72.2
+"2066",155027,830,"Small central metro",49.7
+"2067",14530,NA,"Rural",36.1
+"2068",36233,NA,"Micropolitan",50.7
+"2069",45144,178,"Micropolitan",51.4
+"2070",84073,364,"Micropolitan",45.8
+"2071",43425,197,"Micropolitan",48.6
+"2072",24763,NA,"Micropolitan",40.9
+"2073",209674,1043,"Medium central metro",70.5
+"2074",545724,2030,"Medium central metro",59.7
+"2075",85512,390,"Micropolitan",54.3
+"2076",141793,469,"Small central metro",56.3
+"2077",369318,2357,"Medium central metro",73
+"2078",317417,1589,"Medium central metro",64.4
+"2079",113299,694,"Small central metro",52.7
+"2080",40625,138,"Micropolitan",49.7
+"2081",109424,483,"Medium central metro",53.6
+"2082",46138,377,"Micropolitan",50.1
+"2083",170271,576,"Small central metro",60.1
+"2084",830915,3440,"Large central metro",77.4
+"2085",18230,860,"Small central metro",79.1
+"2086",305285,911,"Medium central metro",68.3
+"2087",90843,288,"Micropolitan",58
+"2088",46272,NA,"Medium central metro",49.3
+"2089",1584064,5359,"Large central metro",69.9
+"2090",55809,NA,"Large central metro",58.5
+"2091",16526,NA,"Rural",38
+"2092",141359,563,"Micropolitan",60.6
+"2093",40372,NA,"Micropolitan",43.6
+"2094",73447,406,"Micropolitan",48.6
+"2095",6066,NA,"Rural",53.9
+"2096",40328,NA,"Micropolitan",47
+"2097",40591,171,"Micropolitan",46.6
+"2098",44923,254,"Micropolitan",57.7
+"2099",50668,219,"Micropolitan",46
+"2100",39191,181,"Micropolitan",49.7
+"2101",206865,713,"Large central metro",64.2
+"2102",51361,195,"Micropolitan",61.4
+"2103",348899,1126,"Large central metro",58
+"2104",26794,NA,"Medium central metro",60.3
+"2105",449058,1631,"Medium central metro",59.4
+"2106",48479,NA,"Large central metro",78.9
+"2107",164292,525,"Large central metro",78.5
+"2108",82082,NA,"Large central metro",75.4
+"2109",638931,3023,"Large central metro",70.8
+"2110",125577,235,"Large central metro",78.5
+"2111",24527,NA,"Micropolitan",40.1
+"2112",170872,489,"Medium central metro",46.2
+"2113",8688,NA,"Micropolitan",58.8
+"2114",202558,1122,"Medium central metro",40.6
+"2115",14066,NA,"Micropolitan",51.4
+"2116",20866,NA,"Micropolitan",56.5
+"2117",192122,403,"Small central metro",65.8
+"2118",227907,341,"Medium central metro",52.4
+"2119",14553,NA,"Medium central metro",41.2
+"2120",411406,1734,"Medium central metro",65.8
+"2121",57300,110,"Micropolitan",34.4
+"2122",32244,NA,"Large central metro",46.2
+"2123",45650,147,"Micropolitan",37
+"2124",33745,NA,"Micropolitan",49.3
+"2125",37677,232,"Micropolitan",48.6
+"2126",66618,291,"Small central metro",48.9
+"2127",30479,NA,"Micropolitan",44.8
+"2128",162809,323,"Medium central metro",53.6
+"2129",27260,NA,"Medium central metro",60.2
+"2130",22347,NA,"Medium central metro",64.7
+"2131",138293,1364,"Small central metro",55.2
+"2132",62680,398,"Micropolitan",54.7
+"2133",523542,2540,"Medium central metro",55.6
+"2134",70811,485,"Micropolitan",48.3
+"2135",19222,NA,"Micropolitan",64.2
+"2136",354081,1365,"Medium central metro",56.7
+"2137",30073,127,"Small central metro",37.8
+"2138",66551,208,"Medium central metro",58.9
+"2139",98012,264,"Large central metro",46.4
+"2140",67493,234,"Medium central metro",38.7
+"2141",16828,NA,"Micropolitan",48.2
+"2142",298750,1052,"Medium central metro",55.8
+"2143",9463,NA,"Rural",59
+"2144",30657,105,"Micropolitan",49.1
+"2145",26118,NA,"Micropolitan",44
+"2146",38440,142,"Micropolitan",52.7
+"2147",79546,420,"Micropolitan",45.2
+"2148",86175,458,"Micropolitan",56.1
+"2149",126884,452,"Medium central metro",46.8
+"2150",415759,1504,"Medium central metro",59.5
+"2151",20473,NA,"Medium central metro",30.4
+"2152",319785,2079,"Medium central metro",44
+"2153",106721,434,"Small central metro",57.2
+"2154",27316,NA,"Medium central metro",41.9
+"2155",30368,NA,"Micropolitan",57.4
+"2156",280979,769,"Large central metro",49.7
+"2157",2751,NA,"Rural",55.1
+"2158",18453,NA,"Micropolitan",49.6
+"2159",3365,NA,"Rural",59.6
+"2160",6901,NA,"Rural",58
+"2161",35077,NA,"Micropolitan",52.2
+"2162",38839,160,"Micropolitan",57.1
+"2163",5297,NA,"Rural",56
+"2164",1962,NA,"Rural",61.7
+"2165",10429,NA,"Micropolitan",40.3
+"2166",1376,NA,"Rural",47.1
+"2167",9292,NA,"Rural",55.2
+"2168",3736,NA,"Rural",50.8
+"2169",14070,NA,"Micropolitan",68.4
+"2170",28009,NA,"Micropolitan",55.1
+"2171",4086,NA,"Rural",56
+"2172",8972,NA,"Small central metro",50.9
+"2173",19775,NA,"Micropolitan",62
+"2174",5424,NA,"Rural",65.9
+"2175",4351,NA,"Rural",46.7
+"2176",5892,NA,"Rural",75.7
+"2177",2921,NA,"Rural",52.3
+"2178",3829,NA,"Rural",46.3
+"2179",6713,NA,"Micropolitan",62.5
+"2180",2299,NA,"Rural",55.1
+"2181",7052,NA,"Micropolitan",49.4
+"2182",4185,NA,"Rural",50.8
+"2183",1899,NA,"Rural",42
+"2184",6164,NA,"Rural",47.2
+"2185",3191,NA,"Rural",49
+"2186",3453,NA,"Rural",43.7
+"2187",1298,NA,"Rural",18.8
+"2188",17526,NA,"Micropolitan",72.1
+"2189",7291,NA,"Rural",54.2
+"2190",1301,NA,"Rural",54.3
+"2191",3344,NA,"Rural",51.2
+"2192",2013,NA,"Rural",52.1
+"2193",903,NA,"Rural",74.2
+"2194",4939,NA,"Rural",68.2
+"2195",12797,NA,"Micropolitan",50.6
+"2196",25844,NA,"Micropolitan",57.8
+"2197",61128,NA,"Small central metro",59.5
+"2198",3781,NA,"Rural",65.9
+"2199",5586,NA,"Small central metro",57.7
+"2200",2379,NA,"Rural",40.3
+"2201",4935,NA,"Rural",52.5
+"2202",28332,NA,"Small central metro",54.7
+"2203",2061,NA,"Rural",36.6
+"2204",2216,NA,"Rural",54.7
+"2205",193134,1316,"Small central metro",67.3
+"2206",6576,NA,"Rural",49.5
+"2207",113775,466,"Small central metro",58.5
+"2208",2865,NA,"Rural",32.1
+"2209",2153,NA,"Rural",61
+"2210",10394,NA,"Rural",75.1
+"2211",2344,NA,"Rural",55.7
+"2212",6376,NA,"Rural",52.3
+"2213",3098,NA,"Rural",59.5
+"2214",1391,NA,"Rural",44.6
+"2215",10177,NA,"Rural",70.7
+"2216",5441,NA,"Micropolitan",44.9
+"2217",8384,NA,"Small central metro",54
+"2218",15932,NA,"Small central metro",51.9
+"2219",5435,NA,"Micropolitan",49.4
+"2220",22814,120,"Micropolitan",64.9
+"2221",2756,NA,"Rural",34.4
+"2222",76978,399,"Medium central metro",56.1
+"2223",49713,123,"Micropolitan",43.2
+"2224",16160,NA,"Micropolitan",44.5
+"2225",15064,NA,"Rural",37.1
+"2226",133088,498,"Medium central metro",52.4
+"2227",108110,426,"Small central metro",42
+"2228",39842,126,"Medium central metro",44
+"2229",14678,NA,"Large central metro",32.4
+"2230",27767,126,"Micropolitan",48.7
+"2231",56391,249,"Small central metro",40.6
+"2232",40667,NA,"Large central metro",59
+"2233",17297,NA,"Small central metro",36
+"2234",31959,156,"Micropolitan",46.4
+"2235",7615,NA,"Rural",30
+"2236",36004,217,"Micropolitan",49.8
+"2237",56520,216,"Micropolitan",46.4
+"2238",14230,NA,"Small central metro",48.8
+"2239",60520,296,"Micropolitan",47
+"2240",694144,3875,"Large central metro",65.4
+"2241",11663,NA,"Rural",38.3
+"2242",20490,NA,"Micropolitan",41.6
+"2243",53948,347,"Large central metro",48.9
+"2244",37159,210,"Micropolitan",40.5
+"2245",41133,NA,"Large central metro",57.3
+"2246",18523,NA,"Rural",34.1
+"2247",42208,182,"Micropolitan",41.4
+"2248",49133,104,"Micropolitan",45.8
+"2249",29464,114,"Micropolitan",39.5
+"2250",23320,NA,"Medium central metro",49.2
+"2251",69069,254,"Micropolitan",46.5
+"2252",13427,NA,"Rural",30.7
+"2253",64934,394,"Small central metro",42.9
+"2254",367804,2201,"Medium central metro",56.7
+"2255",6620,NA,"Rural",32.7
+"2256",25050,NA,"Micropolitan",46.9
+"2257",25652,NA,"Micropolitan",40.9
+"2258",56786,NA,"Medium central metro",44.6
+"2259",17304,NA,"Micropolitan",52.5
+"2260",28117,NA,"Micropolitan",41.5
+"2261",32345,124,"Micropolitan",47.8
+"2262",25178,NA,"Large central metro",42.6
+"2263",8201,NA,"Rural",43.7
+"2264",18582,NA,"Micropolitan",41.6
+"2265",11786,NA,"Rural",34.9
+"2266",54495,259,"Small central metro",50.3
+"2267",17788,NA,"Micropolitan",37.3
+"2268",470313,2613,"Medium central metro",60.3
+"2269",7016,NA,"Rural",35.3
+"2270",25633,NA,"Micropolitan",37.7
+"2271",44142,129,"Micropolitan",36.9
+"2272",12268,NA,"Micropolitan",35.7
+"2273",34366,NA,"Micropolitan",41.5
+"2274",54068,129,"Medium central metro",64.1
+"2275",53794,167,"Micropolitan",40.3
+"2276",25694,NA,"Micropolitan",47.6
+"2277",24602,NA,"Large central metro",33
+"2278",97984,1391,"Small central metro",54.8
+"2279",28907,NA,"Medium central metro",46.4
+"2280",34375,NA,"Micropolitan",42.8
+"2281",96387,636,"Large central metro",64.6
+"2282",12422,NA,"Rural",68.5
+"2283",46545,213,"Micropolitan",43.5
+"2284",208993,523,"Medium central metro",61.5
+"2285",6488,NA,"Rural",21.9
+"2286",21403,NA,"Medium central metro",52
+"2287",30069,157,"Micropolitan",41.9
+"2288",22241,NA,"Micropolitan",35.6
+"2289",8076,NA,"Rural",41.1
+"2290",5048,NA,"Rural",45.1
+"2291",16832,NA,"Small central metro",41.5
+"2292",80245,527,"Micropolitan",51.2
+"2293",33167,NA,"Micropolitan",43.2
+"2294",53382,208,"Medium central metro",44.6
+"2295",71813,220,"Large central metro",52.5
+"2296",332285,1301,"Large central metro",54.4
+"2297",22068,NA,"Micropolitan",36.8
+"2298",15026,NA,"Medium central metro",35.1
+"2299",98250,361,"Micropolitan",50.5
+"2300",937166,3977,"Large central metro",55.8
+"2301",20157,NA,"Large central metro",33.2
+"2302",13715,NA,"Rural",44.5
+"2303",158348,1427,"Medium central metro",56.7
+"2304",191283,767,"Large central metro",48.5
+"2305",61599,NA,"Large central metro",40.7
+"2306",11284,NA,"Large central metro",37
+"2307",17883,NA,"Small central metro",54.3
+"2308",19972,NA,"Medium central metro",35
+"2309",5872,NA,"Rural",58.7
+"2310",41277,134,"Micropolitan",41.5
+"2311",129375,972,"Small central metro",59.9
+"2312",16673,NA,"Rural",41.1
+"2313",33328,104,"Micropolitan",38.4
+"2314",27345,NA,"Micropolitan",42.6
+"2315",238412,436,"Large central metro",66.4
+"2316",144657,364,"Large central metro",53.5
+"2317",57735,224,"Micropolitan",39.9
+"2318",18705,NA,"Micropolitan",44.3
+"2319",86715,617,"Micropolitan",47.1
+"2320",23510,NA,"Medium central metro",57.6
+"2321",8553,NA,"Small central metro",61
+"2322",1887,NA,"Medium central metro",41.3
+"2323",51153,175,"Large central metro",52.3
+"2324",30032,NA,"Large central metro",48.1
+"2325",7000,NA,"Micropolitan",39
+"2326",23112,NA,"Large central metro",51.1
+"2327",88723,NA,"Large central metro",58.4
+"2328",3509,NA,"Rural",41.3
+"2329",32565,NA,"Micropolitan",50.7
+"2330",362924,1429,"Medium central metro",61.3
+"2331",2003554,9184,"Large central metro",69.7
+"2332",11931,NA,"Rural",57.3
+"2333",654,NA,"Rural",35.2
+"2334",18685,NA,"Micropolitan",47.5
+"2335",93245,962,"Small central metro",39.6
+"2336",374264,788,"Large central metro",58.3
+"2337",229211,871,"Small central metro",51.8
+"2338",9203,NA,"Micropolitan",59.2
+"2339",1546,NA,"Rural",44.9
+"2340",7093,NA,"Micropolitan",75.4
+"2341",37864,239,"Micropolitan",41.9
+"2342",18443,NA,"Small central metro",49.4
+"2343",48155,189,"Micropolitan",54.5
+"2344",43664,NA,"Large central metro",57.4
+"2345",21290,NA,"Micropolitan",57.5
+"2346",13943,NA,"Small central metro",42.2
+"2347",423163,2540,"Medium central metro",79.7
+"2348",13094,NA,"Micropolitan",40.8
+"2349",5926,NA,"Medium central metro",37.3
+"2350",30026,NA,"Micropolitan",35.4
+"2351",7530,NA,"Micropolitan",44.8
+"2352",43837,NA,"Large central metro",48.3
+"2353",52646,195,"Micropolitan",39.7
+"2354",7306,NA,"Micropolitan",47.8
+"2355",10471,NA,"Small central metro",46.8
+"2356",2853,NA,"Rural",52.8
+"2357",3387,NA,"Rural",47
+"2358",8175,NA,"Micropolitan",37.2
+"2359",1034730,2834,"Large central metro",67.4
+"2360",2920,NA,"Rural",33.3
+"2361",21493,NA,"Micropolitan",53.1
+"2362",156209,597,"Large central metro",62.5
+"2363",13635,NA,"Micropolitan",47.3
+"2364",2726,NA,"Rural",52.3
+"2365",41257,113,"Micropolitan",38
+"2366",75951,115,"Medium central metro",61.3
+"2367",1398,NA,"Rural",32.5
+"2368",4797,NA,"Micropolitan",37.5
+"2369",3464,NA,"Micropolitan",47.8
+"2370",5737,NA,"Medium central metro",45.4
+"2371",2171,NA,"Rural",52.3
+"2372",7287,NA,"Micropolitan",44.8
+"2373",2635516,7492,"Large central metro",60.6
+"2374",12728,NA,"Micropolitan",34.2
+"2375",18546,NA,"Micropolitan",43.5
+"2376",5331,NA,"Rural",35.9
+"2377",887207,1710,"Large central metro",61.7
+"2378",20160,NA,"Micropolitan",45.6
+"2379",2211,NA,"Rural",34.4
+"2380",10124,NA,"Micropolitan",72.9
+"2381",3278,NA,"Rural",34.4
+"2382",11157,NA,"Micropolitan",62.7
+"2383",18360,NA,"Micropolitan",37.9
+"2384",166223,974,"Small central metro",43.1
+"2385",1932,NA,"Rural",84.8
+"2386",184826,503,"Large central metro",54.3
+"2387",839238,4507,"Medium central metro",81.4
+"2388",42698,NA,"Micropolitan",38.2
+"2389",17297,NA,"Medium central metro",48.1
+"2390",35514,NA,"Micropolitan",44.8
+"2391",25346,NA,"Micropolitan",50.2
+"2392",3830,NA,"Rural",36.6
+"2393",5712,NA,"Micropolitan",46.1
+"2394",1155,NA,"Rural",44
+"2395",811688,1251,"Large central metro",71.9
+"2396",10725,NA,"Micropolitan",37.2
+"2397",19717,NA,"Micropolitan",39
+"2398",20306,NA,"Micropolitan",68.1
+"2399",21492,NA,"Micropolitan",22.1
+"2400",342139,1047,"Large central metro",60.3
+"2401",6229,NA,"Micropolitan",52.8
+"2402",26988,122,"Micropolitan",54
+"2403",1409,NA,"Rural",45.3
+"2404",7658,NA,"Small central metro",42.9
+"2405",20837,NA,"Micropolitan",51.2
+"2406",21886,124,"Micropolitan",48.4
+"2407",136212,1018,"Small central metro",45.2
+"2408",123945,1240,"Small central metro",45.2
+"2409",28880,NA,"Micropolitan",53.6
+"2410",166847,345,"Large central metro",55.4
+"2411",33406,165,"Micropolitan",44.9
+"2412",2964,NA,"Rural",43.7
+"2413",8461,NA,"Micropolitan",54.5
+"2414",5399,NA,"Micropolitan",42.5
+"2415",3933,NA,"Rural",46.5
+"2416",57602,NA,"Medium central metro",37.9
+"2417",4713325,13633,"Large central metro",63.8
+"2418",66553,NA,"Micropolitan",41.5
+"2419",5576,NA,"Micropolitan",48.6
+"2420",5658,NA,"Micropolitan",38.8
+"2421",230191,512,"Large central metro",62.9
+"2422",3819,NA,"Micropolitan",42.3
+"2423",82737,270,"Micropolitan",39.5
+"2424",868707,4055,"Medium central metro",75.2
+"2425",36649,NA,"Micropolitan",41.4
+"2426",23021,NA,"Micropolitan",43.1
+"2427",61643,253,"Large central metro",50.6
+"2428",37084,229,"Micropolitan",39.5
+"2429",22968,NA,"Micropolitan",42.5
+"2430",36664,125,"Micropolitan",38
+"2431",4886,NA,"Medium central metro",74.9
+"2432",98594,382,"Large central metro",43.1
+"2433",20938,NA,"Micropolitan",35.1
+"2434",1536,NA,"Small central metro",95
+"2435",8935,NA,"Micropolitan",41.5
+"2436",14760,NA,"Micropolitan",45.3
+"2437",35529,NA,"Micropolitan",36.4
+"2438",2274,NA,"Rural",53.8
+"2439",251565,1576,"Medium central metro",51.2
+"2440",5200,NA,"Micropolitan",56.2
+"2441",40482,148,"Micropolitan",54.2
+"2442",175817,301,"Large central metro",46.2
+"2443",20083,NA,"Small central metro",44.5
+"2444",15601,NA,"Micropolitan",58.2
+"2445",136154,182,"Large central metro",52.5
+"2446",47431,NA,"Large central metro",62.3
+"2447",404,NA,"Rural",54
+"2448",762,NA,"Rural",39.4
+"2449",52600,208,"Micropolitan",50.9
+"2450",4337,NA,"Micropolitan",43.1
+"2451",272,NA,"Rural",23.9
+"2452",3667,NA,"Micropolitan",52.2
+"2453",30680,122,"Micropolitan",60.8
+"2454",3664,NA,"Rural",39.6
+"2455",49859,367,"Micropolitan",40
+"2456",12893,NA,"Micropolitan",44
+"2457",21428,NA,"Medium central metro",49.7
+"2458",7520,NA,"Micropolitan",64.8
+"2459",20154,NA,"Micropolitan",41.8
+"2460",17239,NA,"Micropolitan",47.4
+"2461",17404,NA,"Rural",36.1
+"2462",88219,107,"Large central metro",42.6
+"2463",23437,NA,"Micropolitan",37.6
+"2464",3233,NA,"Rural",34.4
+"2465",12207,NA,"Rural",42.9
+"2466",21795,NA,"Micropolitan",51.9
+"2467",169,NA,"Rural",20.1
+"2468",310569,2490,"Medium central metro",49.2
+"2469",5951,NA,"Medium central metro",39.4
+"2470",7984,NA,"Micropolitan",38.7
+"2471",256623,1360,"Medium central metro",52.3
+"2472",743,NA,"Rural",46
+"2473",14284,NA,"Micropolitan",42
+"2474",9854,NA,"Rural",42.2
+"2475",5771,NA,"Small central metro",31.9
+"2476",4274,NA,"Rural",48.1
+"2477",36643,131,"Micropolitan",47
+"2478",58722,257,"Micropolitan",95
+"2479",51584,NA,"Large central metro",55.8
+"2480",2138,NA,"Rural",54.1
+"2481",176832,657,"Small central metro",43.2
+"2482",24823,NA,"Micropolitan",46
+"2483",4873,NA,"Rural",47.6
+"2484",8545,NA,"Micropolitan",36.2
+"2485",19818,NA,"Micropolitan",35.4
+"2486",607391,2318,"Large central metro",54.9
+"2487",20940,NA,"Micropolitan",46
+"2488",12388,NA,"Micropolitan",43.2
+"2489",1200,NA,"Rural",30
+"2490",65204,431,"Micropolitan",47.7
+"2491",50113,207,"Micropolitan",45.5
+"2492",13595,NA,"Medium central metro",25.3
+"2493",14714,107,"Micropolitan",42.3
+"2494",362294,2059,"Medium central metro",58.5
+"2495",9836,NA,"Micropolitan",38.6
+"2496",2112,NA,"Medium central metro",35.8
+"2497",83396,NA,"Medium central metro",36.5
+"2498",29189,132,"Micropolitan",38.8
+"2499",23194,NA,"Micropolitan",38.3
+"2500",142878,328,"Large central metro",54.1
+"2501",9605,NA,"Micropolitan",41.1
+"2502",15823,NA,"Micropolitan",58.3
+"2503",51353,146,"Micropolitan",47.8
+"2504",117415,1687,"Medium central metro",45.9
+"2505",6704,NA,"Micropolitan",95
+"2506",12514,NA,"Rural",37.2
+"2507",137713,140,"Medium central metro",46.6
+"2508",3849,NA,"Micropolitan",39
+"2509",3452,NA,"Rural",50.5
+"2510",12023,NA,"Micropolitan",41.6
+"2511",15976,NA,"Micropolitan",64.7
+"2512",6948,NA,"Micropolitan",54.3
+"2513",854,NA,"Rural",34.3
+"2514",17074,NA,"Small central metro",44.8
+"2515",104915,503,"Large central metro",58.8
+"2516",10264,NA,"Micropolitan",44.5
+"2517",54406,105,"Small central metro",39.3
+"2518",10542,NA,"Rural",37.1
+"2519",8237,NA,"Rural",40.9
+"2520",28859,NA,"Rural",34.7
+"2521",66730,NA,"Medium central metro",56.4
+"2522",6055,NA,"Micropolitan",39.8
+"2523",2793,NA,"Rural",42.6
+"2524",16703,NA,"Micropolitan",47.3
+"2525",3265,NA,"Rural",37.7
+"2526",25274,NA,"Micropolitan",36.5
+"2527",3022,NA,"Rural",34.9
+"2528",232751,2455,"Small central metro",46.2
+"2529",9128,NA,"Large central metro",45.9
+"2530",64633,123,"Micropolitan",95
+"2531",9366,NA,"Micropolitan",37.2
+"2532",1291,NA,"Rural",40.8
+"2533",1350,NA,"Rural",40.6
+"2534",3776,NA,"Micropolitan",43.9
+"2535",7397,NA,"Micropolitan",41.3
+"2536",2102515,7919,"Large central metro",56.7
+"2537",138034,1335,"Small central metro",51.2
+"2538",776,NA,"Rural",53.4
+"2539",12337,NA,"Micropolitan",42.2
+"2540",1501,NA,"Rural",41.4
+"2541",32750,162,"Micropolitan",39.3
+"2542",119200,701,"Small central metro",50.7
+"2543",1273954,2514,"Large central metro",70.4
+"2544",14651,NA,"Micropolitan",39.7
+"2545",21672,NA,"Micropolitan",36.8
+"2546",41753,NA,"Small central metro",34.3
+"2547",3657,NA,"Rural",41
+"2548",26741,105,"Micropolitan",55.1
+"2549",49025,150,"Micropolitan",67.7
+"2550",56590,NA,"Micropolitan",38.2
+"2551",92084,751,"Small central metro",48.7
+"2552",72971,172,"Micropolitan",48.4
+"2553",55246,NA,"Large central metro",42.1
+"2554",11998,NA,"Micropolitan",35.7
+"2555",35882,NA,"Micropolitan",50.9
+"2556",276652,1250,"Medium central metro",95
+"2557",41556,104,"Micropolitan",50.8
+"2558",5056,NA,"Rural",43.1
+"2559",132230,1017,"Small central metro",53.8
+"2560",12769,NA,"Micropolitan",52.9
+"2561",21358,NA,"Micropolitan",65.7
+"2562",590551,1338,"Large central metro",69.1
+"2563",51070,NA,"Large central metro",55.4
+"2564",8010,NA,"Micropolitan",38.8
+"2565",69984,327,"Large central metro",39.3
+"2566",45539,NA,"Micropolitan",43.2
+"2567",8713,NA,"Micropolitan",40.4
+"2568",18010,NA,"Micropolitan",41.6
+"2569",14179,NA,"Micropolitan",60.1
+"2570",11840,NA,"Micropolitan",57.5
+"2571",6710,NA,"Micropolitan",47.9
+"2572",56046,NA,"Medium central metro",52.1
+"2573",128289,113,"Small central metro",58.4
+"2574",20463,NA,"Micropolitan",49.9
+"2575",950,NA,"Rural",67.1
+"2576",355481,394,"Medium central metro",67.1
+"2577",19938,NA,"Micropolitan",45.1
+"2578",10012,NA,"Micropolitan",46.2
+"2579",5051,NA,"Rural",57.2
+"2580",9754,NA,"Micropolitan",67.8
+"2581",54839,NA,"Micropolitan",46
+"2582",12017,NA,"Medium central metro",36.8
+"2583",7886,NA,"Micropolitan",50.2
+"2584",13188,NA,"Micropolitan",45.5
+"2585",12124,NA,"Medium central metro",53.9
+"2586",1479,NA,"Rural",38.3
+"2587",2483,NA,"Rural",52.3
+"2588",1160437,2351,"Large central metro",70.1
+"2589",15308,NA,"Micropolitan",65.1
+"2590",30939,NA,"Micropolitan",41.1
+"2591",21620,NA,"Micropolitan",44
+"2592",42145,NA,"Micropolitan",88.6
+"2593",72259,NA,"Large central metro",59
+"2594",35734,NA,"Micropolitan",43.4
+"2595",636235,1042,"Medium central metro",57.9
+"2596",34091,NA,"Micropolitan",60.9
+"2597",177556,708,"Small central metro",52.3
+"2598",2711,NA,"Rural",54.3
+"2599",260213,602,"Medium central metro",61.5
+"2600",36777,NA,"Micropolitan",71.1
+"2601",35470,106,"Micropolitan",43.3
+"2602",29993,NA,"Micropolitan",36.5
+"2603",163774,296,"Small central metro",74
+"2604",6163,NA,"Rural",40.2
+"2605",17486,NA,"Micropolitan",56
+"2606",49402,NA,"Small central metro",37.3
+"2607",7235,NA,"Small central metro",81.4
+"2608",25362,NA,"Rural",63.4
+"2609",28892,NA,"Rural",53.3
+"2610",27037,NA,"Micropolitan",59
+"2611",58191,NA,"Micropolitan",69.8
+"2612",58409,NA,"Micropolitan",47.1
+"2613",42222,NA,"Micropolitan",68.7
+"2614",55062,NA,"Micropolitan",50.2
+"2615",19657,NA,"Micropolitan",50.2
+"2616",41932,378,"Micropolitan",47
+"2617",279141,1067,"Medium central metro",53.6
+"2618",37432,163,"Micropolitan",37.5
+"2619",10763,NA,"Micropolitan",57.1
+"2620",5189,NA,"Rural",37.3
+"2621",28380,NA,"Micropolitan",47.9
+"2622",10118,NA,"Micropolitan",54.7
+"2623",22320,NA,"Micropolitan",49
+"2624",14551,NA,"Micropolitan",45.8
+"2625",24919,NA,"Micropolitan",44.6
+"2626",7956,NA,"Small central metro",53.2
+"2627",23457,NA,"Micropolitan",48.8
+"2628",20846,NA,"Micropolitan",53.9
+"2629",110332,1139,"Small central metro",45.6
+"2630",63257,NA,"Medium central metro",45.9
+"2631",47955,NA,"Large central metro",45.2
+"2632",16419,NA,"Micropolitan",51.1
+"2633",7009,NA,"Micropolitan",56.7
+"2634",11361,NA,"Micropolitan",60.1
+"2635",18219,NA,"Micropolitan",48.1
+"2636",126007,483,"Medium central metro",51.5
+"2637",17715,NA,"Micropolitan",48.6
+"2638",12477,NA,"Rural",32.7
+"2639",99386,773,"Small central metro",45.7
+"2640",18265,NA,"Medium central metro",45.9
+"2641",45325,NA,"Micropolitan",43.2
+"2642",21532,NA,"Micropolitan",40.3
+"2643",33771,NA,"Micropolitan",42.7
+"2644",13202,NA,"Micropolitan",54.6
+"2645",37825,332,"Micropolitan",41.5
+"2646",13629,NA,"Rural",38.2
+"2647",16719,NA,"Micropolitan",39.1
+"2648",66824,299,"Small central metro",44.8
+"2649",26578,NA,"Micropolitan",49.2
+"2650",6624,NA,"Rural",42
+"2651",16406,NA,"Micropolitan",47
+"2652",8857,NA,"Micropolitan",34.1
+"2653",13024,NA,"Small central metro",35.5
+"2654",12259,NA,"Small central metro",39.9
+"2655",21466,NA,"Micropolitan",47.1
+"2656",73309,NA,"Medium central metro",47.7
+"2657",16576,NA,"Medium central metro",43.3
+"2658",16694,NA,"Rural",36.1
+"2659",43257,NA,"Small central metro",31.7
+"2660",40651,NA,"Micropolitan",41.3
+"2661",6701,NA,"Micropolitan",56.3
+"2662",8986,NA,"Rural",36.4
+"2663",8252,NA,"Micropolitan",44.8
+"2664",32316,NA,"Rural",73.5
+"2665",109330,252,"Small central metro",65
+"2666",14860,NA,"Micropolitan",39.5
+"2667",13145,NA,"Large central metro",34.1
+"2668",31605,NA,"Medium central metro",46.7
+"2669",7753,NA,"Rural",34
+"2670",15911,NA,"Medium central metro",32.4
+"2671",236842,498,"Large central metro",71.9
+"2672",75558,352,"Small central metro",48.9
+"2673",4147,NA,"Rural",43.3
+"2674",78997,NA,"Medium central metro",44.7
+"2675",6280,NA,"Rural",39
+"2676",33419,NA,"Medium central metro",49.6
+"2677",16231,NA,"Micropolitan",52.4
+"2678",21004,NA,"Rural",48.1
+"2679",17148,NA,"Small central metro",39.2
+"2680",23382,NA,"Micropolitan",54.5
+"2681",54885,NA,"Medium central metro",40
+"2682",30725,NA,"Large central metro",42.4
+"2683",29791,NA,"Micropolitan",33
+"2684",6963,NA,"Large central metro",82
+"2685",11880,NA,"Rural",38.4
+"2686",352802,686,"Large central metro",56.8
+"2687",14619,NA,"Large central metro",64.4
+"2688",5131,NA,"Medium central metro",33
+"2689",52605,162,"Large central metro",48.4
+"2690",9932,NA,"Rural",36.4
+"2691",10455,NA,"Medium central metro",51.9
+"2692",14318,NA,"Rural",47
+"2693",28544,NA,"Large central metro",47.8
+"2694",10953,NA,"Micropolitan",46.1
+"2695",1147532,1602,"Large central metro",77.1
+"2696",71222,104,"Large central metro",64.7
+"2697",15749,NA,"Small central metro",37.9
+"2698",27270,NA,"Small central metro",62.6
+"2699",56042,142,"Medium central metro",43.7
+"2700",89313,NA,"Small central metro",48.2
+"2701",17782,NA,"Micropolitan",50
+"2702",16720,NA,"Small central metro",45.2
+"2703",37348,149,"Large central metro",63.2
+"2704",23753,NA,"Large central metro",66
+"2705",15550,NA,"Rural",41
+"2706",19819,NA,"Small central metro",45.7
+"2707",11336,NA,"Micropolitan",36.3
+"2708",33911,190,"Micropolitan",43.5
+"2709",107766,520,"Large central metro",58.9
+"2710",330818,1219,"Large central metro",55
+"2711",50557,NA,"Micropolitan",39.3
+"2712",10718,NA,"Rural",42
+"2713",2190,NA,"Rural",60.7
+"2714",37109,NA,"Large central metro",52.1
+"2715",76523,NA,"Large central metro",56.1
+"2716",7025,NA,"Rural",51.2
+"2717",26836,NA,"Micropolitan",41.6
+"2718",17148,NA,"Large central metro",52
+"2719",10603,NA,"Rural",60.3
+"2720",23423,NA,"Rural",50.6
+"2721",413538,439,"Large central metro",73.2
+"2722",37591,NA,"Rural",41.3
+"2723",23528,NA,"Small central metro",45
+"2724",12196,NA,"Rural",50
+"2725",13261,NA,"Rural",55.4
+"2726",8834,NA,"Large central metro",61.7
+"2727",30587,139,"Micropolitan",42.4
+"2728",10582,NA,"Rural",63.4
+"2729",98535,321,"Small central metro",46.4
+"2730",14930,NA,"Small central metro",56.4
+"2731",23091,NA,"Large central metro",51.8
+"2732",19964,114,"Micropolitan",35.8
+"2733",11710,NA,"Rural",71.3
+"2734",12095,NA,"Rural",54.1
+"2735",15232,NA,"Micropolitan",43
+"2736",37051,NA,"Micropolitan",43.6
+"2737",23902,NA,"Micropolitan",38
+"2738",17608,NA,"Rural",39.9
+"2739",60354,NA,"Micropolitan",41.8
+"2740",29652,NA,"Large central metro",38.7
+"2741",22802,NA,"Micropolitan",30.7
+"2742",38353,NA,"Large central metro",50.6
+"2743",64072,160,"Micropolitan",49.7
+"2744",470335,511,"Large central metro",73
+"2745",34027,128,"Small central metro",43.8
+"2746",7370,NA,"Large central metro",52.6
+"2747",9023,NA,"Rural",41.1
+"2748",94186,NA,"Medium central metro",49.2
+"2749",22573,NA,"Micropolitan",46.1
+"2750",81948,411,"Small central metro",43.2
+"2751",26586,NA,"Micropolitan",47.2
+"2752",21566,NA,"Medium central metro",56.5
+"2753",8062,NA,"Rural",43.4
+"2754",43616,156,"Micropolitan",49.4
+"2755",30104,NA,"Micropolitan",48.4
+"2756",17631,NA,"Micropolitan",37.1
+"2757",136215,138,"Large central metro",44.6
+"2758",152882,NA,"Large central metro",59
+"2759",6422,NA,"Rural",55.5
+"2760",11159,NA,"Large central metro",35.4
+"2761",40595,202,"Micropolitan",43.8
+"2762",40164,117,"Large central metro",37
+"2763",391911,2518,"Medium central metro",58.5
+"2764",53740,276,"Medium central metro",57.7
+"2765",18015,NA,"Micropolitan",45.5
+"2766",37383,NA,"Micropolitan",47.8
+"2767",28684,135,"Micropolitan",39.3
+"2768",68280,155,"Large central metro",67.6
+"2769",17958,NA,"Micropolitan",40.9
+"2770",24994,NA,"Micropolitan",50.6
+"2771",122437,268,"Medium central metro",50.7
+"2772",10281,NA,"Micropolitan",48.2
+"2773",7881,NA,"Rural",39.1
+"2774",127827,1103,"Medium central metro",49.9
+"2775",17007,NA,"Micropolitan",45.8
+"2776",17442,NA,"Micropolitan",39
+"2777",12506,NA,"Rural",36.5
+"2778",38682,177,"Micropolitan",49.1
+"2779",16545,NA,"Rural",41.9
+"2780",239187,906,"Medium central metro",55.9
+"2781",78753,408,"Micropolitan",44.4
+"2782",6320,NA,"Rural",56.6
+"2783",21341,NA,"Micropolitan",48.9
+"2784",159428,331,"Large central metro",63.5
+"2785",16762,NA,"Medium central metro",68.9
+"2786",6478,NA,"Micropolitan",37
+"2787",47266,367,"Small central metro",50.6
+"2788",244835,471,"Large central metro",53.1
+"2789",17370,NA,"Large central metro",36.1
+"2790",5538,NA,"Micropolitan",33.9
+"2791",40044,353,"Micropolitan",33.8
+"2792",5346,NA,"Micropolitan",33.1
+"2793",24019,NA,"Large central metro",67.8
+"2794",14617,NA,"Large central metro",55.7
+"2795",7967,NA,"Micropolitan",38.5
+"2796",29036,394,"Large central metro",40.2
+"2797",6347,125,"Micropolitan",37.4
+"2798",134510,322,"Large central metro",61.8
+"2799",53016,NA,"Small central metro",37.9
+"2800",22529,192,"Large central metro",31.4
+"2801",7446,NA,"Micropolitan",39.4
+"2802",82168,904,"Medium central metro",30.6
+"2803",41085,298,"Large central metro",48.2
+"2804",17478,NA,"Large central metro",44.1
+"2805",12554,319,"Micropolitan",39.3
+"2806",179225,615,"Large central metro",52.2
+"2807",242742,853,"Large central metro",71.3
+"2808",3981,NA,"Micropolitan",31.2
+"2809",31346,386,"Large central metro",35
+"2810",12271,NA,"Large central metro",43.7
+"2811",94398,379,"Large central metro",50.2
+"2812",18249,NA,"Small central metro",34.9
+"2813",230436,910,"Large central metro",42.5
+"2814",99143,934,"Medium central metro",41.1
+"2815",25301,412,"Medium central metro",46.7
+"2816",24932,NA,"Small central metro",46.7
+"2817",92108,463,"Large central metro",53.6
+"2818",449974,753,"Large central metro",62.9
+"2819",22630,NA,"Small central metro",43.1
+"2820",14954,NA,"Large central metro",39.8
+"2821",28078,660,"Small central metro",42.9
+"2822",19983,NA,"Micropolitan",60.4
+"2823",22582,NA,"Small central metro",41.7
+"2824",204390,714,"Medium central metro",56.8
+"2825",77200,327,"Small central metro",70.7
+"2826",77331,146,"Micropolitan",68.6
+"2827",488241,963,"Large central metro",65
+"2828",3985,NA,"Small central metro",46.3
+"2829",110593,332,"Small central metro",59.1
+"2830",43429,NA,"Small central metro",61.9
+"2831",7627,NA,"Rural",56.5
+"2832",95222,148,"Medium central metro",53.1
+"2833",2225,NA,"Rural",39.2
+"2834",97733,162,"Micropolitan",57.4
+"2835",75061,156,"Micropolitan",61.3
+"2836",85141,NA,"Micropolitan",76.6
+"2837",32221,NA,"Micropolitan",76.9
+"2838",2252782,3253,"Large central metro",81.2
+"2839",271473,350,"Medium central metro",70.2
+"2840",47935,NA,"Micropolitan",54.1
+"2841",22425,NA,"Micropolitan",47.6
+"2842",80707,175,"Micropolitan",51.6
+"2843",10939,NA,"Rural",58
+"2844",66768,NA,"Micropolitan",61.3
+"2845",42243,NA,"Micropolitan",67.7
+"2846",22471,NA,"Micropolitan",59.7
+"2847",13724,NA,"Medium central metro",40.9
+"2848",904980,1857,"Large central metro",65.8
+"2849",17582,NA,"Rural",82
+"2850",129205,269,"Small central metro",67.4
+"2851",12083,NA,"Large central metro",38.8
+"2852",822083,1005,"Large central metro",70.9
+"2853",522798,1720,"Medium central metro",61.6
+"2854",45723,102,"Medium central metro",39.4
+"2855",290536,605,"Medium central metro",69.5
+"2856",4488,NA,"Rural",49.1
+"2857",60760,174,"Small central metro",63.7
+"2858",229247,441,"Small central metro",72
+"2859",50104,NA,"Micropolitan",47
+"2860",250873,795,"Small central metro",62.7
+"2861",16441,NA,"Micropolitan",49.7
+"2862",119171,340,"Medium central metro",55.1
+"2863",21457,NA,"Small central metro",47.7
+"2864",13957,NA,"Rural",45
+"2865",21939,233,"Small central metro",50.4
+"2866",91945,840,"Medium central metro",60.5
+"2867",7109,NA,"Rural",34.7
+"2868",8508,NA,"Small central metro",56.2
+"2869",8448,NA,"Rural",59.8
+"2870",42406,115,"Small central metro",55.9
+"2871",7823,NA,"Micropolitan",60.6
+"2872",11568,NA,"Micropolitan",45
+"2873",34662,188,"Micropolitan",55.1
+"2874",23175,NA,"Small central metro",46.2
+"2875",28810,NA,"Small central metro",66.6
+"2876",13776,NA,"Micropolitan",55.7
+"2877",67256,401,"Micropolitan",52.4
+"2878",28576,NA,"Micropolitan",52.4
+"2879",57146,138,"Large central metro",63.6
+"2880",178124,1159,"Small central metro",65.6
+"2881",15907,NA,"Micropolitan",57.8
+"2882",20409,NA,"Medium central metro",50.8
+"2883",32019,178,"Micropolitan",56.4
+"2884",17624,NA,"Micropolitan",52.1
+"2885",56072,NA,"Micropolitan",57.1
+"2886",30531,142,"Small central metro",45.1
+"2887",26516,NA,"Micropolitan",49.9
+"2888",58758,289,"Micropolitan",53.8
+"2889",26868,NA,"Small central metro",51.4
+"2890",23424,NA,"Micropolitan",40.5
+"2891",105612,950,"Small central metro",58.8
+"2892",13275,NA,"Rural",48.9
+"2893",17884,NA,"Rural",40.5
+"2894",24496,NA,"Micropolitan",52.8
+"2895",41411,486,"Small central metro",66.5
+"2896",6969,NA,"Rural",58.8
+"2897",7460,NA,"Micropolitan",52.4
+"2898",8247,NA,"Rural",52.8
+"2899",33432,NA,"Small central metro",56.1
+"2900",56450,137,"Medium central metro",58.3
+"2901",73361,582,"Small central metro",54.1
+"2902",28695,133,"Micropolitan",54.7
+"2903",9554,NA,"Rural",49.5
+"2904",13688,NA,"Micropolitan",48.2
+"2905",12573,NA,"Micropolitan",63.4
+"2906",16695,NA,"Micropolitan",47.4
+"2907",6839,NA,"Rural",60.8
+"2908",8591,NA,"Rural",42.2
+"2909",24176,NA,"Micropolitan",50.3
+"2910",39402,NA,"Medium central metro",54.3
+"2911",8114,NA,"Rural",47.7
+"2912",15065,NA,"Micropolitan",57.3
+"2913",5821,NA,"Small central metro",48.5
+"2914",83518,439,"Small central metro",59
+"2915",20394,NA,"Micropolitan",52.5
+"2916",20220,NA,"Rural",57
+"2917",15562,NA,"Micropolitan",71.9
+"2918",45244,127,"Micropolitan",53.6
+"2919",15036,NA,"Rural",82.2
+"2920",264542,957,"Medium central metro",65.3
+"2921",13031,NA,"Rural",50.3
+"2922",15414,NA,"Rural",57.4
+"2923",50089,NA,"Small central metro",56.4
+"2924",64658,119,"Small central metro",57
+"2925",34774,NA,"Micropolitan",37.7
+"2926",57532,130,"Medium central metro",67.3
+"2927",16131,NA,"Micropolitan",58.5
+"2928",546695,1078,"Medium central metro",83
+"2929",87839,320,"Micropolitan",52.4
+"2930",27668,NA,"Micropolitan",78.6
+"2931",43150,NA,"Medium central metro",44.6
+"2932",45368,NA,"Micropolitan",49.4
+"2933",104646,432,"Small central metro",62
+"2934",4295,NA,"Rural",54.7
+"2935",103403,322,"Small central metro",55.9
+"2936",9004,NA,"Rural",60.9
+"2937",51439,101,"Micropolitan",55.2
+"2938",36960,NA,"Medium central metro",64.2
+"2939",18913,NA,"Micropolitan",56.1
+"2940",23678,NA,"Medium central metro",69
+"2941",5687,NA,"Rural",66.7
+"2942",20643,NA,"Micropolitan",50.2
+"2943",84769,147,"Micropolitan",57.7
+"2944",26687,NA,"Micropolitan",53.7
+"2945",169561,803,"Large central metro",60.6
+"2946",20434,NA,"Medium central metro",52.3
+"2947",118016,509,"Small central metro",69.1
+"2948",16665,NA,"Rural",60.5
+"2949",19189,NA,"Micropolitan",54
+"2950",27593,107,"Micropolitan",55.6
+"2951",78981,168,"Micropolitan",60.9
+"2952",135692,700,"Small central metro",60.4
+"2953",40350,136,"Micropolitan",53.1
+"2954",15574,NA,"Rural",53.6
+"2955",4556,NA,"Rural",80.7
+"2956",945726,2748,"Large central metro",64.7
+"2957",46253,NA,"Micropolitan",54.4
+"2958",37930,NA,"Medium central metro",53.3
+"2959",35595,187,"Micropolitan",65.5
+"2960",187885,663,"Small central metro",64.5
+"2961",89221,350,"Large central metro",71.9
+"2962",7287,NA,"Rural",49.8
+"2963",42754,NA,"Large central metro",44.2
+"2964",43783,114,"Micropolitan",51.1
+"2965",70772,134,"Micropolitan",62.6
+"2966",13351,NA,"Rural",62.4
+"2967",196311,628,"Small central metro",61
+"2968",17252,NA,"Micropolitan",58.9
+"2969",163354,455,"Small central metro",69.4
+"2970",14178,NA,"Micropolitan",41.3
+"2971",90687,106,"Large central metro",50.5
+"2972",64442,148,"Micropolitan",63.8
+"2973",16558,NA,"Micropolitan",60.2
+"2974",40899,108,"Micropolitan",53.8
+"2975",115340,373,"Small central metro",62.6
+"2976",20343,NA,"Micropolitan",35.6
+"2977",29649,NA,"Micropolitan",66.3
+"2978",30822,NA,"Micropolitan",55.3
+"2979",22195,NA,"Rural",66.1
+"2980",103868,203,"Micropolitan",54.4
+"2981",15720,NA,"Micropolitan",63.3
+"2982",136034,254,"Large central metro",57.9
+"2983",404198,1272,"Large central metro",70.2
+"2984",50990,174,"Micropolitan",54.6
+"2985",24443,NA,"Micropolitan",45.1
+"2986",171907,487,"Small central metro",61.6
+"2987",72999,476,"Micropolitan",61.9
+"2988",38880,NA,"Micropolitan",56.5
+"2989",11790,NA,"Rural",39.7
+"2990",46341,139,"Micropolitan",31.1
+"2991",14800,NA,"Micropolitan",46.4
+"2992",13822,NA,"Micropolitan",34.4
+"2993",7584,NA,"Rural",30.9
+"2994",39261,109,"Micropolitan",62.4
+"2995",13211,NA,"Micropolitan",40.4
+"2996",4413,NA,"Micropolitan",50
+"2997",8445,NA,"Micropolitan",43.6
+"2998",99500,355,"Small central metro",56.7
+"2999",19830,NA,"Micropolitan",43.9
+"3000",79858,458,"Small central metro",46.5
+"3001",2356,NA,"Rural",31.6
+"3002",29194,121,"Micropolitan",46.4
+"3003",8393,NA,"Micropolitan",41.4
+"3004",30485,NA,"Micropolitan",53.1
+"3005",9831,NA,"Rural",37.3
+"3006",42343,113,"Micropolitan",50.2
+"3007",23464,NA,"Micropolitan",92.9
+"3008",20226,NA,"Micropolitan",51.5
+"3009",7805,NA,"Micropolitan",43.9
+"3010",6927,NA,"Micropolitan",38
+"3011",1671329,2508,"Large central metro",82.2
+"3012",1129,NA,"Rural",NA
+"3013",39752,103,"Micropolitan",53.4
+"3014",219186,750,"Small central metro",53.8
+"3015",45905,NA,"Micropolitan",54.7
+"3016",21547,NA,"Micropolitan",60.9
+"3017",1153526,1642,"Large central metro",81.8
+"3018",27812,NA,"Micropolitan",43.5
+"3019",192843,236,"Large central metro",62.7
+"3020",999101,3215,"Medium central metro",61.3
+"3021",28393,NA,"Micropolitan",55.5
+"3022",135558,211,"Micropolitan",66
+"3023",181215,863,"Small central metro",93.2
+"3024",18039,NA,"Micropolitan",NA
+"3025",900202,2657,"Medium central metro",53.8
+"3026",152940,575,"Small central metro",50.5
+"3027",64386,112,"Micropolitan",59.4
+"3028",30573,NA,"Micropolitan",37.8
+"3029",10039107,32323,"Large central metro",72.2
+"3030",157327,384,"Small central metro",54.2
+"3031",258826,352,"Large central metro",88.7
+"3032",17203,NA,"Rural",NA
+"3033",86749,145,"Micropolitan",67.7
+"3034",277680,586,"Medium central metro",50.6
+"3035",8841,NA,"Micropolitan",NA
+"3036",14444,NA,"Micropolitan",NA
+"3037",434061,791,"Medium central metro",72.8
+"3038",137744,197,"Small central metro",78
+"3039",99755,179,"Micropolitan",64
+"3040",3175692,8746,"Large central metro",71.8
+"3041",398329,1198,"Large central metro",67.7
+"3042",18807,NA,"Micropolitan",NA
+"3043",2470546,8393,"Large central metro",59.1
+"3044",1552058,3709,"Large central metro",67.8
+"3045",62808,NA,"Large central metro",67
+"3046",2180085,8790,"Large central metro",58
+"3047",3338330,7601,"Large central metro",76.2
+"3048",881549,1061,"Large central metro",83.6
+"3049",762148,2494,"Medium central metro",59.1
+"3050",283111,489,"Medium central metro",60.7
+"3051",766573,936,"Large central metro",83.9
+"3052",446499,930,"Medium central metro",71.1
+"3053",1927852,3124,"Large central metro",86.2
+"3054",273213,424,"Medium central metro",78.6
+"3055",180080,804,"Small central metro",50
+"3056",3005,NA,"Rural",NA
+"3057",43539,110,"Micropolitan",53.9
+"3058",447643,878,"Medium central metro",68.2
+"3059",494336,784,"Medium central metro",78.2
+"3060",550660,2652,"Medium central metro",54.3
+"3061",96971,NA,"Small central metro",61.3
+"3062",65084,195,"Micropolitan",42.9
+"3063",12285,NA,"Rural",NA
+"3064",466195,1556,"Medium central metro",54.3
+"3065",54478,222,"Micropolitan",56.7
+"3066",846006,1811,"Medium central metro",72.2
+"3067",220500,314,"Large central metro",70.3
+"3068",78668,312,"Small central metro",54.9
+"3069",168489,NA,"Micropolitan",62.2
+"3070",17363,NA,"Micropolitan",77
+"3071",36694,NA,"Medium central metro",76.9
+"3072",50265,NA,"Medium central metro",80.6
+"3073",24814,NA,"Large central metro",79
+"3074",22108,NA,"Large central metro",91.7
+"3075",26161,NA,"Medium central metro",76.3
+"3076",81966,NA,"Small central metro",81.8
+"3077",17238,NA,"Small central metro",76.1
+"3078",23727,NA,"Large central metro",76.7
+"3079",27725,NA,"Large central metro",81.9
+"3080",169269,NA,"Large central metro",91.6
+"3081",47515,NA,"Small central metro",74
+"3082",124606,NA,"Large central metro",83.5
+"3083",30504,NA,"Small central metro",79.4
+"3084",44674,NA,"Large central metro",77.9
+"3085",146984,NA,"Large central metro",82.1
+"3086",23121,NA,"Large central metro",74.6
+"3087",42409,NA,"Large central metro",84.9
+"3088",10904,NA,"Large central metro",77.8
+"3089",15808,NA,"Large central metro",83.8
+"3090",38307,NA,"Large central metro",79.4
+"3091",38336,NA,"Micropolitan",72.8
+"3092",18648,NA,"Large central metro",74.3
+"3093",32293,NA,"Large central metro",82.4
+"3094",1714,NA,"Rural",95
+"3095",36141,NA,"Large central metro",80.4
+"3096",29454,NA,"Large central metro",79.2
+"3097",11317,NA,"Large central metro",89.8
+"3098",15383,NA,"Medium central metro",73.9
+"3099",39465,NA,"Small central metro",73.2
+"3100",17623,NA,"Medium central metro",82.2
+"3101",83728,NA,"Large central metro",91.1
+"3102",47093,NA,"Large central metro",71
+"3103",39218,NA,"Small central metro",69.4
+"3104",15518,NA,"Small central metro",80.9
+"3105",50653,NA,"Large central metro",79.8
+"3106",40423,NA,"Medium central metro",76.6
+"3107",13891,NA,"Micropolitan",81.7
+"3108",44679,NA,"Medium central metro",75.7
+"3109",38155,NA,"Large central metro",77.3
+"3110",22010,NA,"Small central metro",78.8
+"3111",24276,NA,"Medium central metro",94.7
+"3112",7927,NA,"Micropolitan",87.3
+"3113",37007,NA,"Large central metro",73.9
+"3114",24553,NA,"Large central metro",60.4
+"3115",17665,NA,"Large central metro",71.7
+"3116",37287,NA,"Large central metro",83.5
+"3117",5430,NA,"Micropolitan",71.4
+"3118",10321,NA,"Large central metro",77.4
+"3119",71530,NA,"Small central metro",81.7
+"3120",34891,NA,"Medium central metro",84.1
+"3121",30335,NA,"Large central metro",74.9
+"3122",25761,NA,"Large central metro",63.3
+"3123",27349,NA,"Large central metro",84.4
+"3124",20220,NA,"Large central metro",85.4
+"3125",16211,NA,"Small central metro",81
+"3126",19249,NA,"Medium central metro",85
+"3127",131881,NA,"Medium central metro",88.1
+"3128",22918,NA,"Small central metro",84.9
+"3129",13656,NA,"Medium central metro",77.1
+"3130",48025,NA,"Large central metro",73.6
+"3131",21712,NA,"Small central metro",84.5
+"3132",27128,NA,"Micropolitan",76.2
+"3133",30227,NA,"Small central metro",78.8
+"3134",318441,NA,"Large central metro",84.4
+"3135",35989,NA,"Large central metro",81
+"3136",35528,NA,"Medium central metro",86.8
+"3137",21209,NA,"Micropolitan",73.9
+"3138",72025,NA,"Large central metro",69.7
+"3139",74271,NA,"Large central metro",78.3
+"3140",63674,NA,"Large central metro",75.4
+"3141",27395,NA,"Medium central metro",75.6
+"3142",36061,NA,"Large central metro",70.4
+"3143",50023,NA,"Large central metro",84.8
+"3144",8386,NA,"Micropolitan",86.3
+"3145",21372,NA,"Medium central metro",90.6
+"3146",32282,NA,"Large central metro",76
+"3147",33575,NA,"Medium central metro",87.6
+"3148",NA,NA,"Micropolitan",NA
+"3149",NA,NA,"Micropolitan",NA
+"3150",NA,NA,"Micropolitan",NA
+"3151",517421,1726,"Large central metro",68.4
+"3152",16233,NA,"Micropolitan",56.5
+"3153",656590,1517,"Large central metro",68.4
+"3154",14029,NA,"Micropolitan",57.6
+"3155",3581,NA,"Rural",39.4
+"3156",5577,NA,"Micropolitan",26.9
+"3157",326196,788,"Medium central metro",78.6
+"3158",70465,NA,"Large central metro",80.8
+"3159",20356,NA,"Micropolitan",64.2
+"3160",1831,NA,"Rural",33.2
+"3161",9700,NA,"Large central metro",49.2
+"3162",8205,NA,"Rural",49.5
+"3163",3887,NA,"Rural",60.4
+"3164",6061,NA,"Rural",21.8
+"3165",5068,NA,"Rural",48.8
+"3166",31162,131,"Micropolitan",47.9
+"3167",727211,1505,"Large central metro",76
+"3168",2055,NA,"Rural",42.1
+"3169",351154,667,"Large central metro",73.6
+"3170",55127,NA,"Micropolitan",82.4
+"3171",26729,NA,"Large central metro",37.7
+"3172",720403,2265,"Medium central metro",64.7
+"3173",47839,152,"Micropolitan",44.5
+"3174",60061,NA,"Micropolitan",64.7
+"3175",6243,NA,"Large central metro",58.2
+"3176",15734,NA,"Micropolitan",63.3
+"3177",17462,NA,"Micropolitan",69.4
+"3178",820,NA,"Rural",64.3
+"3179",6897,NA,"Micropolitan",54.3
+"3180",1392,NA,"Rural",45.8
+"3181",582881,1566,"Large central metro",77.6
+"3182",1406,NA,"Rural",37.6
+"3183",7097,NA,"Micropolitan",39.1
+"3184",8127,NA,"Micropolitan",59.9
+"3185",56221,149,"Micropolitan",70.7
+"3186",356899,846,"Medium central metro",68.2
+"3187",14506,NA,"Micropolitan",61.7
+"3188",5701,NA,"Rural",36.2
+"3189",22409,NA,"Micropolitan",38.2
+"3190",154210,780,"Small central metro",50
+"3191",769,NA,"Rural",83
+"3192",13283,NA,"Micropolitan",43.5
+"3193",26183,NA,"Micropolitan",69.2
+"3194",42758,187,"Micropolitan",49.2
+"3195",29068,NA,"Micropolitan",48.5
+"3196",18278,NA,"Micropolitan",49.4
+"3197",4952,NA,"Rural",66
+"3198",18845,NA,"Large central metro",47.6
+"3199",4265,NA,"Rural",52.4
+"3200",17767,NA,"Micropolitan",83.2
+"3201",12172,NA,"Micropolitan",43.1
+"3202",168424,923,"Small central metro",56.9
+"3203",6324,NA,"Rural",38.6
+"3204",11267,NA,"Micropolitan",63.4
+"3205",25638,NA,"Micropolitan",75.8
+"3206",6824,NA,"Rural",35.9
+"3207",728,NA,"Rural",94.8
+"3208",8179,NA,"Rural",83.4
+"3209",2248,NA,"Rural",52.5
+"3210",31011,NA,"Micropolitan",84.9
+"3211",25388,NA,"Medium central metro",54.2
+"3212",4908,NA,"Rural",31
+"3213",324492,660,"Medium central metro",61.4
+"3214",10019,NA,"Micropolitan",44.1
+"3215",943332,3144,"Medium central metro",81.9
+"3216",891720,3783,"Large central metro",76
+"3217",180333,375,"Micropolitan",75.8
+"3218",162436,556,"Large central metro",83.6
+"3219",854757,3319,"Medium central metro",78.1
+"3220",265206,744,"Medium central metro",79.6
+"3221",150721,143,"Large central metro",67.2
+"3222",116782,238,"Medium central metro",64.3

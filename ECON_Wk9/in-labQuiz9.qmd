@@ -1,0 +1,46 @@
+---
+title: "in-labQuiz9"
+format: html
+---
+
+#Q1
+```{r}
+#| message: false
+#| warning: false
+#| echo: true
+
+library(tidyverse)
+library(modelsummary)
+
+df <- read_csv("covid_vac.csv") 
+```
+
+#Q2
+```{r}
+df <- df %>%
+  mutate(covid.19.deaths = ifelse(is.na(covid.19.deaths), 0, covid.19.deaths))
+```
+
+#Q3
+```{r}
+m1 <- lm(covid.19.deaths ~ series_complete_pop_pct, data = df)
+
+modelsummary(m1,
+  statistic = "std.error",
+  stars     = TRUE)
+```
+
+#Q4
+```{r}
+m2 <- lm(covid.19.deaths ~ series_complete_pop_pct + census2019, data = df)
+
+
+modelsummary(list(m1, m2),
+  statistic = "std.error",
+  stars     = TRUE)
+
+```
+
+#Q5
+##### The raw count of COVID deaths is mechanically higher in larger counties. Adding `census2019` isolates the *effect* of vaccination rates while holding the size of the at‑risk population constant, preventing spurious correlation that merely reflects county size instead of vaccination efficacy. Model1 – no population control	+21.98 deaths/ppt. Model2 – with population control	−1.52 deaths/ppt. County population accounts for 86% of the variance in the death counts that Model1 misses. Vaccination share by itself explains only ~6%. Median‑size county (≈26k people). Large county (90thpct, ≈209k people)
+

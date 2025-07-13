@@ -1,0 +1,146 @@
+---
+title: "labwk8"
+format: html
+---
+
+### 1 Create a table of descriptive statistics for earnings, education, and age by gender. The table should includes at least the mean and the variance
+```{r}
+library(tidyverse)
+library(modelsummary)
+library(car)
+library(AER)
+
+data("CPSSW8") 
+df <- CPSSW8
+
+datasummary(
+  earnings + education + age ~ (Mean + Var) * gender,
+  data  = df,
+  fmt   = "%.2f",
+  title = "TableA · Descriptive statistics by gender"
+)
+```
+### 2 Look at earning and education by gender: what do you notice?
+##### Males have greater avg hourly earnings on average compared to Females.
+##### Females have on average higher education relative to males. 
+##### There is greater var in Males compared to females. 
+
+### 3 Then, run four regressions: (1pts)
+####  Regression 1: earnings on gender
+####  Regression 2: earnings on gender, education
+####  Regression 3: earnings on gender, education, and age
+####  Regression 4: earnings on gender, education, age, and region
+
+```{r}
+# Regression specifications
+m1 <- lm(earnings ~ gender, data = df)
+m2 <- lm(earnings ~ gender + education, data = df)
+m3 <- lm(earnings ~ gender + education + age,data =df)
+m4 <- lm(earnings ~ gender + education + age + region, data = df)
+
+# Display neatly
+modelsummary(list(m1, m2, m3, m4), stars = TRUE,
+             title = "Table1· Earnings regressions")
+```
+
+### 4. The variable region has 4 values but only 3 are given in regression 4. why? 
+##### categorical variable withk levels only needs k–1 dummy variables when an intercept is in the model. Including all four region dummies plus the intercept would create perfect multicollinearity (the “dummy‑variable trap”). R therefore drops one level automatically and treats it as the reference category
+
+### 5. Interpret each region coeﬀicient in regression 4.
+##### Midwestern workers earn about $1.29 less per hour than otherwise‑similar workers in the Northeast. The estimate is highly significant (p<0.001).
+
+##### Southern workers earn roughly $1.25 less per hour than comparable Northeastern workers.
+
+##### Western workers earn about $0.48 less per hour than their Northeastern counterparts.
+
+### 6. Calculate the F-stat that the region coeﬀicients are jointly equal to zero using the R2 in regression 3 and the R2 in regression 4
+```{r}
+f_stat <- ((0.251 - 0.249)/3) / ((1-0.251)/(61395-6-1))
+print(f_stat)
+```
+
+### 7. Test that the region coeﬀicients are jointly equal to zero using using the built in R command (do not control for heteroskedasticity)
+```{r}
+lht(m4,
+  c("regionMidwest = 0",
+    "regionSouth   = 0",
+    "regionWest    = 0"))
+```
+
+### 8. The impact of age on earnings is likely non-linear. Use a polynomial to verify this claim. Call this regression Regression 5
+```{r}
+CPSSW8$age2 <- CPSSW8$age^2 
+m5 <- lm(earnings ~ gender + education + age + age2 + region, data = CPSSW8)
+
+modelsummary(
+  list(m1, m2, m3, m4, m5),
+  gof_map = gof_map[gof_map$raw %in% c("r.squared","adj.r.squared","nobs"), ],
+  stars   = TRUE,
+  title   = "Table2 · Earnings regressions (age quadratic)")
+```
+
+### 9.  Interpret your age results. 
+##### concave “age–earnings profile.
+##### Beyond the peak age (computed below) predicted earnings begin to fall. 
+
+### 10. In regression 5, use a F-test to test whether age and age squared are jointly significantly different from zero. 
+```{r}
+lht(m5,c("age = 0","age2 = 0"))
+```
+
+### 11. According to regression 5, at what age do you expect workers to make the most money?
+```{r}
+b   <- coef(m5)
+age_peak <- -b["age"] / (2 * b["age2"])
+print(age_peak)
+```
+
+### 12. According to regression 1 in Table 1, What is the average pay per hours for female? for male? Express it in USD
+```{r}
+# (Intercept)	20.086 = Average Hourly Wage Males
+Intercept_1 = 	20.086
+genderfemale_1 = -3.748
+Female_avg_1 = Intercept_1 + genderfemale_1
+print(Female_avg_1)
+# 16.338 = Average Hourly Wage Females
+```
+
+
+### 13. Still using regression 1, is the result (likely) bias? Why?
+
+##### Yes. Regression 1 omits key determinants of earnings—education, experience (age), region, occupation, etc.—that are correlated both with pay and with gender
+##### genderfemale is subject to omitted‐variable bias.
+
+### 14. Now considering regression 1 and 2, what does the results from regression (2) suggests about the direction of the bias in equation (1)? i.e. is the bias positive, negative or null? Use Table 2
+
+
+##### When you add education in Regression 2, the female coefficient goes from –3.748 (Reg 1) to –4.188 (Reg 2). Because the coefficient becomes more negative once you control for schooling, the omitted‐variable bias in Reg 1 must be positive 
+
+### 15. Still considering regression 1 and 2, what does the results from regression (2) suggests about the sign of the covariance of education and gender (being a female)? (1pt) Use Table 2.
+
+##### adding education makes the female coefficient go from –3.748 in Reg 1 to –4.188 in Reg 2; the omitted‐variable bias in Reg 1 must have been positive. women in this sample have, on average, higher education than men. 
+
+### 16. Verify your intuition from Question 15 using R and regressions 1 and 2.
+```{r}
+df$female <- ifelse(df$gender == "female", 1, 0)
+cov_ef <- cov(df$education, df$female, use = "complete.obs")
+print(paste("Cov(education, female) =", cov_ef))
+m6 <- lm(earnings ~ female,               data = df)
+m7 <- lm(earnings ~ female + education,   data = df)
+coef_m6 <- coef(m6)["female"]
+coef_m7 <- coef(m7)["female"]
+
+print(coef_m6)
+print(coef_m7)
+```
+
+### 17. Calculate the bias in equation (1) using the formula of the bias. Verify that it corresponds to the bias observed when comparing equation (1) and equation (2).
+```{r}
+beta_educ      <- coef(m7)["education"]
+var_female     <- var(df$female, na.rm = TRUE)
+bias_formula   <- beta_educ * cov_ef / var_female
+bias_observed  <- coef_m6 - coef_m7
+
+print(paste("Bias (formula)  =", round(bias_formula, 3)))
+print(paste("Bias (observed) =", round(bias_observed, 3)))
+```

@@ -1,0 +1,161 @@
+---
+title: "final_exam_econ42"
+format: html
+---
+
+# Q1
+```{r setup, include = FALSE}
+library(AER)
+library(broom) 
+library(car)
+library(dplyr)
+library(epiDisplay)
+library(foreign)
+library(ggplot2)
+library(lmtest)
+library(modelsummary)
+library(readr)
+library(readxl)
+library(sandwich)
+library(tidyverse)
+
+setwd('/Users/marcosfuerte/ECON42/ECON42_Week10')
+finals <- read_csv("finals.csv")
+```
+
+# Q2
+```{r}
+finals <- finals |>
+  mutate(private = if_else(worker_type %in% c("private, profit", "private, non profit"), 1, 0))
+```
+
+# Q3
+```{r}
+stats_table <- finals |>
+  summarise(across(any_of(c("education","female","earnings","private","black")),
+                   list(mean = ~mean(.x, na.rm = TRUE),
+                        var  = ~var(.x,  na.rm = TRUE),
+                        sd   = ~sd(.x,   na.rm = TRUE)),
+                   .names = "{.col}_{.fn}")) |>
+  pivot_longer(everything(),
+               names_to = c("variable", ".value"),
+               names_sep = "_")
+
+```
+
+# Q4
+```{r}
+finals <- finals |>
+  mutate(female = as.integer(tolower(gender) == "female"))
+
+m1 <- lm(earnings ~ female, data = finals)
+modelsummary(m1, vcov = "HC1")
+```
+
+# Q5
+Based on the regression model m1, Women earn about $22472 less per year than men, on average
+
+# Q6
+```{r}
+male_mean   <- coef(m1)[1]
+female_mean <- coef(m1)[1] + coef(m1)[2]
+```
+
+# Q7
+```{r}
+m2 <- lm(log(earnings) ~ female, data = finals)
+modelsummary(list(m1,m2))
+```
+
+# Q8
+```{r}
+m2 <- lm(log(earnings) ~ female, data = finals)
+m3 <- lm(log(earnings) ~ female + education, data = finals)
+
+modelsummary(list(m2, m3))
+```
+
+# Q9
+Yes—biased upward. 
+m2	−0.282
+m3	−0.341
+Controlling for education reveals a larger (more negative) gender gap, the simpler model m2 understated the gap. 
+
+# Q10
+```{r}
+beta_hat_1 <- -0.282
+beta_hat_2 <- -0.341
+
+difference <- beta_hat_1 - beta_hat_2
+print("the difference of the betas between education and female is: ")
+print(difference)
+print("hence the difference is positive, and beta_hat_edcuation is + .102. the fraction for cov(x,y)/var(x) must then be positive. ")
+```
+Women in this sample have, on average, more schooling than men.
+
+# Q11
+```{r}
+N        <- nrow(finals)
+n_female <- sum(finals$female)
+p        <- n_female / N
+var_D    <- p * (1 - p)
+cov_DX   <- 0.5784314 * var_D
+cov_DX
+```
+
+# Q12
+```{r}
+p       <- sum(finals$female) / nrow(finals)
+var_D   <- p * (1 - p)
+mu_X    <- sum(finals$education) / nrow(finals)
+var_X   <- sum( (finals$education - mu_X)^2 ) / nrow(finals)
+
+cov_DX  <- 0.059 / 0.102 * var_D
+
+rho_DX  <- cov_DX / sqrt(var_D * var_X)
+rho_DX
+```
+
+# Q13
+```{r}
+cov(finals$education, finals$female)
+cor(finals$education, finals$female)
+```
+
+# Q14
+```{r}
+# dummy variable.
+finals <- finals |>
+  mutate(black_ = as.integer(black == "black" | black == 1))
+
+#models
+m3 <- lm(log(earnings) ~ female + education,              data = finals)
+m4 <- lm(log(earnings) ~ female * black_ + education,    data = finals)
+
+modelsummary(list(m3, m4))
+```
+
+# Q15
+non‑Black women earn about 34.1% less than non‑Black men, on average in , after controlling in logarithmic terms for education.
+
+# Q16
+```{r}
+beta_hat_female_times_black_ <- 0.301
+beta_hat_4_female <- -0.371
+
+differnece1 <- beta_hat_4_female + beta_hat_female_times_black_
+differnece1
+
+```
+Black women earn about 7% less than Black men, on average, after controlling for education.
+
+# Q17
+```{r}
+error_beta_hat_female_times_black_ <- 0.060
+
+t_stat <- beta_hat_female_times_black_ / error_beta_hat_female_times_black_
+t_stat
+
+print("t_stat greater than 1.96, significant")
+```
+The positive, significant test shows that the gender wage penalty is much smaller for Black workers than for non‑Black workers, and the difference is (about 0.30log‑points) and is statistically reliable. 

@@ -1,0 +1,183 @@
+---
+title: "labw9"
+format: html
+---
+
+# Q1 
+```{r, message = FALSE, warning = FALSE}
+library(readr)
+library(dplyr)
+library(modelsummary)
+library(ggplot2)
+library(AER)
+library(car)
+
+beauty <- read_csv("beauty.csv", show_col_types = FALSE)
+
+print(beauty)
+```
+
+#2
+```{r}
+beauty$looks_num <- match(beauty$looks, c("homely", "below average", "average", "above average", "handsome"))
+
+datasummary(looks_num + educ + exper + wage ~ Mean + SD + Min + Max + N, data = beauty)
+```
+
+#3
+```{r}
+beauty$looks_num <- match(beauty$looks, c("homely","below average", "Average", "Above average","handsome"))
+
+ggplot(beauty, aes(x = looks_num, y = log(wage))) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+
+## Part B
+#4
+```{r}
+mod1 <- lm(log(wage) ~ looks_num, data = beauty)
+mod2 <- lm(log(wage) ~ factor(looks), data = beauty)
+modelsummary(
+  list(mod1, mod2),  stars     = c("*" = .10, "**" = .05, "***" = .01))
+```
+
+#5
+Model1 imposes a straight‑line relationship: every notch in appearance is worth the same 9% wage bump.
+Model2 lets each category differ freely. It shows that the “penalty zone” (homely→below‑average) is steep, whereas the “reward zone” (above‑average→handsome) is flatter and statistically weak. In other words, looking unattractive hurts more than looking especially good helps.
+
+Model‑fit is nearly identical (R² ≈1–2%), confirming that looks alone explains only a sliver of wage variation. Still, the factor model slightly improves the joint significance of looks (F = 4.4 vs.4.0).
+
+#6
+```{r}
+lht(mod2,
+    c("factor(looks)Average      = 0",
+      "factor(looks)below average = 0",
+      "factor(looks)handsome      = 0",
+      "factor(looks)homely        = 0"))
+```
+
+#7
+No—our regressions only uncover correlation, not causation.
+To treat the 5‑point looks score as an exogenous “treatment” we must believe that nothing else, observed or unobserved, influences both appearance and pay. 
+
+#8
+```{r}
+beauty$looks_num <- match(beauty$looks,
+                          c("homely","below average","Average",
+                            "Above average","handsome"))
+
+m1 <- lm(log(wage) ~ looks_num,                         data = beauty)
+m2 <- lm(log(wage) ~ looks_num + educ,                  data = beauty)
+m3 <- lm(log(wage) ~ looks_num + educ + exper,          data = beauty)
+m4 <- lm(log(wage) ~ looks_num + educ + exper + union + goodhlth, data = beauty)
+m5 <- lm(log(wage) ~ looks_num + educ + exper + union + goodhlth + black + female + married, data = beauty)
+
+modelsummary(
+  list(m1, m2, m3, m4, m5),
+  estimate  = "{estimate}{stars}",
+  statistic = "({std.error})",
+  stars     = c("*" = .10, "**" = .05, "***" = .01))
+
+```
+
+#9
+Specification m5 is the preferred model because it offers the best statistical fit (highest Adj. R², lowest AIC/BIC) and retains all theoretically relevant controls, most of which are individually significant, while leaving the main “beauty premium” estimate both stable and highly significant.
+
+#10
+```{r}
+m6 <- lm(lwage ~ looks_num + educ + exper + exper^2 + union + goodhlth + black + female + married, data = beauty)
+
+modelsummary(
+  m6,
+  estimate  = "{estimate}{stars}",
+  statistic = "({std.error})",
+  gof_omit  = "IC|RMSE"
+)
+```
+Because the quadratic is concave (β₁>0, β₂<0), the experience–earnings profile rises, flattens, then slowly declines. exper^ = -β₁/2*β₂ = (0.039 / (2*0.00059)) = 33 years
+Adding the quadratic improves model fit (Adj. R² rises from 0.357 to ~0.374) while leaving the beauty premium (looks_num ≈ 0.059. 
+
+#11
+exper_star = 0.0389 / (2 * 0.000586) = 33.1911262799
+33.1911262799; 33.2 years.
+
+
+#12
+```{r}
+mod_int <- lm(
+  log(wage) ~ looks_num * female        # interaction term
+             + educ + exper + I(exper^2)
+             + union + goodhlth
+             + black + married,
+  data = beauty
+)
+
+modelsummary(mod_int,
+             estimate  = "{estimate}{stars}",
+             statistic = "({std.error})",
+             stars     = c("*" = .10, "**" = .05, "***" = .01))
+```
+
+#13
+```{r}
+mod_gender <- lm(log(wage) ~ looks_num * female + educ + exper + union + goodhlth + black + married, data = beauty)
+
+modelsummary(
+  mod_gender,
+  estimate  = "{estimate}{stars}",
+  statistic = "({std.error})",
+  stars     = c("*" = .10, "**" = .05, "***" = .01))
+```
+
+#14
+Interaction model: ln(wage) = β0 + β1 * looks_num + β2 * female + β3 * (looks_num × female) + Xγ
+
+Effect for men (female = 0):  ln(wage) / d looks_num = β1 = 0.043 (s.e. 0.025)
+Moving up one step on the 5‑point appearance scale raises male log‑wages by ≈4.4% [exp(0.043) − 1]. The coefficient is significant at the 10% level (*).
+
+Effect for women (female = 1): β1 + β3 = 0.043 + 0.036 = 0.079
+Each one‑step improvement in looks is associated with an ≈8.2% higher wage for women [exp(0.079) − 1].
+
+Increment relative to men: β3 = 0.036 (s.e. 0.041), not statistically different from zero at conventional levels (p ≈ 0.38), so we cannot reject the null hypothesis that the beauty premium is the same for both sexes.
+
+
+#15
+No. The interaction term that captures the extra beauty premium for women (β₃=0.036,s.e.=0.041) yields a t‑statistic of about 0.88 and a p‑value around 0.38—far above conventional 10%,5% or 1% significance thresholds. Hence we cannot reject the null hypothesis that the beauty effect is the same for men and women; any apparent difference in the point estimates is not statistically significant.
+
+
+#16
+```{r}
+beauty <- beauty %>%
+  mutate(
+    looks_lower = tolower(looks),
+    handsome    = ifelse(looks_lower == "handsome", 1, 0),
+    homely      = ifelse(looks_lower == "homely",   1, 0)
+  ) %>%
+  select(-looks_lower)
+
+table(beauty$handsome, beauty$looks)
+table(beauty$homely,   beauty$looks)
+```
+
+#17
+```{r}
+m_extremes <- lm(
+  log(wage) ~ handsome + homely +
+              educ + exper + I(exper^2) +
+              union + goodhlth +
+              black + female + married,
+  data = beauty
+)
+
+modelsummary(
+  m_extremes,
+  estimate  = "{estimate}{stars}",
+  statistic = "({std.error})",
+  stars     = c("*" = .10, "**" = .05, "***" = .01)
+)
+```
+The overall “beauty effect” seen in earlier regressions is driven almost entirely by the wage penalty imposed on workers rated homely; the reward for being rated handsome is modest and statistically fragile. In short, unattractiveness hurts earnings more than exceptional attractiveness helps.
+
+
+
