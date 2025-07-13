@@ -1,0 +1,122 @@
+---
+title: "in-lab Quiz submission W6"
+format: html
+---
+
+
+
+## Importing file
+```{r}
+library(AER)
+library(modelsummary)
+library(ggplot2)
+
+setwd("/Users/marcosfuerte/ECON42/ECON42_Week6")
+df <- read.csv("CPS1988.csv")
+```
+
+## Part 1: Simple regression
+
+### Q1 run a simple regression Regression 1 of wage (monthly wage) on education and present the regression and present your results in modelsummary table
+```{r, message=FALSE, warning=FALSE}
+options(digits=3)
+regression1<- lm(formula = wage ~ education , data = df)
+modelsummary(regression1)
+```
+
+### Q2 Interpret the slope coeﬀicient in words
+
+The slope coefficient would be $`r summary(regression1)$coefficient[2,1]` for  edcuation, this is positive slope and means that every 1 year of education would lead to an increase in $47.181 in wage per year"
+
+### Q3 "The slope of the is not significanlty different from zero, since the p-value is equal to 0."
+```{r}
+t<- 50/74
+p <- 2*pnorm(-abs(summary(regression1)$coefficient[2,1]/summary(regression1)$coefficient[2,2]))
+print(p)
+
+summary(regression1)
+```
+
+### Q4 rerun regression 1 but this time accounting for heteroskedasticity
+
+```{r}
+modelsummary(regression1, vcov="robust")
+se_intercept_h = 12.951
+se_intercept_ = 11.897
+```
+
+### Q5  Compare your results with and without heteroskedasticity correction. What do you notice?
+
+#### When accounting for heteroskedasticity the intercept error changed to `r se_intercept_h` with out accounting for heteroskedasticity and `r se_intercept_`. The edcuation error term also changed when accounting for heteroskedasticity from 0.889 to 1.020 . The F-score also changed from 2818.026 to 2138.902
+
+## PART 2: Multivariable regression
+### Q6 Run a multiple regression Regression 2 that includes in addition to education the variable experience. Display both regression (regression 1 and 2) results in a single table using modelsummary command with robust standard errors
+```{r}
+regression2<- lm(formula = wage ~ education + experience, data = df)
+modelsummary(list(regression1,regression2))
+```
+
+### Q7 Interpret each coeﬀicient carefully in words (remember partial effects)
+
+#### Holding experience constant, education wage increased by 47.181$ when running 1 variable for wage_hat. Implementing education and experience the education wage increased to 60.896$ and experience accounted for 10.606$ with no variables being held constant.
+
+### Q8 Are the coeﬀicients significantly different from zero? At what significance level? Explain how you reach your conclusion
+
+#### The coefficients are different from zero, this is because the values of Because all |t| ≫ 2, we reject the null that each coefficient equals zero at the 1 percent level. We reach this conclusion by dividing each estimate by its standard error to get the t–statistic and then noting that these t–values correspond to vanishingly small p-values.
+
+```{r}
+t_education <- 60.896 / 0.883
+t_experience <- 10.606 / 0.196
+t_intercept_edu_exp <- -385.083/13.243
+```
+
+### Q9 Add significance starts to your regression table. 
+```{r}
+modelsummary(list(regression1, regression2), vcov  ="robust")
+```
+
+### Q10 Did the slope coeﬀicient for education change when you added the experience variable? How?
+
+
+#### When we move from Regression 1 (wage ∼ education) to Regression 2 (wage ∼ education + experience), the estimated coefficient on education rises from 47.181 to 60.896. That is, once we control for experience, each additional year of schooling is associated with $13.715 more in monthly wage than in the simple regression. 
+
+### Q11 What does it suggest about the validity of the education coeﬀicient in regression 1?
+
+
+#### The upward revision of the education coefficient suggests omitted-variable bias in Regression 1. Because education and experience are positively correlated and experience itself raises wages, leaving out experience in Regression 1 caused the education effect to be biased downward. 
+
+### Q12 Add the binary variable parttime to Regression 2 and present your results in a table (Regression 3)
+```{r}
+regression3 <- lm(wage ~ education + experience + parttime, data = df)
+modelsummary(list(regression1, regression2, regression3), vcov = "robust")
+```
+
+### Q13 Is variable partime predictive of wage? Interpret the magnitude and significance of the coeﬀicient.
+
+#### The coefficient on parttime is –$358.69 (robust SE ≈ 8.45), meaning that, holding education and experience constant, part-time workers earn about $359 less per month than full-time workers.
+
+#### The t-statistic (≈ –42.5) is far larger in absolute value than 2, so it is highly significant (p < 0.001).
+
+```{r}
+t_stat_partime <- -358.686 / 8.449
+```
+
+
+### Q14 Comparing regression 3 and regression 2, would you say that there is evidence of omitted variable bias in regression 2? Q15 Use Regression 3 to calculate the predicted value of wage for all observations. Attach predicted wage to your dataset
+
+#### When we add parttime: Education falls slightly from 60.896 to 59.501 (∆  –1.395). Experience falls slightly from 10.606 to 9.779 (∆  –0.827).
+
+#### omitting parttime in Regression 2 introduced some bias into the education and experience estimates, so yes—there is evidence of omitted-variable bias.
+
+### Q16 Use Regression 3 to calculate the residual of wage. Attach the residuals to the dataset. 
+```{r}
+df$residuals <- resid(regression3)
+summary(df$residuals)
+```
+
+### Q17 If you add the predicted value and the regression residual, what should you get?
+
+#### wage_hat + error_term_hat = wage
+
+### Q18 Verify your intuition using R 
+#### Based on my assumptions within the residuals I believe that the models assumptions are valid, however R^2 is at 0.227 when accounting for education experience and partime, which means there is 0.773 still in the error term. 

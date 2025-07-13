@@ -1,0 +1,84 @@
+---
+title: "Lab 3 – Education and Earnings"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+# 2 – Real data
+
+## 2.1 Load the education data
+
+```{r load-data}
+# Load directly from Vincent Arel-Bundock's Rdatasets repository
+url <- "https://vincentarelbundock.github.io/Rdatasets/csv/AER/CPSSWEducation.csv"
+edu <- read.csv(url)
+str(edu)
+summary(edu)
+```
+
+The variables of interest are **earnings** (annual labour income, 2004 $) and **education** (years of completed schooling).
+
+## 2.2 Regress *earnings* on *education*
+
+```{r regression}
+ols <- lm(earnings ~ education, data = edu)
+# install.packages("modelsummary") # if needed
+library(modelsummary)
+modelsummary(ols,
+             statistic = "({statistic})",
+             stars = TRUE,
+             title = "Table 1. OLS regression of earnings on education")
+```
+
+## 2.3 Interpret the education coefficient
+
+> The estimated slope coefficient, `r round(coef(ols)["education"],2)`, implies that **each additional year of schooling is associated with an average increase of about $`r format(round(coef(ols)["education"],0), big.mark = ",")` in annual earnings, ceteris paribus**.
+
+(Replace wording/styling if you prefer.)
+
+## 2.4 Manually compute *t*, *p*-value and 95% confidence interval
+
+```{r manual-calculations}
+beta1  <- coef(ols)["education"]
+se1    <- summary(ols)$coefficients["education","Std. Error"]
+t_stat <- beta1 / se1
+df     <- ols$df.residual
+p_val  <- 2 * pt(abs(t_stat), df, lower.tail = FALSE)
+ci_l   <- beta1 - qt(0.975, df) * se1
+ci_u   <- beta1 + qt(0.975, df) * se1
+data.frame(beta1, se1, t_stat, p_val, ci_l, ci_u)
+```
+
+## 2.5 Verify with `summary()`
+
+```{r verify-summary}
+summary(ols)
+confint(ols)
+```
+
+The analytically computed statistics should match the output above.
+
+## 2.6 Predicted earnings for each observation
+
+```{r predict-manual}
+edu$earning_hat <- fitted(ols)   # same as predict(ols)
+head(edu[, c("earnings","earning_hat")])
+```
+
+## 2.7 Verify using `predict()`
+
+```{r predict-function}
+edu$earning_hat2 <- predict(ols)
+all.equal(edu$earning_hat, edu$earning_hat2)
+```
+
+Knit this R Markdown file to produce the required **HTML** report.
+
+---
+
+**Tip:** If you knit to HTML and the regression table does not appear, make sure the `modelsummary` package is installed and loaded.

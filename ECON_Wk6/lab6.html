@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>in-lab Quiz submission W6</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="lab6_files/libs/clipboard/clipboard.min.js"></script>
+<script src="lab6_files/libs/quarto-html/quarto.js"></script>
+<script src="lab6_files/libs/quarto-html/popper.min.js"></script>
+<script src="lab6_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="lab6_files/libs/quarto-html/anchor.min.js"></script>
+<link href="lab6_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="lab6_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="lab6_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="lab6_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="lab6_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">in-lab Quiz submission W6</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="importing-file" class="level2">
+<h2 class="anchored" data-anchor-id="importing-file">Importing file</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(AER)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'AER' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: car</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'car' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: carData</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'carData' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: lmtest</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'lmtest' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: zoo</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'zoo' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'zoo'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: sandwich</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'sandwich' was built under R version 4.3.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: survival</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(modelsummary)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'modelsummary' was built under R version 4.3.3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">"/Users/marcosfuerte/ECON42/ECON42_Week6"</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"CPS1988.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="part-1-simple-regression" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-simple-regression">Part 1: Simple regression</h2>
+<section id="q1-run-a-simple-regression-regression-1-of-wage-monthly-wage-on-education-and-present-the-regression-and-present-your-results-in-modelsummary-table" class="level3">
+<h3 class="anchored" data-anchor-id="q1-run-a-simple-regression-regression-1-of-wage-monthly-wage-on-education-and-present-the-regression-and-present-your-results-in-modelsummary-table">Q1 run a simple regression Regression 1 of wage (monthly wage) on education and present the regression and present your results in modelsummary table</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">digits=</span><span class="dv">3</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>regression1<span class="ot">&lt;-</span> <span class="fu">lm</span>(<span class="at">formula =</span> wage <span class="sc">~</span> education , <span class="at">data =</span> df)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="fu">modelsummary</span>(regression1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<!-- preamble start -->
+
+    <script>
+
+      function styleCell_kter04xno311jspty27o(i, j, css_id) {
+          var table = document.getElementById("tinytable_kter04xno311jspty27o");
+          var cell = table.rows[i]?.cells[j];  // Safe navigation to avoid errors
+          if (cell) {
+              console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
+              cell.classList.add(css_id);
+          } else {
+              console.warn(`Cell at (${i}, ${j}) not found.`);
+          }
+      }
+      function insertSpanRow(i, colspan, content) {
+        var table = document.getElementById('tinytable_kter04xno311jspty27o');
+        var newRow = table.insertRow(i);
+        var newCell = newRow.insertCell(0);
+        newCell.setAttribute("colspan", colspan);
+        // newCell.innerText = content;
+        // this may be unsafe, but innerText does not interpret <br>
+        newCell.innerHTML = content;
+      }
+      function spanCell_kter04xno311jspty27o(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_kter04xno311jspty27o");
+        const targetRow = table.rows[i];
+        const targetCell = targetRow.cells[j];
+        for (let r = 0; r < rowspan; r++) {
+          // Only start deleting cells to the right for the first row (r == 0)
+          if (r === 0) {
+            // Delete cells to the right of the target cell in the first row
+            for (let c = colspan - 1; c > 0; c--) {
+              if (table.rows[i + r].cells[j + c]) {
+                table.rows[i + r].deleteCell(j + c);
+              }
+            }
+          }
+          // For rows below the first, delete starting from the target column
+          if (r > 0) {
+            for (let c = colspan - 1; c >= 0; c--) {
+              if (table.rows[i + r] && table.rows[i + r].cells[j]) {
+                table.rows[i + r].deleteCell(j);
+              }
+            }
+          }
+        }
+        // Set rowspan and colspan of the target cell
+        targetCell.rowSpan = rowspan;
+        targetCell.colSpan = colspan;
+      }
+      // tinytable span after
+      window.addEventListener('load', function () {
+          var cellsToStyle = [
+            // tinytable style arrays after
+          { positions: [ { i: 0, j: 0 },  ], css_id: 'tinytable_css_whq3lv62cahssa6i5myg',}, 
+          { positions: [ { i: 1, j: 1 }, { i: 2, j: 1 }, { i: 3, j: 1 }, { i: 8, j: 1 }, { i: 5, j: 1 }, { i: 6, j: 1 }, { i: 7, j: 1 }, { i: 9, j: 1 }, { i: 10, j: 1 }, { i: 11, j: 1 },  ], css_id: 'tinytable_css_vg1jvrhsxdoqwfjdybid',}, 
+          { positions: [ { i: 4, j: 1 },  ], css_id: 'tinytable_css_t5f9w71la9ziblc6xfk1',}, 
+          { positions: [ { i: 12, j: 0 },  ], css_id: 'tinytable_css_moo1c0b8eq4459ppifaa',}, 
+          { positions: [ { i: 12, j: 1 },  ], css_id: 'tinytable_css_k9ufwafhz8s7ui8gq1uu',}, 
+          { positions: [ { i: 1, j: 0 }, { i: 2, j: 0 }, { i: 3, j: 0 }, { i: 8, j: 0 }, { i: 5, j: 0 }, { i: 6, j: 0 }, { i: 7, j: 0 }, { i: 9, j: 0 }, { i: 10, j: 0 }, { i: 11, j: 0 },  ], css_id: 'tinytable_css_jysf96sysdx4ifan6eqx',}, 
+          { positions: [ { i: 0, j: 1 },  ], css_id: 'tinytable_css_6mg5m3ckqrqsln9u9xsq',}, 
+          { positions: [ { i: 4, j: 0 },  ], css_id: 'tinytable_css_0ypzop9q1di1lo0ft2eh',}, 
+          ];
+
+          // Loop over the arrays to style the cells
+          cellsToStyle.forEach(function (group) {
+              group.positions.forEach(function (cell) {
+                  styleCell_kter04xno311jspty27o(cell.i, cell.j, group.css_id);
+              });
+          });
+      });
+    </script>
+
+    <style>
+      /* tinytable css entries after */
+      .table td.tinytable_css_whq3lv62cahssa6i5myg, .table th.tinytable_css_whq3lv62cahssa6i5myg { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_vg1jvrhsxdoqwfjdybid, .table th.tinytable_css_vg1jvrhsxdoqwfjdybid { text-align: center; }
+      .table td.tinytable_css_t5f9w71la9ziblc6xfk1, .table th.tinytable_css_t5f9w71la9ziblc6xfk1 { text-align: center; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_moo1c0b8eq4459ppifaa, .table th.tinytable_css_moo1c0b8eq4459ppifaa { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_k9ufwafhz8s7ui8gq1uu, .table th.tinytable_css_k9ufwafhz8s7ui8gq1uu { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_jysf96sysdx4ifan6eqx, .table th.tinytable_css_jysf96sysdx4ifan6eqx { text-align: left; }
+      .table td.tinytable_css_6mg5m3ckqrqsln9u9xsq, .table th.tinytable_css_6mg5m3ckqrqsln9u9xsq { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_0ypzop9q1di1lo0ft2eh, .table th.tinytable_css_0ypzop9q1di1lo0ft2eh { text-align: left; border-bottom: solid black 0.05em; }
+    </style>
+    <div class="container">
+      <table class="table table-borderless" id="tinytable_kter04xno311jspty27o" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+        <thead>
+        
+              <tr>
+                <th scope="col"> </th>
+                <th scope="col">(1)</th>
+              </tr>
+        </thead>
+        
+        <tbody>
+                <tr>
+                  <td>(Intercept)</td>
+                  <td>-12.828</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>(11.897)</td>
+                </tr>
+                <tr>
+                  <td>education</td>
+                  <td>47.181</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>(0.889)</td>
+                </tr>
+                <tr>
+                  <td>Num.Obs.</td>
+                  <td>28155</td>
+                </tr>
+                <tr>
+                  <td>R2</td>
+                  <td>0.091</td>
+                </tr>
+                <tr>
+                  <td>R2 Adj.</td>
+                  <td>0.091</td>
+                </tr>
+                <tr>
+                  <td>AIC</td>
+                  <td>421673.4</td>
+                </tr>
+                <tr>
+                  <td>BIC</td>
+                  <td>421698.1</td>
+                </tr>
+                <tr>
+                  <td>Log.Lik.</td>
+                  <td>-210833.688</td>
+                </tr>
+                <tr>
+                  <td>F</td>
+                  <td>2818.026</td>
+                </tr>
+                <tr>
+                  <td>RMSE</td>
+                  <td>432.41</td>
+                </tr>
+        </tbody>
+      </table>
+    </div>
+<!-- hack to avoid NA insertion in last line -->
+</div>
+</div>
+</section>
+<section id="q2-interpret-the-slope-coeﬀicient-in-words" class="level3">
+<h3 class="anchored" data-anchor-id="q2-interpret-the-slope-coeﬀicient-in-words">Q2 Interpret the slope coeﬀicient in words</h3>
+<p>The slope coefficient would be $47.181 for edcuation, this is positive slope and means that every 1 year of education would lead to an increase in $47.181 in wage per year”</p>
+</section>
+<section id="q3-the-slope-of-the-is-not-significanlty-different-from-zero-since-the-p-value-is-equal-to-0." class="level3">
+<h3 class="anchored" data-anchor-id="q3-the-slope-of-the-is-not-significanlty-different-from-zero-since-the-p-value-is-equal-to-0.">Q3 “The slope of the is not significanlty different from zero, since the p-value is equal to 0.”</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>t<span class="ot">&lt;-</span> <span class="dv">50</span><span class="sc">/</span><span class="dv">74</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pnorm</span>(<span class="sc">-</span><span class="fu">abs</span>(<span class="fu">summary</span>(regression1)<span class="sc">$</span>coefficient[<span class="dv">2</span>,<span class="dv">1</span>]<span class="sc">/</span><span class="fu">summary</span>(regression1)<span class="sc">$</span>coefficient[<span class="dv">2</span>,<span class="dv">2</span>]))</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(p)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(regression1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = wage ~ education, data = df)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+  -786   -265    -55    174  18035 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)  -12.828     11.897   -1.08     0.28    
+education     47.181      0.889   53.09   &lt;2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 432 on 28153 degrees of freedom
+Multiple R-squared:  0.091, Adjusted R-squared:  0.091 
+F-statistic: 2.82e+03 on 1 and 28153 DF,  p-value: &lt;2e-16</code></pre>
+</div>
+</div>
+</section>
+<section id="q4-rerun-regression-1-but-this-time-accounting-for-heteroskedasticity" class="level3">
+<h3 class="anchored" data-anchor-id="q4-rerun-regression-1-but-this-time-accounting-for-heteroskedasticity">Q4 rerun regression 1 but this time accounting for heteroskedasticity</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">modelsummary</span>(regression1, <span class="at">vcov=</span><span class="st">"robust"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<!-- preamble start -->
+
+    <script>
+
+      function styleCell_dt5r58a1pie4mnaf5ayk(i, j, css_id) {
+          var table = document.getElementById("tinytable_dt5r58a1pie4mnaf5ayk");
+          var cell = table.rows[i]?.cells[j];  // Safe navigation to avoid errors
+          if (cell) {
+              console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
+              cell.classList.add(css_id);
+          } else {
+              console.warn(`Cell at (${i}, ${j}) not found.`);
+          }
+      }
+      function insertSpanRow(i, colspan, content) {
+        var table = document.getElementById('tinytable_dt5r58a1pie4mnaf5ayk');
+        var newRow = table.insertRow(i);
+        var newCell = newRow.insertCell(0);
+        newCell.setAttribute("colspan", colspan);
+        // newCell.innerText = content;
+        // this may be unsafe, but innerText does not interpret <br>
+        newCell.innerHTML = content;
+      }
+      function spanCell_dt5r58a1pie4mnaf5ayk(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_dt5r58a1pie4mnaf5ayk");
+        const targetRow = table.rows[i];
+        const targetCell = targetRow.cells[j];
+        for (let r = 0; r < rowspan; r++) {
+          // Only start deleting cells to the right for the first row (r == 0)
+          if (r === 0) {
+            // Delete cells to the right of the target cell in the first row
+            for (let c = colspan - 1; c > 0; c--) {
+              if (table.rows[i + r].cells[j + c]) {
+                table.rows[i + r].deleteCell(j + c);
+              }
+            }
+          }
+          // For rows below the first, delete starting from the target column
+          if (r > 0) {
+            for (let c = colspan - 1; c >= 0; c--) {
+              if (table.rows[i + r] && table.rows[i + r].cells[j]) {
+                table.rows[i + r].deleteCell(j);
+              }
+            }
+          }
+        }
+        // Set rowspan and colspan of the target cell
+        targetCell.rowSpan = rowspan;
+        targetCell.colSpan = colspan;
+      }
+      // tinytable span after
+      window.addEventListener('load', function () {
+          var cellsToStyle = [
+            // tinytable style arrays after
+          { positions: [ { i: 1, j: 1 }, { i: 2, j: 1 }, { i: 3, j: 1 }, { i: 8, j: 1 }, { i: 5, j: 1 }, { i: 6, j: 1 }, { i: 7, j: 1 }, { i: 12, j: 1 }, { i: 9, j: 1 }, { i: 10, j: 1 }, { i: 11, j: 1 },  ], css_id: 'tinytable_css_yy4l3jd3uy9qba8r2bd3',}, 
+          { positions: [ { i: 13, j: 0 },  ], css_id: 'tinytable_css_x2uxe67y5id3yvms119o',}, 
+          { positions: [ { i: 4, j: 1 },  ], css_id: 'tinytable_css_tbgvpvmkoklu174altlq',}, 
+          { positions: [ { i: 0, j: 1 },  ], css_id: 'tinytable_css_j6jrxsrwy963sz7u06ck',}, 
+          { positions: [ { i: 0, j: 0 },  ], css_id: 'tinytable_css_hgsp3r24cc47tbsty9zz',}, 
+          { positions: [ { i: 1, j: 0 }, { i: 2, j: 0 }, { i: 3, j: 0 }, { i: 8, j: 0 }, { i: 5, j: 0 }, { i: 6, j: 0 }, { i: 7, j: 0 }, { i: 12, j: 0 }, { i: 9, j: 0 }, { i: 10, j: 0 }, { i: 11, j: 0 },  ], css_id: 'tinytable_css_ezmzzhtwcyl76mnxa745',}, 
+          { positions: [ { i: 4, j: 0 },  ], css_id: 'tinytable_css_axmkdetkj0eaholxtu85',}, 
+          { positions: [ { i: 13, j: 1 },  ], css_id: 'tinytable_css_6ygx4hudb5av0qgqhkrr',}, 
+          ];
+
+          // Loop over the arrays to style the cells
+          cellsToStyle.forEach(function (group) {
+              group.positions.forEach(function (cell) {
+                  styleCell_dt5r58a1pie4mnaf5ayk(cell.i, cell.j, group.css_id);
+              });
+          });
+      });
+    </script>
+
+    <style>
+      /* tinytable css entries after */
+      .table td.tinytable_css_yy4l3jd3uy9qba8r2bd3, .table th.tinytable_css_yy4l3jd3uy9qba8r2bd3 { text-align: center; }
+      .table td.tinytable_css_x2uxe67y5id3yvms119o, .table th.tinytable_css_x2uxe67y5id3yvms119o { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_tbgvpvmkoklu174altlq, .table th.tinytable_css_tbgvpvmkoklu174altlq { text-align: center; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_j6jrxsrwy963sz7u06ck, .table th.tinytable_css_j6jrxsrwy963sz7u06ck { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_hgsp3r24cc47tbsty9zz, .table th.tinytable_css_hgsp3r24cc47tbsty9zz { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_ezmzzhtwcyl76mnxa745, .table th.tinytable_css_ezmzzhtwcyl76mnxa745 { text-align: left; }
+      .table td.tinytable_css_axmkdetkj0eaholxtu85, .table th.tinytable_css_axmkdetkj0eaholxtu85 { text-align: left; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_6ygx4hudb5av0qgqhkrr, .table th.tinytable_css_6ygx4hudb5av0qgqhkrr { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
+    </style>
+    <div class="container">
+      <table class="table table-borderless" id="tinytable_dt5r58a1pie4mnaf5ayk" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+        <thead>
+        
+              <tr>
+                <th scope="col"> </th>
+                <th scope="col">(1)</th>
+              </tr>
+        </thead>
+        
+        <tbody>
+                <tr>
+                  <td>(Intercept)</td>
+                  <td>-12.828</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>(12.951)</td>
+                </tr>
+                <tr>
+                  <td>education</td>
+                  <td>47.181</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>(1.020)</td>
+                </tr>
+                <tr>
+                  <td>Num.Obs.</td>
+                  <td>28155</td>
+                </tr>
+                <tr>
+                  <td>R2</td>
+                  <td>0.091</td>
+                </tr>
+                <tr>
+                  <td>R2 Adj.</td>
+                  <td>0.091</td>
+                </tr>
+                <tr>
+                  <td>AIC</td>
+                  <td>421673.4</td>
+                </tr>
+                <tr>
+                  <td>BIC</td>
+                  <td>421698.1</td>
+                </tr>
+                <tr>
+                  <td>Log.Lik.</td>
+                  <td>-210833.688</td>
+                </tr>
+                <tr>
+                  <td>F</td>
+                  <td>2138.902</td>
+                </tr>
+                <tr>
+                  <td>RMSE</td>
+                  <td>432.41</td>
+                </tr>
+                <tr>
+                  <td>Std.Errors</td>
+                  <td>HC3</td>
+                </tr>
+        </tbody>
+      </table>
+    </div>
+<!-- hack to avoid NA insertion in last line -->
+</div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>se_intercept_h <span class="ot">=</span> <span class="fl">12.951</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>se_intercept_ <span class="ot">=</span> <span class="fl">11.897</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="q5-compare-your-results-with-and-without-heteroskedasticity-correction.-what-do-you-notice" class="level3">
+<h3 class="anchored" data-anchor-id="q5-compare-your-results-with-and-without-heteroskedasticity-correction.-what-do-you-notice">Q5 Compare your results with and without heteroskedasticity correction. What do you notice?</h3>
+<section id="when-accounting-for-heteroskedasticity-the-intercept-error-changed-to-12.951-with-out-accounting-for-heteroskedasticity-and-11.897.-the-edcuation-error-term-also-changed-when-accounting-for-heteroskedasticity-from-0.889-to-1.020-.-the-f-score-also-changed-from-2818.026-to-2138.902" class="level4">
+<h4 class="anchored" data-anchor-id="when-accounting-for-heteroskedasticity-the-intercept-error-changed-to-12.951-with-out-accounting-for-heteroskedasticity-and-11.897.-the-edcuation-error-term-also-changed-when-accounting-for-heteroskedasticity-from-0.889-to-1.020-.-the-f-score-also-changed-from-2818.026-to-2138.902">When accounting for heteroskedasticity the intercept error changed to 12.951 with out accounting for heteroskedasticity and 11.897. The edcuation error term also changed when accounting for heteroskedasticity from 0.889 to 1.020 . The F-score also changed from 2818.026 to 2138.902</h4>
+</section>
+</section>
+</section>
+<section id="part-2-multivariable-regression" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-multivariable-regression">PART 2: Multivariable regression</h2>
+<section id="q6-run-a-multiple-regression-regression-2-that-includes-in-addition-to-education-the-variable-experience.-display-both-regression-regression-1-and-2-results-in-a-single-table-using-modelsummary-command-with-robust-standard-errors" class="level3">
+<h3 class="anchored" data-anchor-id="q6-run-a-multiple-regression-regression-2-that-includes-in-addition-to-education-the-variable-experience.-display-both-regression-regression-1-and-2-results-in-a-single-table-using-modelsummary-command-with-robust-standard-errors">Q6 Run a multiple regression Regression 2 that includes in addition to education the variable experience. Display both regression (regression 1 and 2) results in a single table using modelsummary command with robust standard errors</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>regression2<span class="ot">&lt;-</span> <span class="fu">lm</span>(<span class="at">formula =</span> wage <span class="sc">~</span> education <span class="sc">+</span> experience, <span class="at">data =</span> df)</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="fu">modelsummary</span>(<span class="fu">list</span>(regression1,regression2))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<!-- preamble start -->
+
+    <script>
+
+      function styleCell_j6efktxx1oddh0jbkyck(i, j, css_id) {
+          var table = document.getElementById("tinytable_j6efktxx1oddh0jbkyck");
+          var cell = table.rows[i]?.cells[j];  // Safe navigation to avoid errors
+          if (cell) {
+              console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
+              cell.classList.add(css_id);
+          } else {
+              console.warn(`Cell at (${i}, ${j}) not found.`);
+          }
+      }
+      function insertSpanRow(i, colspan, content) {
+        var table = document.getElementById('tinytable_j6efktxx1oddh0jbkyck');
+        var newRow = table.insertRow(i);
+        var newCell = newRow.insertCell(0);
+        newCell.setAttribute("colspan", colspan);
+        // newCell.innerText = content;
+        // this may be unsafe, but innerText does not interpret <br>
+        newCell.innerHTML = content;
+      }
+      function spanCell_j6efktxx1oddh0jbkyck(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_j6efktxx1oddh0jbkyck");
+        const targetRow = table.rows[i];
+        const targetCell = targetRow.cells[j];
+        for (let r = 0; r < rowspan; r++) {
+          // Only start deleting cells to the right for the first row (r == 0)
+          if (r === 0) {
+            // Delete cells to the right of the target cell in the first row
+            for (let c = colspan - 1; c > 0; c--) {
+              if (table.rows[i + r].cells[j + c]) {
+                table.rows[i + r].deleteCell(j + c);
+              }
+            }
+          }
+          // For rows below the first, delete starting from the target column
+          if (r > 0) {
+            for (let c = colspan - 1; c >= 0; c--) {
+              if (table.rows[i + r] && table.rows[i + r].cells[j]) {
+                table.rows[i + r].deleteCell(j);
+              }
+            }
+          }
+        }
+        // Set rowspan and colspan of the target cell
+        targetCell.rowSpan = rowspan;
+        targetCell.colSpan = colspan;
+      }
+      // tinytable span after
+      window.addEventListener('load', function () {
+          var cellsToStyle = [
+            // tinytable style arrays after
+          { positions: [ { i: 0, j: 1 }, { i: 0, j: 2 },  ], css_id: 'tinytable_css_xqmtxv2s6j5irvkls2a0',}, 
+          { positions: [ { i: 0, j: 0 },  ], css_id: 'tinytable_css_qvid9yjbmd9jzxwganra',}, 
+          { positions: [ { i: 6, j: 1 }, { i: 6, j: 2 },  ], css_id: 'tinytable_css_ls5u18kd77w7ucog8bpl',}, 
+          { positions: [ { i: 14, j: 0 },  ], css_id: 'tinytable_css_h5f7ahoj8po451p8hwg6',}, 
+          { positions: [ { i: 1, j: 1 }, { i: 3, j: 1 }, { i: 4, j: 1 }, { i: 5, j: 1 }, { i: 4, j: 2 }, { i: 7, j: 1 }, { i: 8, j: 1 }, { i: 9, j: 1 }, { i: 10, j: 1 }, { i: 11, j: 1 }, { i: 12, j: 1 }, { i: 13, j: 1 }, { i: 12, j: 2 }, { i: 2, j: 1 }, { i: 1, j: 2 }, { i: 2, j: 2 }, { i: 3, j: 2 }, { i: 8, j: 2 }, { i: 5, j: 2 }, { i: 10, j: 2 }, { i: 7, j: 2 }, { i: 9, j: 2 }, { i: 11, j: 2 }, { i: 13, j: 2 },  ], css_id: 'tinytable_css_bllw7z4g9ha2xzftqiba',}, 
+          { positions: [ { i: 1, j: 0 }, { i: 2, j: 0 }, { i: 3, j: 0 }, { i: 4, j: 0 }, { i: 5, j: 0 }, { i: 10, j: 0 }, { i: 7, j: 0 }, { i: 8, j: 0 }, { i: 9, j: 0 }, { i: 11, j: 0 }, { i: 12, j: 0 }, { i: 13, j: 0 },  ], css_id: 'tinytable_css_84pzgwhvcw3v8k36jy8u',}, 
+          { positions: [ { i: 14, j: 1 }, { i: 14, j: 2 },  ], css_id: 'tinytable_css_5op6i8h7zf3s7ceszpda',}, 
+          { positions: [ { i: 6, j: 0 },  ], css_id: 'tinytable_css_0ud3u5gadjlni5e76zbf',}, 
+          ];
+
+          // Loop over the arrays to style the cells
+          cellsToStyle.forEach(function (group) {
+              group.positions.forEach(function (cell) {
+                  styleCell_j6efktxx1oddh0jbkyck(cell.i, cell.j, group.css_id);
+              });
+          });
+      });
+    </script>
+
+    <style>
+      /* tinytable css entries after */
+      .table td.tinytable_css_xqmtxv2s6j5irvkls2a0, .table th.tinytable_css_xqmtxv2s6j5irvkls2a0 { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_qvid9yjbmd9jzxwganra, .table th.tinytable_css_qvid9yjbmd9jzxwganra { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_ls5u18kd77w7ucog8bpl, .table th.tinytable_css_ls5u18kd77w7ucog8bpl { text-align: center; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_h5f7ahoj8po451p8hwg6, .table th.tinytable_css_h5f7ahoj8po451p8hwg6 { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_bllw7z4g9ha2xzftqiba, .table th.tinytable_css_bllw7z4g9ha2xzftqiba { text-align: center; }
+      .table td.tinytable_css_84pzgwhvcw3v8k36jy8u, .table th.tinytable_css_84pzgwhvcw3v8k36jy8u { text-align: left; }
+      .table td.tinytable_css_5op6i8h7zf3s7ceszpda, .table th.tinytable_css_5op6i8h7zf3s7ceszpda { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_0ud3u5gadjlni5e76zbf, .table th.tinytable_css_0ud3u5gadjlni5e76zbf { text-align: left; border-bottom: solid black 0.05em; }
+    </style>
+    <div class="container">
+      <table class="table table-borderless" id="tinytable_j6efktxx1oddh0jbkyck" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+        <thead>
+        
+              <tr>
+                <th scope="col"> </th>
+                <th scope="col">(1)</th>
+                <th scope="col">(2)</th>
+              </tr>
+        </thead>
+        
+        <tbody>
+                <tr>
+                  <td>(Intercept)</td>
+                  <td>-12.828</td>
+                  <td>-385.083</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>(11.897)</td>
+                  <td>(13.243)</td>
+                </tr>
+                <tr>
+                  <td>education</td>
+                  <td>47.181</td>
+                  <td>60.896</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>(0.889)</td>
+                  <td>(0.883)</td>
+                </tr>
+                <tr>
+                  <td>experience</td>
+                  <td></td>
+                  <td>10.606</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>(0.196)</td>
+                </tr>
+                <tr>
+                  <td>Num.Obs.</td>
+                  <td>28155</td>
+                  <td>28155</td>
+                </tr>
+                <tr>
+                  <td>R2</td>
+                  <td>0.091</td>
+                  <td>0.177</td>
+                </tr>
+                <tr>
+                  <td>R2 Adj.</td>
+                  <td>0.091</td>
+                  <td>0.177</td>
+                </tr>
+                <tr>
+                  <td>AIC</td>
+                  <td>421673.4</td>
+                  <td>418882.2</td>
+                </tr>
+                <tr>
+                  <td>BIC</td>
+                  <td>421698.1</td>
+                  <td>418915.2</td>
+                </tr>
+                <tr>
+                  <td>Log.Lik.</td>
+                  <td>-210833.688</td>
+                  <td>-209437.097</td>
+                </tr>
+                <tr>
+                  <td>F</td>
+                  <td>2818.026</td>
+                  <td>3023.970</td>
+                </tr>
+                <tr>
+                  <td>RMSE</td>
+                  <td>432.41</td>
+                  <td>411.49</td>
+                </tr>
+        </tbody>
+      </table>
+    </div>
+<!-- hack to avoid NA insertion in last line -->
+</div>
+</div>
+</section>
+<section id="q7-interpret-each-coeﬀicient-carefully-in-words-remember-partial-effects" class="level3">
+<h3 class="anchored" data-anchor-id="q7-interpret-each-coeﬀicient-carefully-in-words-remember-partial-effects">Q7 Interpret each coeﬀicient carefully in words (remember partial effects)</h3>
+<section id="holding-experience-constant-education-wage-increased-by-47.181-when-running-1-variable-for-wage_hat.-implementing-education-and-experience-the-education-wage-increased-to-60.896-and-experience-accounted-for-10.606-with-no-variables-being-held-constant." class="level4">
+<h4 class="anchored" data-anchor-id="holding-experience-constant-education-wage-increased-by-47.181-when-running-1-variable-for-wage_hat.-implementing-education-and-experience-the-education-wage-increased-to-60.896-and-experience-accounted-for-10.606-with-no-variables-being-held-constant.">Holding experience constant, education wage increased by 47.181$ when running 1 variable for wage_hat. Implementing education and experience the education wage increased to 60.896$ and experience accounted for 10.606$ with no variables being held constant.</h4>
+</section>
+</section>
+<section id="q8-are-the-coeﬀicients-significantly-different-from-zero-at-what-significance-level-explain-how-you-reach-your-conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="q8-are-the-coeﬀicients-significantly-different-from-zero-at-what-significance-level-explain-how-you-reach-your-conclusion">Q8 Are the coeﬀicients significantly different from zero? At what significance level? Explain how you reach your conclusion</h3>
+<section id="the-coefficients-are-different-from-zero-this-is-because-the-values-of-because-all-t-2-we-reject-the-null-that-each-coefficient-equals-zero-at-the-1-percent-level.-we-reach-this-conclusion-by-dividing-each-estimate-by-its-standard-error-to-get-the-tstatistic-and-then-noting-that-these-tvalues-correspond-to-vanishingly-small-p-values." class="level4">
+<h4 class="anchored" data-anchor-id="the-coefficients-are-different-from-zero-this-is-because-the-values-of-because-all-t-2-we-reject-the-null-that-each-coefficient-equals-zero-at-the-1-percent-level.-we-reach-this-conclusion-by-dividing-each-estimate-by-its-standard-error-to-get-the-tstatistic-and-then-noting-that-these-tvalues-correspond-to-vanishingly-small-p-values.">The coefficients are different from zero, this is because the values of Because all |t| ≫ 2, we reject the null that each coefficient equals zero at the 1 percent level. We reach this conclusion by dividing each estimate by its standard error to get the t–statistic and then noting that these t–values correspond to vanishingly small p-values.</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>t_education <span class="ot">&lt;-</span> <span class="fl">60.896</span> <span class="sc">/</span> <span class="fl">0.883</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>t_experience <span class="ot">&lt;-</span> <span class="fl">10.606</span> <span class="sc">/</span> <span class="fl">0.196</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>t_intercept_edu_exp <span class="ot">&lt;-</span> <span class="sc">-</span><span class="fl">385.083</span><span class="sc">/</span><span class="fl">13.243</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="q9-add-significance-starts-to-your-regression-table." class="level3">
+<h3 class="anchored" data-anchor-id="q9-add-significance-starts-to-your-regression-table.">Q9 Add significance starts to your regression table.</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">modelsummary</span>(<span class="fu">list</span>(regression1, regression2), <span class="at">vcov  =</span><span class="st">"robust"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<!-- preamble start -->
+
+    <script>
+
+      function styleCell_cbjxzoqoh6rspo2pvrec(i, j, css_id) {
+          var table = document.getElementById("tinytable_cbjxzoqoh6rspo2pvrec");
+          var cell = table.rows[i]?.cells[j];  // Safe navigation to avoid errors
+          if (cell) {
+              console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
+              cell.classList.add(css_id);
+          } else {
+              console.warn(`Cell at (${i}, ${j}) not found.`);
+          }
+      }
+      function insertSpanRow(i, colspan, content) {
+        var table = document.getElementById('tinytable_cbjxzoqoh6rspo2pvrec');
+        var newRow = table.insertRow(i);
+        var newCell = newRow.insertCell(0);
+        newCell.setAttribute("colspan", colspan);
+        // newCell.innerText = content;
+        // this may be unsafe, but innerText does not interpret <br>
+        newCell.innerHTML = content;
+      }
+      function spanCell_cbjxzoqoh6rspo2pvrec(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_cbjxzoqoh6rspo2pvrec");
+        const targetRow = table.rows[i];
+        const targetCell = targetRow.cells[j];
+        for (let r = 0; r < rowspan; r++) {
+          // Only start deleting cells to the right for the first row (r == 0)
+          if (r === 0) {
+            // Delete cells to the right of the target cell in the first row
+            for (let c = colspan - 1; c > 0; c--) {
+              if (table.rows[i + r].cells[j + c]) {
+                table.rows[i + r].deleteCell(j + c);
+              }
+            }
+          }
+          // For rows below the first, delete starting from the target column
+          if (r > 0) {
+            for (let c = colspan - 1; c >= 0; c--) {
+              if (table.rows[i + r] && table.rows[i + r].cells[j]) {
+                table.rows[i + r].deleteCell(j);
+              }
+            }
+          }
+        }
+        // Set rowspan and colspan of the target cell
+        targetCell.rowSpan = rowspan;
+        targetCell.colSpan = colspan;
+      }
+      // tinytable span after
+      window.addEventListener('load', function () {
+          var cellsToStyle = [
+            // tinytable style arrays after
+          { positions: [ { i: 6, j: 1 }, { i: 6, j: 2 },  ], css_id: 'tinytable_css_zyrx3gsolgqjo9jg49yk',}, 
+          { positions: [ { i: 0, j: 0 },  ], css_id: 'tinytable_css_vzh23ys9wx4w6ssaucnl',}, 
+          { positions: [ { i: 15, j: 0 },  ], css_id: 'tinytable_css_vimbydvhfyc841sfsyyu',}, 
+          { positions: [ { i: 0, j: 1 }, { i: 0, j: 2 },  ], css_id: 'tinytable_css_uz939zurznffpbnrweyg',}, 
+          { positions: [ { i: 1, j: 1 }, { i: 2, j: 1 }, { i: 4, j: 1 }, { i: 5, j: 1 }, { i: 3, j: 2 }, { i: 7, j: 1 }, { i: 8, j: 1 }, { i: 9, j: 1 }, { i: 10, j: 1 }, { i: 11, j: 1 }, { i: 12, j: 1 }, { i: 13, j: 1 }, { i: 14, j: 1 }, { i: 12, j: 2 }, { i: 3, j: 1 }, { i: 1, j: 2 }, { i: 2, j: 2 }, { i: 7, j: 2 }, { i: 4, j: 2 }, { i: 5, j: 2 }, { i: 10, j: 2 }, { i: 11, j: 2 }, { i: 8, j: 2 }, { i: 9, j: 2 }, { i: 14, j: 2 }, { i: 13, j: 2 },  ], css_id: 'tinytable_css_sgla43cl4xqzp7bdamyv',}, 
+          { positions: [ { i: 6, j: 0 },  ], css_id: 'tinytable_css_s5iy9ocm2vzh75n9dmuv',}, 
+          { positions: [ { i: 15, j: 1 }, { i: 15, j: 2 },  ], css_id: 'tinytable_css_lmjtqq9365zervmcbd57',}, 
+          { positions: [ { i: 1, j: 0 }, { i: 2, j: 0 }, { i: 3, j: 0 }, { i: 4, j: 0 }, { i: 5, j: 0 }, { i: 10, j: 0 }, { i: 7, j: 0 }, { i: 8, j: 0 }, { i: 9, j: 0 }, { i: 14, j: 0 }, { i: 11, j: 0 }, { i: 12, j: 0 }, { i: 13, j: 0 },  ], css_id: 'tinytable_css_cu6x9qqocngg5p7p1xqy',}, 
+          ];
+
+          // Loop over the arrays to style the cells
+          cellsToStyle.forEach(function (group) {
+              group.positions.forEach(function (cell) {
+                  styleCell_cbjxzoqoh6rspo2pvrec(cell.i, cell.j, group.css_id);
+              });
+          });
+      });
+    </script>
+
+    <style>
+      /* tinytable css entries after */
+      .table td.tinytable_css_zyrx3gsolgqjo9jg49yk, .table th.tinytable_css_zyrx3gsolgqjo9jg49yk { text-align: center; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_vzh23ys9wx4w6ssaucnl, .table th.tinytable_css_vzh23ys9wx4w6ssaucnl { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_vimbydvhfyc841sfsyyu, .table th.tinytable_css_vimbydvhfyc841sfsyyu { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_uz939zurznffpbnrweyg, .table th.tinytable_css_uz939zurznffpbnrweyg { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_sgla43cl4xqzp7bdamyv, .table th.tinytable_css_sgla43cl4xqzp7bdamyv { text-align: center; }
+      .table td.tinytable_css_s5iy9ocm2vzh75n9dmuv, .table th.tinytable_css_s5iy9ocm2vzh75n9dmuv { text-align: left; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_lmjtqq9365zervmcbd57, .table th.tinytable_css_lmjtqq9365zervmcbd57 { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_cu6x9qqocngg5p7p1xqy, .table th.tinytable_css_cu6x9qqocngg5p7p1xqy { text-align: left; }
+    </style>
+    <div class="container">
+      <table class="table table-borderless" id="tinytable_cbjxzoqoh6rspo2pvrec" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+        <thead>
+        
+              <tr>
+                <th scope="col"> </th>
+                <th scope="col">(1)</th>
+                <th scope="col">(2)</th>
+              </tr>
+        </thead>
+        
+        <tbody>
+                <tr>
+                  <td>(Intercept)</td>
+                  <td>-12.828</td>
+                  <td>-385.083</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>(12.951)</td>
+                  <td>(14.504)</td>
+                </tr>
+                <tr>
+                  <td>education</td>
+                  <td>47.181</td>
+                  <td>60.896</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>(1.020)</td>
+                  <td>(1.037)</td>
+                </tr>
+                <tr>
+                  <td>experience</td>
+                  <td></td>
+                  <td>10.606</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>(0.223)</td>
+                </tr>
+                <tr>
+                  <td>Num.Obs.</td>
+                  <td>28155</td>
+                  <td>28155</td>
+                </tr>
+                <tr>
+                  <td>R2</td>
+                  <td>0.091</td>
+                  <td>0.177</td>
+                </tr>
+                <tr>
+                  <td>R2 Adj.</td>
+                  <td>0.091</td>
+                  <td>0.177</td>
+                </tr>
+                <tr>
+                  <td>AIC</td>
+                  <td>421673.4</td>
+                  <td>418882.2</td>
+                </tr>
+                <tr>
+                  <td>BIC</td>
+                  <td>421698.1</td>
+                  <td>418915.2</td>
+                </tr>
+                <tr>
+                  <td>Log.Lik.</td>
+                  <td>-210833.688</td>
+                  <td>-209437.097</td>
+                </tr>
+                <tr>
+                  <td>F</td>
+                  <td>2138.902</td>
+                  <td>2225.942</td>
+                </tr>
+                <tr>
+                  <td>RMSE</td>
+                  <td>432.41</td>
+                  <td>411.49</td>
+                </tr>
+                <tr>
+                  <td>Std.Errors</td>
+                  <td>HC3</td>
+                  <td>HC3</td>
+                </tr>
+        </tbody>
+      </table>
+    </div>
+<!-- hack to avoid NA insertion in last line -->
+</div>
+</div>
+</section>
+<section id="q10-did-the-slope-coeﬀicient-for-education-change-when-you-added-the-experience-variable-how" class="level3">
+<h3 class="anchored" data-anchor-id="q10-did-the-slope-coeﬀicient-for-education-change-when-you-added-the-experience-variable-how">Q10 Did the slope coeﬀicient for education change when you added the experience variable? How?</h3>
+<section id="when-we-move-from-regression-1-wage-education-to-regression-2-wage-education-experience-the-estimated-coefficient-on-education-rises-from-47.181-to-60.896.-that-is-once-we-control-for-experience-each-additional-year-of-schooling-is-associated-with-13.715-more-in-monthly-wage-than-in-the-simple-regression." class="level4">
+<h4 class="anchored" data-anchor-id="when-we-move-from-regression-1-wage-education-to-regression-2-wage-education-experience-the-estimated-coefficient-on-education-rises-from-47.181-to-60.896.-that-is-once-we-control-for-experience-each-additional-year-of-schooling-is-associated-with-13.715-more-in-monthly-wage-than-in-the-simple-regression.">When we move from Regression 1 (wage ∼ education) to Regression 2 (wage ∼ education + experience), the estimated coefficient on education rises from 47.181 to 60.896. That is, once we control for experience, each additional year of schooling is associated with $13.715 more in monthly wage than in the simple regression.</h4>
+</section>
+</section>
+<section id="q11-what-does-it-suggest-about-the-validity-of-the-education-coeﬀicient-in-regression-1" class="level3">
+<h3 class="anchored" data-anchor-id="q11-what-does-it-suggest-about-the-validity-of-the-education-coeﬀicient-in-regression-1">Q11 What does it suggest about the validity of the education coeﬀicient in regression 1?</h3>
+<section id="the-upward-revision-of-the-education-coefficient-suggests-omitted-variable-bias-in-regression-1.-because-education-and-experience-are-positively-correlated-and-experience-itself-raises-wages-leaving-out-experience-in-regression-1-caused-the-education-effect-to-be-biased-downward." class="level4">
+<h4 class="anchored" data-anchor-id="the-upward-revision-of-the-education-coefficient-suggests-omitted-variable-bias-in-regression-1.-because-education-and-experience-are-positively-correlated-and-experience-itself-raises-wages-leaving-out-experience-in-regression-1-caused-the-education-effect-to-be-biased-downward.">The upward revision of the education coefficient suggests omitted-variable bias in Regression 1. Because education and experience are positively correlated and experience itself raises wages, leaving out experience in Regression 1 caused the education effect to be biased downward.</h4>
+</section>
+</section>
+<section id="q12-add-the-binary-variable-parttime-to-regression-2-and-present-your-results-in-a-table-regression-3" class="level3">
+<h3 class="anchored" data-anchor-id="q12-add-the-binary-variable-parttime-to-regression-2-and-present-your-results-in-a-table-regression-3">Q12 Add the binary variable parttime to Regression 2 and present your results in a table (Regression 3)</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>regression3 <span class="ot">&lt;-</span> <span class="fu">lm</span>(wage <span class="sc">~</span> education <span class="sc">+</span> experience <span class="sc">+</span> parttime, <span class="at">data =</span> df)</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="fu">modelsummary</span>(<span class="fu">list</span>(regression1, regression2, regression3), <span class="at">vcov =</span> <span class="st">"robust"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<!-- preamble start -->
+
+    <script>
+
+      function styleCell_s4g5m3ax85fs4fjc5o24(i, j, css_id) {
+          var table = document.getElementById("tinytable_s4g5m3ax85fs4fjc5o24");
+          var cell = table.rows[i]?.cells[j];  // Safe navigation to avoid errors
+          if (cell) {
+              console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
+              cell.classList.add(css_id);
+          } else {
+              console.warn(`Cell at (${i}, ${j}) not found.`);
+          }
+      }
+      function insertSpanRow(i, colspan, content) {
+        var table = document.getElementById('tinytable_s4g5m3ax85fs4fjc5o24');
+        var newRow = table.insertRow(i);
+        var newCell = newRow.insertCell(0);
+        newCell.setAttribute("colspan", colspan);
+        // newCell.innerText = content;
+        // this may be unsafe, but innerText does not interpret <br>
+        newCell.innerHTML = content;
+      }
+      function spanCell_s4g5m3ax85fs4fjc5o24(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_s4g5m3ax85fs4fjc5o24");
+        const targetRow = table.rows[i];
+        const targetCell = targetRow.cells[j];
+        for (let r = 0; r < rowspan; r++) {
+          // Only start deleting cells to the right for the first row (r == 0)
+          if (r === 0) {
+            // Delete cells to the right of the target cell in the first row
+            for (let c = colspan - 1; c > 0; c--) {
+              if (table.rows[i + r].cells[j + c]) {
+                table.rows[i + r].deleteCell(j + c);
+              }
+            }
+          }
+          // For rows below the first, delete starting from the target column
+          if (r > 0) {
+            for (let c = colspan - 1; c >= 0; c--) {
+              if (table.rows[i + r] && table.rows[i + r].cells[j]) {
+                table.rows[i + r].deleteCell(j);
+              }
+            }
+          }
+        }
+        // Set rowspan and colspan of the target cell
+        targetCell.rowSpan = rowspan;
+        targetCell.colSpan = colspan;
+      }
+      // tinytable span after
+      window.addEventListener('load', function () {
+          var cellsToStyle = [
+            // tinytable style arrays after
+          { positions: [ { i: 17, j: 1 }, { i: 17, j: 2 }, { i: 17, j: 3 },  ], css_id: 'tinytable_css_yseqiafq0a76s53g2kkv',}, 
+          { positions: [ { i: 0, j: 1 }, { i: 0, j: 2 }, { i: 0, j: 3 },  ], css_id: 'tinytable_css_rrj6jmbo9uvuw8pbwr32',}, 
+          { positions: [ { i: 1, j: 0 }, { i: 2, j: 0 }, { i: 3, j: 0 }, { i: 4, j: 0 }, { i: 5, j: 0 }, { i: 6, j: 0 }, { i: 7, j: 0 }, { i: 12, j: 0 }, { i: 9, j: 0 }, { i: 10, j: 0 }, { i: 11, j: 0 }, { i: 16, j: 0 }, { i: 13, j: 0 }, { i: 14, j: 0 }, { i: 15, j: 0 },  ], css_id: 'tinytable_css_pg0qjg61xnzu6zuczykg',}, 
+          { positions: [ { i: 0, j: 0 },  ], css_id: 'tinytable_css_n1k9xk0gw4b97waoye3s',}, 
+          { positions: [ { i: 8, j: 3 }, { i: 8, j: 1 }, { i: 8, j: 2 },  ], css_id: 'tinytable_css_hrw0dq0onkdt46r2ksvc',}, 
+          { positions: [ { i: 17, j: 0 },  ], css_id: 'tinytable_css_dzw87co7vd1w2nmvzc92',}, 
+          { positions: [ { i: 8, j: 0 },  ], css_id: 'tinytable_css_8vwg42u1l770slwnrpu1',}, 
+          { positions: [ { i: 3, j: 1 }, { i: 4, j: 1 }, { i: 1, j: 1 }, { i: 2, j: 1 }, { i: 7, j: 1 }, { i: 3, j: 2 }, { i: 9, j: 1 }, { i: 6, j: 1 }, { i: 11, j: 1 }, { i: 12, j: 1 }, { i: 13, j: 1 }, { i: 14, j: 1 }, { i: 15, j: 1 }, { i: 16, j: 1 }, { i: 12, j: 2 }, { i: 5, j: 1 }, { i: 1, j: 2 }, { i: 2, j: 2 }, { i: 16, j: 2 }, { i: 4, j: 2 }, { i: 10, j: 1 }, { i: 6, j: 2 }, { i: 7, j: 2 }, { i: 3, j: 3 }, { i: 9, j: 2 }, { i: 10, j: 2 }, { i: 11, j: 2 }, { i: 7, j: 3 }, { i: 13, j: 2 }, { i: 14, j: 2 }, { i: 15, j: 2 }, { i: 11, j: 3 }, { i: 12, j: 3 }, { i: 5, j: 2 }, { i: 1, j: 3 }, { i: 2, j: 3 }, { i: 16, j: 3 }, { i: 4, j: 3 }, { i: 5, j: 3 }, { i: 6, j: 3 }, { i: 15, j: 3 }, { i: 9, j: 3 }, { i: 10, j: 3 }, { i: 13, j: 3 }, { i: 14, j: 3 },  ], css_id: 'tinytable_css_0hyg2andp5evixuvwhay',}, 
+          ];
+
+          // Loop over the arrays to style the cells
+          cellsToStyle.forEach(function (group) {
+              group.positions.forEach(function (cell) {
+                  styleCell_s4g5m3ax85fs4fjc5o24(cell.i, cell.j, group.css_id);
+              });
+          });
+      });
+    </script>
+
+    <style>
+      /* tinytable css entries after */
+      .table td.tinytable_css_yseqiafq0a76s53g2kkv, .table th.tinytable_css_yseqiafq0a76s53g2kkv { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_rrj6jmbo9uvuw8pbwr32, .table th.tinytable_css_rrj6jmbo9uvuw8pbwr32 { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_pg0qjg61xnzu6zuczykg, .table th.tinytable_css_pg0qjg61xnzu6zuczykg { text-align: left; }
+      .table td.tinytable_css_n1k9xk0gw4b97waoye3s, .table th.tinytable_css_n1k9xk0gw4b97waoye3s { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_hrw0dq0onkdt46r2ksvc, .table th.tinytable_css_hrw0dq0onkdt46r2ksvc { text-align: center; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_dzw87co7vd1w2nmvzc92, .table th.tinytable_css_dzw87co7vd1w2nmvzc92 { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_8vwg42u1l770slwnrpu1, .table th.tinytable_css_8vwg42u1l770slwnrpu1 { text-align: left; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_0hyg2andp5evixuvwhay, .table th.tinytable_css_0hyg2andp5evixuvwhay { text-align: center; }
+    </style>
+    <div class="container">
+      <table class="table table-borderless" id="tinytable_s4g5m3ax85fs4fjc5o24" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+        <thead>
+        
+              <tr>
+                <th scope="col"> </th>
+                <th scope="col">(1)</th>
+                <th scope="col">(2)</th>
+                <th scope="col">(3)</th>
+              </tr>
+        </thead>
+        
+        <tbody>
+                <tr>
+                  <td>(Intercept)</td>
+                  <td>-12.828</td>
+                  <td>-385.083</td>
+                  <td>-319.648</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>(12.951)</td>
+                  <td>(14.504)</td>
+                  <td>(14.358)</td>
+                </tr>
+                <tr>
+                  <td>education</td>
+                  <td>47.181</td>
+                  <td>60.896</td>
+                  <td>59.501</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>(1.020)</td>
+                  <td>(1.037)</td>
+                  <td>(1.017)</td>
+                </tr>
+                <tr>
+                  <td>experience</td>
+                  <td></td>
+                  <td>10.606</td>
+                  <td>9.779</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>(0.223)</td>
+                  <td>(0.216)</td>
+                </tr>
+                <tr>
+                  <td>parttimeyes</td>
+                  <td></td>
+                  <td></td>
+                  <td>-358.686</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>(8.449)</td>
+                </tr>
+                <tr>
+                  <td>Num.Obs.</td>
+                  <td>28155</td>
+                  <td>28155</td>
+                  <td>28155</td>
+                </tr>
+                <tr>
+                  <td>R2</td>
+                  <td>0.091</td>
+                  <td>0.177</td>
+                  <td>0.227</td>
+                </tr>
+                <tr>
+                  <td>R2 Adj.</td>
+                  <td>0.091</td>
+                  <td>0.177</td>
+                  <td>0.227</td>
+                </tr>
+                <tr>
+                  <td>AIC</td>
+                  <td>421673.4</td>
+                  <td>418882.2</td>
+                  <td>417101.0</td>
+                </tr>
+                <tr>
+                  <td>BIC</td>
+                  <td>421698.1</td>
+                  <td>418915.2</td>
+                  <td>417142.2</td>
+                </tr>
+                <tr>
+                  <td>Log.Lik.</td>
+                  <td>-210833.688</td>
+                  <td>-209437.097</td>
+                  <td>-208545.506</td>
+                </tr>
+                <tr>
+                  <td>F</td>
+                  <td>2138.902</td>
+                  <td>2225.942</td>
+                  <td>2619.964</td>
+                </tr>
+                <tr>
+                  <td>RMSE</td>
+                  <td>432.41</td>
+                  <td>411.49</td>
+                  <td>398.66</td>
+                </tr>
+                <tr>
+                  <td>Std.Errors</td>
+                  <td>HC3</td>
+                  <td>HC3</td>
+                  <td>HC3</td>
+                </tr>
+        </tbody>
+      </table>
+    </div>
+<!-- hack to avoid NA insertion in last line -->
+</div>
+</div>
+</section>
+<section id="q13-is-variable-partime-predictive-of-wage-interpret-the-magnitude-and-significance-of-the-coeﬀicient." class="level3">
+<h3 class="anchored" data-anchor-id="q13-is-variable-partime-predictive-of-wage-interpret-the-magnitude-and-significance-of-the-coeﬀicient.">Q13 Is variable partime predictive of wage? Interpret the magnitude and significance of the coeﬀicient.</h3>
+<section id="the-coefficient-on-parttime-is-358.69-robust-se-8.45-meaning-that-holding-education-and-experience-constant-part-time-workers-earn-about-359-less-per-month-than-full-time-workers." class="level4">
+<h4 class="anchored" data-anchor-id="the-coefficient-on-parttime-is-358.69-robust-se-8.45-meaning-that-holding-education-and-experience-constant-part-time-workers-earn-about-359-less-per-month-than-full-time-workers.">The coefficient on parttime is –$358.69 (robust SE ≈ 8.45), meaning that, holding education and experience constant, part-time workers earn about $359 less per month than full-time workers.</h4>
+</section>
+<section id="the-t-statistic-42.5-is-far-larger-in-absolute-value-than-2-so-it-is-highly-significant-p-0.001." class="level4">
+<h4 class="anchored" data-anchor-id="the-t-statistic-42.5-is-far-larger-in-absolute-value-than-2-so-it-is-highly-significant-p-0.001.">The t-statistic (≈ –42.5) is far larger in absolute value than 2, so it is highly significant (p &lt; 0.001).</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>t_stat_partime <span class="ot">&lt;-</span> <span class="sc">-</span><span class="fl">358.686</span> <span class="sc">/</span> <span class="fl">8.449</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="q14-comparing-regression-3-and-regression-2-would-you-say-that-there-is-evidence-of-omitted-variable-bias-in-regression-2-q15-use-regression-3-to-calculate-the-predicted-value-of-wage-for-all-observations.-attach-predicted-wage-to-your-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="q14-comparing-regression-3-and-regression-2-would-you-say-that-there-is-evidence-of-omitted-variable-bias-in-regression-2-q15-use-regression-3-to-calculate-the-predicted-value-of-wage-for-all-observations.-attach-predicted-wage-to-your-dataset">Q14 Comparing regression 3 and regression 2, would you say that there is evidence of omitted variable bias in regression 2? Q15 Use Regression 3 to calculate the predicted value of wage for all observations. Attach predicted wage to your dataset</h3>
+<section id="when-we-add-parttime-education-falls-slightly-from-60.896-to-59.501-1.395.-experience-falls-slightly-from-10.606-to-9.779-0.827." class="level4">
+<h4 class="anchored" data-anchor-id="when-we-add-parttime-education-falls-slightly-from-60.896-to-59.501-1.395.-experience-falls-slightly-from-10.606-to-9.779-0.827.">When we add parttime: Education falls slightly from 60.896 to 59.501 (∆ –1.395). Experience falls slightly from 10.606 to 9.779 (∆ –0.827).</h4>
+</section>
+<section id="omitting-parttime-in-regression-2-introduced-some-bias-into-the-education-and-experience-estimates-so-yesthere-is-evidence-of-omitted-variable-bias." class="level4">
+<h4 class="anchored" data-anchor-id="omitting-parttime-in-regression-2-introduced-some-bias-into-the-education-and-experience-estimates-so-yesthere-is-evidence-of-omitted-variable-bias.">omitting parttime in Regression 2 introduced some bias into the education and experience estimates, so yes—there is evidence of omitted-variable bias.</h4>
+</section>
+</section>
+<section id="q16-use-regression-3-to-calculate-the-residual-of-wage.-attach-the-residuals-to-the-dataset." class="level3">
+<h3 class="anchored" data-anchor-id="q16-use-regression-3-to-calculate-the-residual-of-wage.-attach-the-residuals-to-the-dataset.">Q16 Use Regression 3 to calculate the residual of wage. Attach the residuals to the dataset.</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>residuals <span class="ot">&lt;-</span> <span class="fu">resid</span>(regression3)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(df<span class="sc">$</span>residuals)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  -1078    -212     -51       0     137   18115 </code></pre>
+</div>
+</div>
+</section>
+<section id="q17-if-you-add-the-predicted-value-and-the-regression-residual-what-should-you-get" class="level3">
+<h3 class="anchored" data-anchor-id="q17-if-you-add-the-predicted-value-and-the-regression-residual-what-should-you-get">Q17 If you add the predicted value and the regression residual, what should you get?</h3>
+<section id="wage_hat-error_term_hat-wage" class="level4">
+<h4 class="anchored" data-anchor-id="wage_hat-error_term_hat-wage">wage_hat + error_term_hat = wage</h4>
+</section>
+</section>
+<section id="q18-verify-your-intuition-using-r" class="level3">
+<h3 class="anchored" data-anchor-id="q18-verify-your-intuition-using-r">Q18 Verify your intuition using R</h3>
+<section id="based-on-my-assumptions-within-the-residuals-i-believe-that-the-models-assumptions-are-valid-however-r2-is-at-0.227-when-accounting-for-education-experience-and-partime-which-means-there-is-0.773-still-in-the-error-term." class="level4">
+<h4 class="anchored" data-anchor-id="based-on-my-assumptions-within-the-residuals-i-believe-that-the-models-assumptions-are-valid-however-r2-is-at-0.227-when-accounting-for-education-experience-and-partime-which-means-there-is-0.773-still-in-the-error-term.">Based on my assumptions within the residuals I believe that the models assumptions are valid, however R^2 is at 0.227 when accounting for education experience and partime, which means there is 0.773 still in the error term.</h4>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,174 @@
+---
+title: "lab3"
+format: html
+---
+
+## 2.1
+
+```{r}
+library(readr)
+library(readxl)
+library(dplyr)
+library(ggplot2)
+wage       <- c(34.6, 19.2, 13.7, 13.9, 19.2) 
+education  <- c(16,   16,   12,   13,   16)  
+```
+
+## 2.2
+
+```{r}
+df <- data.frame(wage, education)
+df
+```
+
+## 2.3
+
+```{r}
+experience <- c(2, 4, 1, 3, 5)
+experience
+```
+
+## 2.4
+
+```{r}
+gender <- c("male", "female", "female", "female", "male")  # five values
+gender
+```
+
+## 2.5
+
+```{r}
+wage_mean   <- mean(df$wage)
+wage_sd     <- sd(df$wage)
+wage_median <- median(df$wage)
+
+edu_mean    <- mean(df$education)
+edu_sd      <- sd(df$education)
+edu_median  <- median(df$education)
+
+wage_mean
+wage_sd
+wage_median
+
+edu_mean
+edu_sd
+edu_median
+```
+
+## 2.6
+
+```{r}
+library(dplyr)  
+summarise(df, average=mean(wage), standard_deviation=sd(wage), median=median(wage))
+
+summarise(df, average=mean(education), standard_deviation=sd(education), median=median(education))
+```
+
+##2.7
+
+```{r}
+df %>% summarise(mean(wage))
+df %>% summarise(mean(education))
+
+df %>% summarise(sd(wage))
+df %>% summarise(sd(education))
+
+df %>% summarise(median(wage))
+df %>% summarise(median(education))
+```
+
+## 3.1
+
+```{r}
+url <- "https://vincentarelbundock.github.io/Rdatasets/csv/AER/CPSSWEducation.csv"
+cps_sw_edu <- read_csv(url, show_col_types = FALSE)
+
+cps_sw_edu
+```
+
+## 3.2
+
+```{r}
+CPS <- read_excel('/Users/marcosfuerte/ECON42/ECON42_Week3/CPSSWEducation.xlsx')
+CPS1 <- read_excel('/Users/marcosfuerte/ECON42/ECON42_Week3/CPSSWEducation.xls')
+```
+
+## 3.3
+
+```{r}
+df %>% summarise(
+  mean_education = mean(education),
+  var_education  = var(education),
+  sd_education   = sd(education),
+  mean_wage      = mean(wage),
+  var_wage       = var(wage),
+  sd_wage        = sd(wage)
+)
+```
+
+## 4.1, 4.2, 5.1
+
+```{r}
+
+# brings in ggplot2, dplyr, readr, etc.
+df1 <- read_csv('/Users/marcosfuerte/Downloads/CPSSWEducation.csv')
+
+# 3. Inspect (optional) -----------------------------------
+glimpse(df1)          # quick structure check
+#> Rows: 300  (example)
+#> Columns: rownames, age, gender, earnings, education
+
+ggplot(df1, aes(education, earnings, colour = gender)) +
+  geom_point(size = 2, alpha = .8) +
+  geom_smooth(method = "lm", se = FALSE,  # remove se = FALSE if you want the 95% band
+              linewidth = .7) +
+  scale_colour_brewer(palette = "Set1") +
+  labs(
+    title  = "Earnings vs. Education, coloured by Gender\nwith fitted linear trends",
+    colour = NULL
+  ) +
+  theme_classic()
+
+```
+
+## 5.2
+
+### Looking at your graph, who appear to be paid more ? Male workers, Female workers, or both earn similarly. Justify how you manage to figure this out.\[1pt\]
+
+#### The slops of both lines for male and female appear equavalent. However Male workers appear to be paid more.
+
+#### the men’s regression line is shifted upward—so, visually and statistically, men appear to earn more than women at every level of schooling in this sample.
+
+## 5.3
+
+### Looking at your graph, who appear to have the highest return to education? Male workers, Female workers, or both earn similarly. Justify how you manage to figure this out.\[1pt\]
+
+#### Men tend to have the highest return to education.
+
+```{r}
+m_par   <- lm(earnings ~ education + gender,         data = df1)  # reduced
+m_full  <- lm(earnings ~ education * gender,         data = df1)  # full
+
+anova(m_par, m_full)   # F‑test for the extra interaction terms
+```
+
+#### That means neither group enjoys a visibly higher return—the payoff to an extra year of education appears essentially identical for men and women. (The formal test you ran backs this up: the interaction term that would let the slopes diverge was not significant, p=0.73.)
+
+## 6.1
+
+```{r}
+df1$higher_ed<-(df1$education>12)
+```
+
+## 6.2
+
+```{r}
+df1$higher_ed[df1$education>12]<-1
+df1$higher_ed[df1$education<=12]<-0
+```
+
+## 6.3
+
+```{r}
+df1 %>% group_by(higher_ed) %>% summarise(mean(education))
+```

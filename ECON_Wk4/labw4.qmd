@@ -1,0 +1,124 @@
+---
+ftitle: "labw4"
+format: html
+---
+
+## 1 - adhoc Reggression
+### 1.1. 1.2, 1.3 Creating the date frame
+```{r libraries, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(modelsummary)
+library(AER)
+library(broom) 
+
+wage       <- c(25, 15, 16, 16, 31)
+education  <- c(12,  7, 13, 14, 15)
+
+
+college<- ifelse(education > 12, 1, 0)   
+# 1 if education > 12, else=0
+
+df <- tibble(wage, education, college)
+df
+```
+
+### 1.4, 1.5, 1.6 Mean wage by college graduation status
+
+```{r regression}
+## Wage_i = Bo + B1 * education_i + ε 
+
+df %>%
+  group_by(college) %>%
+  summarise(mean_wage = mean(wage))
+
+## B1_hat  = cov(Y,X) / var(x)
+## Bo_hat  = Y_hat - b1_hat * mean(x)
+
+beta1_hat <- cov(df$wage, df$education) / var(df$education)
+beta0_hat <- mean(df$wage) - beta1_hat * mean(df$education)
+
+beta1_hat; beta0_hat
+
+```
+
+### 1.7 Verify results using lm() AND present result using modelsummary table
+
+```{r modelsummary}
+
+m_ed <- lm(wage ~ education, data = df)
+modelsummary(m_ed)
+
+#`lm(wage~college)` generates the regression and `modelsummary(lm(wage~college))` generate the table
+
+```
+### 1.8 Interpret Results for the education coefficient. 
+
+####  Each additional year of schooling is associated with an estimated $r round(beta1, 2) increase in hourly wage (on average), holding all else equal in this model.
+#### β1_hat = $1.17 per hr per year of schooling). On average, every extra year of education is associated with a $1.17 increase in hourly wage. 
+
+### 1.9 Consider Wage_i = B0 + B1 * College_i + ε
+```{r wagesummary}
+m_col <- lm(wage ~ college, data = df)
+modelsummary(m_col)
+```
+#### Switching from non-college to college ( college = 0 → 1 ) raises the predicted wage by coefficient on $ college. 
+
+## 2 Real Data
+### 2.1 Load the CPSSW Education dataset
+```{r import_cps}
+df <- read.csv("https://vincentarelbundock.github.io/Rdatasets/csv/AER/CPSSWEducation.csv")
+```
+## 2.2 Regress earnings on education
+```{r regress_cps}
+ols <- lm(earnings ~ education, data = df)
+modelsummary(ols)
+```
+
+## 2.3 Interpret the slope
+
+#### B1_hat = education has a slope of 1.467
+#### B0_hat = the predicted y-intercept  when education is equal to 0. 
+#### x_i = years
+#### earnings_hat = predicted earnings value
+#### each additional year of schooling is associated with an average increase of about $1,467 in annual earnings. 
+
+## 2.4 t-stat, p-value, AND 95 % confidence interval. 
+```{r stats_cps}
+beta1 <- 1.467
+se1   <- 0.070
+t_stat <- beta1 / se1
+df_size     <- 2950 - 2
+p_value <- 2 * pt(-abs(t_stat), df_size)
+t_stat  
+p_value
+
+# Confidence Interval
+ci_l   <- beta1 - qt(0.975, df_size) * se1
+ci_u   <- beta1 + qt(0.975, df_size) * se1
+data.frame(beta1, se1, t_stat, p_value, ci_l, ci_u)
+ci_l
+ci_u
+```
+
+## 2.5 Verify with summary()
+```{r ols_cps}
+summary(ols)
+```
+
+## 2.6 Using the values of 𝛽0 and 𝛽1 calculate for each observation the predicted earnings level.
+```{r betas_cps}
+# assuming your data frame is called 'data' and has a column 'Education'
+beta0 <- -3.134
+beta1 <-  1.467
+
+df$earning_hat <- beta0 + beta1 * df$education
+
+head(df[, c("education","earnings","earning_hat")])
+```
+
+## 2.7 Verify your calculation using the command predict.
+```{r verification_cps}
+df$earning_hat2 <- predict(ols)
+all.equal(df$earning_hat, df$earning_hat2)
+```
+

@@ -1,0 +1,12 @@
+#data set CPS 
+
+rm(list = ls())
+CPS <- read.csv("https://vincentarelbundock.github.io/Rdatasets/csv/AER/CPSSW9204.csv")
+#Average of male AND Average of female
+
+mean(CPS$age[CPS$gender == "male"])
+mean(CPS$age[CPS$gender == "female"])
+#Scatterplot
+
+library(ggplot2)
+plot(earnings ~ age, data = CPS)

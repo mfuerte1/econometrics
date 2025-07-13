@@ -1,0 +1,25 @@
+---
+title: "inlab_quizw3"
+format: html
+---
+
+## Marcos Fuerte 
+1st Chunk
+
+```{r setup, messages=FALSE}
+#| echo: true
+rm(list=ls())
+library(readr)
+```
+
+2nd Chunk reading file
+
+```{r df}
+#| echo: false
+
+url <- "https://vincentarelbundock.github.io/Rdatasets/csv/AER/CPSSWEducation.csv"
+
+cps_sw_edu <- read_csv(url, show_col_types = FALSE)
+
+print(cps_sw_edu)
+```
