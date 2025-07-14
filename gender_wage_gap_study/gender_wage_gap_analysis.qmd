@@ -19,8 +19,7 @@ library(readxl)
 library(sandwich)
 library(tidyverse)
 
-setwd('/Users/marcosfuerte/ECON42/ECON42_Week10')
-finals <- read_csv("finals.csv")
+finals <- read_csv("gender_wage_gap_microdata.csv")
 ```
 
 # Q2
