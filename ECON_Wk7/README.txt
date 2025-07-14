@@ -5,17 +5,17 @@ Date   : 2025‑03‑24 (last edited)
 --------------------------------------------------------------------
 DATA FILES
 --------------------------------------------------------------------
-us_county_covid_total_deaths_2020‑23.csv
+covid_death.csv	
     • CDC/NCHS provisional mortality counts at the county level
     • Key fields: county_fips, total_deaths, covid19_deaths, rucc_2013
     • Used to compute covid_death_rate (%) and classify Urban (RUCC ≤ 3)
 
-angrist_evans_fertility_us_1980s.csv
+Fertility.csv	
     • Micro data replicating Angrist & Evans (1998) on U.S. mothers
     • Variables: morekids (“yes”/“no”), gender1–gender4, age, education …
     • Re‑coded: morekids_b (1 = wants >2 kids); boy1 (1 = first child male)
 
-gss_real_income_1972‑2018.csv
+gss_Wages.csv	
     • Integrated GSS sample with real income and socio‑demographics
     • Variables: realrinc (1986 USD), age, gender, wrkstat, marital status,
       occ10, prestg10, childs, year, etc.
