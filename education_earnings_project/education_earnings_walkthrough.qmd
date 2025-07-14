@@ -1,5 +1,5 @@
 ---
-ftitle: "labw4"
+ftitle: "education_earnings_walkthrough"
 format: html
 ---
 
