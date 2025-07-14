@@ -1,5 +1,5 @@
 ---
-title: "in-labQuiz9"
+title: "covid_vax_vs_deaths_analysis"
 format: html
 ---
 

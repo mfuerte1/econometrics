@@ -4,7 +4,6 @@ library(epiDisplay)
 library(modelsummary)
 
 # Read in the data
-
 covid_death <- read_csv("covid_death.csv")
 
 # Create 'urban' binary variable:

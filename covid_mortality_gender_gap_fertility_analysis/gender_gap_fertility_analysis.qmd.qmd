@@ -18,7 +18,7 @@ library(sandwich)
 library(lmtest)
 library(ggplot2)
 
-gss <- read_csv("/Users/marcosfuerte/ECON42/ECON42_Week7/gss_wages.csv")
+gss <- read_csv("mfuerte1/econometrics/covid_mortality_gender_gap_fertility_analysis/gss_wages.csv")
 ```
 
 ### 2. Use datasummary to create a table of descriptive statistics that includes at least the mean and the SD of each numerical variable

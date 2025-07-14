@@ -1,5 +1,5 @@
 ---
-title: "lab3"
+title: "cpsswe_earnings_vs_education_analysis"
 format: html
 ---
 
