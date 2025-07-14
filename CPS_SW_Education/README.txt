@@ -43,7 +43,6 @@ FILE‑BY‑FILE OVERVIEW
       – loads the CPS‑SW‑Edu data (either `.csv` or `.xls`),
       – calculates mean, SD, and median for earnings & education,
       – prints a tidy one‑row summary tibble.
-    • Use it for quick console checks or as a pre‑lab warm‑up.
 
 6.  CPSSWEducation.xls
     • Raw data file (2 950 obs. × 5 vars.) bundled for offline work.
