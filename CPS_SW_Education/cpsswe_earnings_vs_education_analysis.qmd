@@ -111,7 +111,7 @@ df %>% summarise(
 ```{r}
 
 # brings in ggplot2, dplyr, readr, etc.
-df1 <- read_csv('/Users/marcosfuerte/Downloads/CPSSWEducation.csv')
+df1 <- read_csv('CPSSWEducation.csv')
 
 # 3. Inspect (optional) -----------------------------------
 glimpse(df1)          # quick structure check
