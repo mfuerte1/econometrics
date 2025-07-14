@@ -1,5 +1,5 @@
 ---
-title: "final_exam_econ42"
+title: "gender_wage_gap_analysis"
 format: html
 ---
 
