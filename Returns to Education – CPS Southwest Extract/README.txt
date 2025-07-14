@@ -60,4 +60,4 @@ packages listed in the documents’ session information.
 
 Maintainer
 ----------
-<Your Name Here> – last updated: <YYYY‑MM‑DD>
+<Marcos Fuerte> – last updated: <2025‑07‑13>
