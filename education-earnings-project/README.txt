@@ -1,5 +1,5 @@
 Project: Returns to Education – CPS Southwest Extract
-Project Folder Name: education-earnings-project
+Project Folder Name: education_earnings_project
 =====================================================
 
 Brief
