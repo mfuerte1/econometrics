@@ -1,5 +1,3 @@
-# Midterm Answers 
-
 library(AER)
 library(epiDisplay)
 
