@@ -1,5 +1,6 @@
 Project: Determinants of U.S. Wages – CPS 1988 and PSID 1976 Examples
 =====================================================================
+Project Folder Name: wage_determinants_CPS1988_PSID1976
 
 This repository contains two small, self‑contained empirical exercises
 demonstrating classical wage‑determination regressions using public
