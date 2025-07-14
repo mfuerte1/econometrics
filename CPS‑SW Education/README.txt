@@ -1,4 +1,5 @@
 Project: CPS‑SW Education ‑ Earnings‑Schooling Micro‑dataset
+Project Folder Name: CPS‑SW-Education
 ============================================================
 
 This repository reproduces a compact empirical exercise on the
